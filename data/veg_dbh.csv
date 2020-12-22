@@ -1,0 +1,862 @@
+﻿plotID,species,species2,forest,"Health status (dead, dying, alive)",Damages,Damage severity,present in non+P sub-plot,present in +P sub-plot,Notes,dbh_cm,g_m2,dbh_class,watershed,forest_type,dbh_inches
+EBHW1,AB,AB,HW,Dying,,,,x,nbs checked,8.128,0.005188685,1,EB,HW,3.2
+EBHW1,AB,AB,HW,Alive,,,x,,nbs checked,5.334,0.00223458,1,EB,HW,2.1
+EBHW1,AB,AB,HW,Alive,Broken top,,x,,nbs checked,11.684,0.01072193,1,EB,HW,4.6
+EBHW1,AB,AB,HW,Alive,,,x,,nbs checked,6.858,0.003693898,1,EB,HW,2.7
+EBHW1,AB,AB,HW,Alive,,,,,nbs checked,5.588,0.002452464,1,EB,HW,2.2
+EBHW1,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,19.558,0.030042686,2,EB,HW,7.7
+EBHW1,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,5.588,0.002452464,1,EB,HW,2.2
+EBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,5.334,0.00223458,1,EB,HW,2.1
+EBHW1,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,11.43,0.010260826,1,EB,HW,4.5
+EBHW1,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,20.32,0.032429279,2,EB,HW,8
+EBHW1,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,5.842,0.002680483,1,EB,HW,2.3
+EBHW1,AB,AB,HW,Alive,"Broken top, BBD",Moderate,,,nbs checked,8.636,0.005857538,1,EB,HW,3.4
+EBHW1,AB,AB,HW,Alive,Split trunk/scar,,,,nbs checked,24.13,0.04573035,2,EB,HW,9.5
+EBHW1,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,10.16,0.00810732,1,EB,HW,4
+EBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,5.842,0.002680483,1,EB,HW,2.3
+EBHW1,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,19.812,0.030828083,2,EB,HW,7.8
+EBHW1,AB,AB,HW,Alive,"Broken top, BBD",Slight,,,nbs checked,5.08,0.00202683,1,EB,HW,2
+EBHW1,AB,AB,HW,Alive,healthy,,,,nbs checked,12.954,0.013179462,2,EB,HW,5.1
+EBHW1,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,5.334,0.00223458,1,EB,HW,2.1
+EBHW1,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,22.606,0.040136299,2,EB,HW,8.9
+EBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,11.684,0.01072193,1,EB,HW,4.6
+EBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,11.684,0.01072193,1,EB,HW,4.6
+EBHW1,AB,AB,HW,Alive,,,,,nbs checked,5.588,0.002452464,1,EB,HW,2.2
+EBHW2,AB,AB,HW,Alive,BBD,,x,,nbs checked,8.128,0.005188685,1,EB,HW,3.2
+EBHW2,AB,AB,HW,Alive,BBD,,x,,nbs checked,10.16,0.00810732,1,EB,HW,4
+EBHW2,AB,AB,HW,Alive,,,x,,nbs checked,8.128,0.005188685,1,EB,HW,3.2
+EBHW2,AB,AB,HW,Alive,BBD,Moderate,,x,nbs checked,10.16,0.00810732,1,EB,HW,4
+EBHW2,AB,AB,HW,Alive,,,,,nbs checked,7.62,0.004560367,1,EB,HW,3
+EBHW2,AB,AB,HW,Dying,Broken top,,,,nbs checked,18.034,0.025543124,2,EB,HW,7.1
+EBHW2,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,10.922,0.009369021,2,EB,HW,4.3
+EBHW2,AB,AB,HW,Alive,Broken top,,,,nbs checked,21.336,0.03575328,1,EB,HW,8.4
+EBHW2,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,8.89,0.006207167,1,EB,HW,3.5
+EBHW2,AB,AB,HW,Alive,,,,,nbs checked,7.366,0.00426141,1,EB,HW,2.9
+EBHW2,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,6.604,0.003425343,1,EB,HW,2.6
+EBHW2,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,7.874,0.004869459,1,EB,HW,3.1
+EBHW2,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,6.604,0.003425343,1,EB,HW,2.6
+EBHW2,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,12.954,0.013179462,2,EB,HW,5.1
+EBHW2,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,5.334,0.00223458,1,EB,HW,2.1
+EBHW2,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,20.066,0.031623614,2,EB,HW,7.9
+EBHW2,AB,AB,HW,Alive,BBD,Severe,,,nbs checked,9.144,0.006566929,1,EB,HW,3.6
+EBHW2,AB,AB,HW,Alive,,,,,nbs checked,13.97,0.015327901,2,EB,HW,5.5
+EBHW2,AB,AB,HW,Alive,,,,,nbs checked,13.208,0.01370137,2,EB,HW,5.2
+EBHW2,AB,AB,HW,Alive,"Broken top, BBD",Slight,,,nbs checked,6.604,0.003425343,1,EB,HW,2.6
+EBHW2,AB,AB,HW,Alive,,,,,nbs checked,6.604,0.003425343,1,EB,HW,2.6
+EBHW2,AB,AB,HW,Alive,,,,,nbs checked,17.018,0.022746099,2,EB,HW,6.7
+EBHW2,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,6.858,0.003693898,1,EB,HW,2.7
+EBHW2,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,10.922,0.009369021,1,EB,HW,4.3
+EBHW2,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,5.588,0.002452464,1,EB,HW,2.2
+EBHW2,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,12.7,0.012667687,2,EB,HW,5
+EBHW2,AB,AB,HW,Alive,,,,,nbs checked,23.876,0.044772673,2,EB,HW,9.4
+EBHW2,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,23.876,0.044772673,2,EB,HW,9.4
+EBHW2,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,7.62,0.004560367,1,EB,HW,3
+EBHW2,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,13.208,0.01370137,2,EB,HW,5.2
+EBHW3,AB,AB,HW,Dying,BBD,Severe,,x,nbs checked,9.906,0.007707021,1,EB,HW,3.9
+EBHW3,AB,AB,HW,Dying,BBD,Slight,,x,nbs checked,8.382,0.005518044,1,EB,HW,3.3
+EBHW3,AB,AB,HW,Alive,BBD,Severe,,x,nbs checked,14.478,0.016462926,2,EB,HW,5.7
+EBHW3,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,16.764,0.022072178,2,EB,HW,6.6
+EBHW3,AB,AB,HW,Dying,BBD,Moderate,,,nbs checked,6.35,0.003166922,1,EB,HW,2.5
+EBHW3,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,7.366,0.00426141,1,EB,HW,2.9
+EBHW3,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,12.192,0.01167454,1,EB,HW,4.8
+EBHW3,AB,AB,HW,Alive,BBD,Severe,,,nbs checked,6.604,0.003425343,1,EB,HW,2.6
+EBHW3,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,6.858,0.003693898,1,EB,HW,2.7
+EBHW3,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,9.398,0.006936825,1,EB,HW,3.7
+EBHW3,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,10.16,0.00810732,1,EB,HW,4
+EBHW3,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,12.7,0.012667687,2,EB,HW,5
+EBHW3,AB,AB,HW,Dying,BBD,Moderate,,,nbs checked,7.874,0.004869459,1,EB,HW,3.1
+EBHW3,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,9.398,0.006936825,1,EB,HW,3.7
+EBHW3,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,15.494,0.018854585,2,EB,HW,6.1
+EBHW3,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,6.096,0.002918635,1,EB,HW,2.4
+EBHW3,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,6.096,0.002918635,1,EB,HW,2.4
+EBHW3,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,6.858,0.003693898,1,EB,HW,2.7
+EBHW3,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,11.43,0.010260826,1,EB,HW,4.5
+EBHW3,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,6.858,0.003693898,1,EB,HW,2.7
+EBHW3,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,11.938,0.011193168,1,EB,HW,4.7
+EBHW3,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,6.604,0.003425343,1,EB,HW,2.6
+EBHW3,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,8.89,0.006207167,1,EB,HW,3.5
+EBHW4,AB,AB,HW,Alive,BBD,Moderate,x,,nbs checked,7.366,0.00426141,1,EB,HW,2.9
+EBHW4,AB,AB,HW,Alive,BBD,Moderate,x,,nbs checked,11.176,0.009809857,1,EB,HW,4.4
+EBHW4,AB,AB,HW,Alive,BBD,Moderate,x,,nbs checked,10.16,0.00810732,1,EB,HW,4
+EBHW4,AB,AB,HW,Alive,BBD,Moderate,x,,nbs checked,11.43,0.010260826,1,EB,HW,4.5
+EBHW4,AB,AB,HW,Alive,BBD,Moderate,,x,nbs checked,10.668,0.00893832,1,EB,HW,4.2
+EBHW4,AB,AB,HW,Dying,BBD,Moderate,,x,nbs checked,11.43,0.010260826,1,EB,HW,4.5
+EBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,19.304,0.029267424,1,EB,HW,7.6
+EBHW4,AB,AB,HW,Dying,BBD,Moderate,,,nbs checked,9.398,0.006936825,1,EB,HW,3.7
+EBHW4,AB,AB,HW,Dying,BBD,Moderate,,,nbs checked,14.986,0.017638487,2,EB,HW,5.9
+EBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,9.398,0.006936825,1,EB,HW,3.7
+EBHW4,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,12.7,0.012667687,2,EB,HW,5
+EBHW4,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,13.716,0.01477559,2,EB,HW,5.4
+EBHW4,AB,AB,HW,Dying,BBD,Medium,,,nbs checked,9.144,0.006566929,1,EB,HW,3.6
+EBHW4,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,14.732,0.01704564,2,EB,HW,5.8
+EBHW4,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,15.24,0.018241469,2,EB,HW,6
+EBHW4,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,6.604,0.003425343,1,EB,HW,2.6
+EBHW4,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,14.732,0.01704564,2,EB,HW,5.8
+EBHW4,AB,AB,HW,Dying,BBD,Moderate,,,nbs checked,14.478,0.016462926,2,EB,HW,5.7
+EBHW4,AB,AB,HW,Dying,BBD,Slight,,,nbs checked,8.89,0.006207167,1,EB,HW,3.5
+EBHW4,AB,AB,HW,Dying,BBD,Moderate,,,nbs checked,5.842,0.002680483,1,EB,HW,2.3
+EBHW4,AB,AB,HW,Dying,BBD,Moderate,,,nbs checked,14.986,0.017638487,2,EB,HW,5.9
+EBHW4,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,11.43,0.010260826,1,EB,HW,4.5
+EBHW4,AB,AB,HW,Dying,BBD,Moderate,,,nbs checked,10.16,0.00810732,1,EB,HW,4
+EBHW4,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,7.112,0.003972587,1,EB,HW,2.8
+EBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,8.128,0.005188685,1,EB,HW,3.2
+EBHW4,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,12.446,0.012166047,1,EB,HW,4.9
+EBHW4,AB,AB,HW,Dying,BBD,Moderate,,,nbs checked,17.018,0.022746099,2,EB,HW,6.7
+EBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,10.668,0.00893832,1,EB,HW,4.2
+EBHW5,AB,AB,HW,Alive,BBD,Moderate,x,,nbs checked,9.652,0.007316856,1,EB,HW,3.8
+EBHW5,AB,AB,HW,Alive,BBD,Moderate,,x,nbs checked,8.382,0.005518044,1,EB,HW,3.3
+EBHW5,AB,AB,HW,Alive,BBD,Moderate,x,,nbs checked,8.128,0.005188685,1,EB,HW,3.2
+EBHW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,17.018,0.022746099,2,EB,HW,6.7
+EBHW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,8.636,0.005857538,1,EB,HW,3.4
+EBHW5,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,8.636,0.005857538,1,EB,HW,3.4
+EBHW5,AB,AB,HW,Alive,,,,,nbs checked,5.588,0.002452464,1,EB,HW,2.2
+EBHW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,5.842,0.002680483,1,EB,HW,2.3
+EBHW5,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,6.858,0.003693898,1,EB,HW,2.7
+EBHW5,AB,AB,HW,Alive,,,,,nbs checked,10.922,0.009369021,1,EB,HW,4.3
+EBHW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,20.066,0.031623614,2,EB,HW,7.9
+EBHW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,8.636,0.005857538,1,EB,HW,3.4
+EBHW5,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,12.7,0.012667687,2,EB,HW,5
+EBHW5,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,10.414,0.008517753,1,EB,HW,4.1
+EBHW5,AB,AB,HW,Alive,,,,,nbs checked,6.35,0.003166922,1,EB,HW,2.5
+EBHW5,AB,AB,HW,Alive,,,,,nbs checked,10.16,0.00810732,1,EB,HW,4
+EBHW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,13.462,0.014233413,2,EB,HW,5.3
+EBHW5,AB,AB,HW,Alive,BBD,Severe,,,nbs checked,7.112,0.003972587,1,EB,HW,2.8
+EBHW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,12.192,0.01167454,1,EB,HW,4.8
+EBHW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,17.272,0.023430154,2,EB,HW,6.8
+EBHW5,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,6.35,0.003166922,1,EB,HW,2.5
+EBHW5,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,5.842,0.002680483,1,EB,HW,2.3
+EBSW2,AB,AB,HW,Alive,,,,,nbs checked,26.162,0.053756596,3,EB,SW,10.3
+EBSW2,AB,AB,HW,Alive,,,,,nbs checked,33.782,0.089631486,3,EB,SW,13.3
+WBHW1,AB,AB,HW,Alive,BBD,Slight,x,,nbs checked,22.098,0.038352689,2,WB,HW,8.7
+WBHW1,AB,AB,HW,Alive,,,,x,nbs checked,5.08,0.00202683,1,WB,HW,2
+WBHW1,AB,AB,HW,Alive,BBD,Moderate,,x,nbs checked,19.558,0.030042686,2,WB,HW,7.7
+WBHW1,AB,AB,HW,Alive,BBD,Moderate,,x,nbs checked,36.83,0.106535247,3,WB,HW,14.5
+WBHW1,AB,AB,HW,Alive,BBD,Moderate,,x,nbs checked,13.462,0.014233413,2,WB,HW,5.3
+WBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,16.764,0.022072178,2,WB,HW,6.6
+WBHW1,AB,AB,HW,Alive,BBD,Slight,,x,nbs checked,10.668,0.00893832,1,WB,HW,4.2
+WBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,13.208,0.01370137,2,WB,HW,5.2
+WBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,13.716,0.01477559,2,WB,HW,5.4
+WBHW1,AB,AB,HW,Alive,BBD,Severe,,,nbs checked,38.608,0.117069696,4,WB,HW,15.2
+WBHW1,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,29.21,0.067012064,3,WB,HW,11.5
+WBHW1,AB,AB,HW,Dying,BBD,Moderate,,,nbs checked,25.908,0.052717846,3,WB,HW,10.2
+WBHW1,AB,AB,HW,Alive,BBD,,,,nbs checked,6.604,0.003425343,1,WB,HW,2.6
+WBHW1,AB,AB,HW,Dying,BBD/Broken top,Moderate,,,nbs checked,23.622,0.04382513,2,WB,HW,9.3
+WBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,23.114,0.041960446,2,WB,HW,9.1
+WBHW1,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,21.844,0.037476085,2,WB,HW,8.6
+WBHW1,AB,AB,HW,Alive,,,,,nbs checked,5.588,0.002452464,1,WB,HW,2.2
+WBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,26.162,0.053756596,3,WB,HW,10.3
+WBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,27.94,0.061311605,3,WB,HW,11
+WBHW1,AB,AB,HW,Alive,BBD,Severe,,,nbs checked,12.7,0.012667687,2,WB,HW,5
+WBHW1,AB,AB,HW,Alive,BBD,Severe,,,nbs checked,35.814,0.100738514,3,WB,HW,14.1
+WBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,14.224,0.015890347,2,WB,HW,5.6
+WBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,12.954,0.013179462,2,WB,HW,5.1
+WBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,20.32,0.032429279,2,WB,HW,8
+WBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,19.812,0.030828083,2,WB,HW,7.8
+WBHW1,AB,AB,HW,Dying,BBD,Moderate,,,nbs checked,6.604,0.003425343,1,WB,HW,2.6
+WBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,19.05,0.028502296,2,WB,HW,7.5
+WBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,16.764,0.022072178,2,WB,HW,6.6
+WBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,8.382,0.005518044,1,WB,HW,3.3
+WBHW1,AB,AB,HW,Alive,BBD,Severe,,,nbs checked,24.13,0.04573035,2,WB,HW,9.5
+WBHW1,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,5.842,0.002680483,1,WB,HW,2.3
+WBHW1,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,11.938,0.011193168,1,WB,HW,4.7
+WBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,10.414,0.008517753,1,WB,HW,4.1
+WBHW1,AB,AB,HW,Alive,BBD,Slight ,,,nbs checked,5.842,0.002680483,1,WB,HW,2.3
+WBHW1,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,6.096,0.002918635,1,WB,HW,2.4
+WBHW1,AB,AB,HW,Alive,BBD,Severe,,,nbs checked,19.812,0.030828083,2,WB,HW,7.8
+WBHW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,7.62,0.004560367,1,WB,HW,3
+WBHW2,AB,AB,HW,Dying,BBD,Moderate,x,,Broken Top,13.97,0.015327901,2,WB,HW,5.5
+WBHW2,AB,AB,HW,Alive,BBD,Moderate,,x,,21.336,0.03575328,2,WB,HW,8.4
+WBHW2,AB,AB,HW,Alive,BBD,Severe,x,,,19.558,0.030042686,2,WB,HW,7.7
+WBHW2,AB,AB,HW,Alive,BBD,Moderate,,,,6.096,0.002918635,1,WB,HW,2.4
+WBHW2,AB,AB,HW,Dying,BBD,Severe,,,,23.114,0.041960446,2,WB,HW,9.1
+WBHW2,AB,AB,HW,Dying,BBD,Moderate,,,,11.43,0.010260826,1,WB,HW,4.5
+WBHW2,AB,AB,HW,Dying,BBD,Slight,,,,5.334,0.00223458,1,WB,HW,2.1
+WBHW2,AB,AB,HW,Dying,BBD,Slight,,,Broken Top,18.288,0.026267716,2,WB,HW,7.2
+WBHW2,AB,AB,HW,Alive,BBD,Slight,,,,6.858,0.003693898,1,WB,HW,2.7
+WBHW2,AB,AB,HW,Alive,BBD,Moderate,,,,24.13,0.04573035,2,WB,HW,9.5
+WBHW2,AB,AB,HW,Alive,BBD,Slight,,,,9.398,0.006936825,1,WB,HW,3.7
+WBHW2,AB,AB,HW,Dying,BBD,Moderate,,,,8.382,0.005518044,1,WB,HW,3.3
+WBHW3,AB,AB,HW,Dying,BBD,Severe,x,,,23.622,0.04382513,2,WB,HW,9.3
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,,x,,34.544,0.093720615,3,WB,HW,13.6
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,x,,,9.398,0.006936825,1,WB,HW,3.7
+WBHW3,AB,AB,HW,Alive,BBD,Severe,x,,,20.32,0.032429279,2,WB,HW,8
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,,x,,36.322,0.103616612,3,WB,HW,14.3
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,x,,,13.716,0.01477559,2,WB,HW,5.4
+WBHW3,AB,AB,HW,Alive,,,,,,6.35,0.003166922,1,WB,HW,2.5
+WBHW3,AB,AB,HW,Alive,BBD,Slight,,,,16.764,0.022072178,2,WB,HW,6.6
+WBHW3,AB,AB,HW,Alive,BBD,Severe,,,,22.86,0.041043306,2,WB,HW,9
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,,,,20.828,0.034071011,2,WB,HW,8.2
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,,,,17.526,0.024124343,2,WB,HW,6.9
+WBHW3,AB,AB,HW,Dying,BBD,Moderate,,,,9.144,0.006566929,1,WB,HW,3.6
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,,,,14.986,0.017638487,2,WB,HW,5.9
+WBHW3,AB,AB,HW,Alive,BBD,Slight,,,,6.604,0.003425343,1,WB,HW,2.6
+WBHW3,AB,AB,HW,Alive,,,,,,5.08,0.00202683,1,WB,HW,2
+WBHW3,AB,AB,HW,Alive,BBD,Slight,,,Overlaps with Plot 4,21.336,0.03575328,2,WB,HW,8.4
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,,,,7.62,0.004560367,1,WB,HW,3
+WBHW3,AB,AB,HW,Alive,BBD,Slight,,,,13.462,0.014233413,2,WB,HW,5.3
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,,,,27.94,0.061311605,3,WB,HW,11
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,,,,10.922,0.009369021,1,WB,HW,4.3
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,,,,28.448,0.063561386,3,WB,HW,11.2
+WBHW3,AB,AB,HW,Dying,BBD,Moderate,,,,7.62,0.004560367,1,WB,HW,3
+WBHW3,AB,AB,HW,Dying,BBD,Moderate,,,,5.842,0.002680483,1,WB,HW,2.3
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,,,,7.366,0.00426141,1,WB,HW,2.9
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,,,,31.242,0.076659775,3,WB,HW,12.3
+WBHW3,AB,AB,HW,Dying,BBD,Moderate,,,,11.176,0.009809857,1,WB,HW,4.4
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,,,,7.112,0.003972587,1,WB,HW,2.8
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,,,,22.352,0.039239427,2,WB,HW,8.8
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,,,,20.32,0.032429279,2,WB,HW,8
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,,,,8.128,0.005188685,1,WB,HW,3.2
+WBHW3,AB,AB,HW,Alive,,,,,,25.4,0.050670748,3,WB,HW,10
+WBHW3,AB,AB,HW,Dying,BBD,Moderate,,,,6.096,0.002918635,1,WB,HW,2.4
+WBHW3,AB,AB,HW,Dying,BBD,Moderate,,,,5.842,0.002680483,1,WB,HW,2.3
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,,,,25.908,0.052717846,3,WB,HW,10.2
+WBHW3,AB,AB,HW,Alive,BBD,Slight,,,,19.558,0.030042686,2,WB,HW,7.7
+WBHW3,AB,AB,HW,Alive,,,,,,6.096,0.002918635,1,WB,HW,2.4
+WBHW3,AB,AB,HW,Alive,BBD,Severe,,,,12.7,0.012667687,2,WB,HW,5
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,,,,8.636,0.005857538,1,WB,HW,3.4
+WBHW3,AB,AB,HW,Alive,BBD,Severe,,,,29.972,0.070553949,3,WB,HW,11.8
+WBHW3,AB,AB,HW,Alive,BBD,Moderate,,,,8.636,0.005857538,1,WB,HW,3.4
+WBHW4,AB,AB,HW,Alive,BBD,Moderate,x,,nbs checked,18.034,0.025543124,2,WB,HW,7.1
+WBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,32.512,0.083018953,3,WB,HW,12.8
+WBHW4,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,12.446,0.012166047,1,WB,HW,4.9
+WBHW4,AB,AB,HW,Dying,BBD,Severe,,x,nbs checked,27.94,0.061311605,3,WB,HW,11
+WBHW4,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,8.128,0.005188685,1,WB,HW,3.2
+WBHW4,AB,AB,HW,Alive,BBD,Slight,,x,nbs checked,5.334,0.00223458,1,WB,HW,2.1
+WBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,14.732,0.01704564,2,WB,HW,5.8
+WBHW4,AB,AB,HW,Alive,BBD,Severe,,,nbs checked,11.43,0.010260826,1,WB,HW,4.5
+WBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,8.382,0.005518044,1,WB,HW,3.3
+WBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,28.702,0.064701478,3,WB,HW,11.3
+WBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,18.034,0.025543124,2,WB,HW,7.1
+WBHW4,AB,AB,HW,Dying,BBD,Moderate,,,nbs checked,21.082,0.034907078,2,WB,HW,8.3
+WBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,9.906,0.007707021,1,WB,HW,3.9
+WBHW4,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,14.224,0.015890347,2,WB,HW,5.6
+WBHW4,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,13.208,0.01370137,2,WB,HW,5.2
+WBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,20.066,0.031623614,2,WB,HW,7.9
+WBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,21.336,0.03575328,2,WB,HW,8.4
+WBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,6.096,0.002918635,1,WB,HW,2.4
+WBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,9.398,0.006936825,1,WB,HW,3.7
+WBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,5.334,0.00223458,1,WB,HW,2.1
+WBHW4,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,5.334,0.00223458,1,WB,HW,2.1
+WBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,8.636,0.005857538,1,WB,HW,3.4
+WBHW4,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,15.494,0.018854585,2,WB,HW,6.1
+WBHW4,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,9.652,0.007316856,1,WB,HW,3.8
+WBHW4,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,24.13,0.04573035,2,WB,HW,9.5
+WBHW4,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,11.684,0.01072193,1,WB,HW,4.6
+WBHW4,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,20.828,0.034071011,2,WB,HW,8.2
+WBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,16.256,0.020754738,2,WB,HW,6.4
+WBHW4,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,23.368,0.042887721,2,WB,HW,9.2
+WBHW4,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,20.32,0.032429279,2,WB,HW,8
+WBHW4,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,11.43,0.010260826,1,WB,HW,4.5
+WBHW4,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,7.112,0.003972587,1,WB,HW,2.8
+WBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,6.604,0.003425343,1,WB,HW,2.6
+WBHW4,AB,AB,HW,Alive,Rot,,,,nbs checked,48.006,0.181000979,4,WB,HW,18.9
+WBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,13.716,0.01477559,2,WB,HW,5.4
+WBHW4,AB,AB,HW,Alive,,,,,nbs checked,5.588,0.002452464,1,WB,HW,2.2
+WBHW4,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,26.416,0.054805481,3,WB,HW,10.4
+WBHW4,AB,AB,HW,Alive,BBD,Severe,,,nbs checked,11.176,0.009809857,1,WB,HW,4.4
+WBHW4,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,15.494,0.018854585,2,WB,HW,6.1
+WBHW4,AB,AB,HW,Alive,BBD,Severe,,,nbs checked,11.938,0.011193168,1,WB,HW,4.7
+WBHW4,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,7.874,0.004869459,1,WB,HW,3.1
+WBHW4,AB,AB,HW,Alive,BBD,Severe,,,nbs checked,29.718,0.069363187,3,WB,HW,11.7
+WBHW5,AB,AB,HW,Alive,BBD,Severe,x,,nbs checked,22.352,0.039239427,2,WB,HW,8.8
+WBHW5,AB,AB,HW,Alive,BBD,Moderate,,x,nbs checked,19.558,0.030042686,2,WB,HW,7.7
+WBHW5,AB,AB,HW,Dying,BBD,Moderate,,x,nbs checked,6.35,0.003166922,1,WB,HW,2.5
+WBHW5,AB,AB,HW,Alive,BBD,Severe,x,,nbs checked,23.622,0.04382513,2,WB,HW,9.3
+WBHW5,AB,AB,HW,Alive,BBD,Severe,x,,nbs checked,10.668,0.00893832,1,WB,HW,4.2
+WBHW5,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,19.304,0.029267424,2,WB,HW,7.6
+WBHW5,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,24.638,0.047676107,2,WB,HW,9.7
+WBHW5,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,21.844,0.037476085,2,WB,HW,8.6
+WBHW5,AB,AB,HW,Alive,BBD/Broken Top,Slight,,,nbs checked,22.606,0.040136299,2,WB,HW,8.9
+WBHW5,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,16.002,0.02011122,2,WB,HW,6.3
+WBHW5,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,27.432,0.05910236,3,WB,HW,10.8
+WBHW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,13.208,0.01370137,2,WB,HW,5.2
+WBHW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,18.288,0.026267716,2,WB,HW,7.2
+WBHW5,AB,AB,HW,Alive,BBD,Severe,,,nbs checked,16.51,0.021408391,2,WB,HW,6.5
+WBHW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,8.128,0.005188685,1,WB,HW,3.2
+WBHW5,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,8.636,0.005857538,1,WB,HW,3.4
+WBHW5,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,25.146,0.0496624,2,WB,HW,9.9
+WBHW5,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,16.002,0.02011122,2,WB,HW,6.3
+WBHW5,AB,AB,HW,Dying,BBD,Slight,,,nbs checked,8.382,0.005518044,1,WB,HW,3.3
+WBHW5,AB,AB,HW,Dying,BBD,Slight,,,nbs checked,5.842,0.002680483,1,WB,HW,2.3
+WBHW5,AB,AB,HW,Dying,BBD,Slight,,,nbs checked,9.906,0.007707021,1,WB,HW,3.9
+WBHW5,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,19.812,0.030828083,2,WB,HW,7.8
+WBHW5,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,13.716,0.01477559,2,WB,HW,5.4
+WBHW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,14.224,0.015890347,2,WB,HW,5.6
+WBHW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,13.208,0.01370137,2,WB,HW,5.2
+WBHW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,26.416,0.054805481,3,WB,HW,10.4
+WBHW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,12.192,0.01167454,1,WB,HW,4.8
+WBHW5,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,20.066,0.031623614,2,WB,HW,7.9
+WBHW5,AB,AB,HW,Dying,BBD,Moderate,,,nbs checked,17.018,0.022746099,2,WB,HW,6.7
+WBHW5,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,13.716,0.01477559,2,WB,HW,5.4
+WBHW5,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,30.734,0.074187042,3,WB,HW,12.1
+WBHW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,11.684,0.01072193,1,WB,HW,4.6
+WBHW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,11.176,0.009809857,1,WB,HW,4.4
+WBHW5,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,18.796,0.027747302,2,WB,HW,7.4
+WBHW5,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,23.622,0.04382513,2,WB,HW,9.3
+WBSW1,AB,AB,HW,Alive,BBD,Slight,x,,nbs checked,8.89,0.006207167,1,WB,SW,3.5
+WBSW1,AB,AB,HW,Alive,,,x,,nbs checked,7.112,0.003972587,1,WB,SW,2.8
+WBSW1,AB,AB,HW,Alive,,,,,nbs checked,7.366,0.00426141,1,WB,SW,2.9
+WBSW1,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,10.414,0.008517753,1,WB,SW,4.1
+WBSW1,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,7.366,0.00426141,1,WB,SW,2.9
+WBSW2,AB,AB,HW,Alive,BBD,Severe,,,nbs checked,8.89,0.006207167,1,WB,SW,3.5
+WBSW2,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,11.938,0.011193168,1,WB,SW,4.7
+WBSW2,AB,AB,HW,Alive,BBD,Severe,,,nbs checked,10.922,0.009369021,1,WB,SW,4.3
+WBSW2,AB,AB,HW,Alive,,,,,nbs checked,7.112,0.003972587,1,WB,SW,2.8
+WBSW3,AB,AB,HW,Alive,BBD,Slight,,,nbs checked,6.096,0.002918635,1,WB,SW,2.4
+WBSW3,AB,AB,HW,Dying,BBD,Moderate,,,nbs checked,12.446,0.012166047,1,WB,SW,4.9
+WBSW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,5.334,0.00223458,1,WB,SW,2.1
+WBSW5,AB,AB,HW,Alive,BBD,Moderate,,,nbs checked,23.622,0.04382513,2,WB,SW,9.3
+WBSW5,AB,AB,HW,Dying,BBD,Severe,,,nbs checked,8.89,0.006207167,1,WB,SW,3.5
+EBSW1,BF,others,SW,Alive,,,,x,nbs checked,5.588,0.002452464,1,EB,SW,2.2
+EBSW1,BF,others,SW,Alive,,,,,nbs checked,5.08,0.00202683,1,EB,SW,2
+EBSW3,BF,others,SW,Alive,,,,,nbs checked,19.304,0.029267424,2,EB,SW,7.6
+EBSW3,BF,others,SW,Alive,,,,,nbs checked,6.096,0.002918635,1,EB,SW,2.4
+EBSW4,BF,others,SW,Dying,,,,,nbs checked,19.558,0.030042686,2,EB,SW,7.7
+WBSW1,BF,others,SW,Alive,,,,,nbs checked,7.366,0.00426141,1,WB,SW,2.9
+WBHW3,CT,others,HW,Alive,,,,,Cherry tree!,6.604,0.003425343,1,WB,HW,2.6
+EBSW3,HL,others,SW,Alive,,,,,nbs checked,13.716,0.01477559,2,EB,SW,5.4
+EBHW1,RM,RM,HW,Alive,,,,,nbs checked,12.192,0.01167454,1,EB,HW,4.8
+EBHW1,RM,RM,HW,Alive,,,,,nbs checked,28.956,0.065851704,3,EB,HW,11.4
+EBHW1,RM,RM,HW,Alive,,,,,nbs checked,12.446,0.012166047,1,EB,HW,4.9
+EBHW2,RM,RM,HW,Alive,,,,x,nbs checked,14.986,0.017638487,2,EB,HW,5.9
+EBHW2,RM,RM,HW,Alive,,,,,nbs checked,8.382,0.005518044,1,EB,HW,3.3
+EBHW2,RM,RM,HW,Alive,Scar,Deep!,,,nbs checked,34.798,0.095103927,3,EB,HW,13.7
+EBHW2,RM,RM,HW,Alive,,,,,nbs checked,35.56,0.099314666,3,EB,HW,14
+EBHW2,RM,RM,HW,Alive,,,,,nbs checked,23.876,0.044772673,2,EB,HW,9.4
+EBHW3,RM,RM,HW,Alive,,,x,,nbs checked,19.812,0.030828083,2,EB,HW,7.8
+EBHW3,RM,RM,HW,Alive,,,,x,nbs checked,13.97,0.015327901,2,EB,HW,5.5
+EBHW3,RM,RM,HW,Alive,,,,,nbs checked,20.574,0.033245078,2,EB,HW,8.1
+EBHW3,RM,RM,HW,Alive,,,,,nbs checked,9.652,0.007316856,1,EB,HW,3.8
+EBHW3,RM,RM,HW,Alive,,,,,nbs checked,18.034,0.025543124,2,EB,HW,7.1
+EBHW3,RM,RM,HW,Alive,,,,,nbs checked,28.448,0.063561386,3,EB,HW,11.2
+EBHW3,RM,RM,HW,Alive,,,,,nbs checked,18.034,0.025543124,2,EB,HW,7.1
+EBHW3,RM,RM,HW,Alive,,,,,nbs checked,21.082,0.034907078,2,EB,HW,8.3
+EBHW3,RM,RM,HW,Alive,,,,,nbs checked,24.384,0.046698161,2,EB,HW,9.6
+EBHW3,RM,RM,HW,Alive,,,,,nbs checked,20.066,0.031623614,2,EB,HW,7.9
+EBHW4,RM,RM,HW,Alive,,,,x,nbs checked,34.29,0.092347438,3,EB,HW,13.5
+EBHW4,RM,RM,HW,Alive,,,,,nbs checked,8.382,0.005518044,1,EB,HW,3.3
+EBHW4,RM,RM,HW,Alive,,,,,nbs checked,30.226,0.071754846,3,EB,HW,11.9
+EBHW4,RM,RM,HW,Dying,,,,,nbs checked,27.686,0.060201916,3,EB,HW,10.9
+EBHW4,RM,RM,HW,Alive,,,,,nbs checked,29.21,0.067012064,3,EB,HW,11.5
+EBHW4,RM,RM,HW,Alive,,,,,nbs checked,18.288,0.026267716,2,EB,HW,7.2
+EBHW5,RM,RM,HW,Alive,,,x,,nbs checked,24.13,0.04573035,2,EB,HW,9.5
+EBHW5,RM,RM,HW,Alive,,,,,nbs checked,25.654,0.05168923,3,EB,HW,10.1
+EBHW5,RM,RM,HW,Alive,Scar,,,,nbs checked,21.082,0.034907078,2,EB,HW,8.3
+EBHW5,RM,RM,HW,Alive,,,,,nbs checked,29.21,0.067012064,3,EB,HW,11.5
+EBHW5,RM,RM,HW,Alive,,,,,nbs checked,12.7,0.012667687,2,EB,HW,5
+EBHW5,RM,RM,HW,Alive,,,,,nbs checked,11.176,0.009809857,1,EB,HW,4.4
+EBHW5,RM,RM,HW,Alive,,,,,nbs checked,17.78,0.024828666,2,EB,HW,7
+EBSW3,RM,RM,HW,Alive,,,,,nbs checked,16.256,0.020754738,2,EB,SW,6.4
+EBSW4,RM,RM,HW,Alive,,,,x,nbs checked,10.922,0.009369021,1,EB,SW,4.3
+EBSW4,RM,RM,HW,Alive,,,,x,nbs checked,17.018,0.022746099,2,EB,SW,6.7
+EBSW5,RM,RM,HW,Alive,,,,,nbs checked,21.336,0.03575328,2,EB,SW,8.4
+EBSW5,RM,RM,HW,Dying,No canopy,,,,nbs checked,14.732,0.01704564,2,EB,SW,5.8
+EBSW5,RM,RM,HW,Dying,,,,,nbs checked,29.972,0.070553949,3,EB,SW,11.8
+EBSW5,RM,RM,HW,Dying,,,,,nbs checked,9.144,0.006566929,1,EB,SW,3.6
+EBSW5,RM,RM,HW,Alive,,,,,nbs checked,11.176,0.009809857,1,EB,SW,4.4
+WBSW1,RM,RM,HW,Alive,,,,,nbs checked,15.748,0.019477835,2,WB,SW,6.2
+WBSW1,RM,RM,HW,Alive,,,,,nbs checked,20.828,0.034071011,2,WB,SW,8.2
+WBSW2,RM,RM,HW,Alive,Crooked,,,,nbs checked,28.194,0.062431428,3,WB,SW,11.1
+WBSW3,RM,RM,HW,Alive,,,,,nbs checked,22.098,0.038352689,2,WB,SW,8.7
+EBHW1,RS,RS,SW,Alive,,,,x,nbs checked,44.45,0.155179165,4,EB,HW,17.5
+EBHW1,RS,RS,SW,Alive,Base Scar,,x,,nbs checked,37.592,0.110989206,3,EB,HW,14.8
+EBHW1,RS,RS,SW,Alive,,,,,nbs checked,24.13,0.04573035,2,EB,HW,9.5
+EBHW1,RS,RS,SW,Alive,,,,,nbs checked,36.576,0.105070863,3,EB,HW,14.4
+EBHW2,RS,RS,SW,Dying,Broken top,,,,nbs checked,18.542,0.027002442,2,EB,HW,7.3
+EBHW2,RS,RS,SW,Alive,,,,,nbs checked,37.338,0.109494419,3,EB,HW,14.7
+EBHW4,RS,RS,SW,Alive,,,,x,nbs checked,11.43,0.010260826,1,EB,HW,4.5
+EBHW5,RS,RS,SW,Alive,,,,,nbs checked,29.464,0.068182558,3,EB,HW,11.6
+EBSW1,RS,RS,SW,Alive,,,x,,nbs checked,34.29,0.092347438,3,EB,SW,13.5
+EBSW1,RS,RS,SW,Alive,,,x,,nbs checked,26.416,0.054805481,3,EB,SW,10.4
+EBSW1,RS,RS,SW,Alive,,,,,nbs checked,31.242,0.076659775,3,EB,SW,12.3
+EBSW1,RS,RS,SW,Alive,,,,,nbs checked,41.402,0.13462711,4,EB,SW,16.3
+EBSW1,RS,RS,SW,Alive,,,,,nbs checked,29.21,0.067012064,3,EB,SW,11.5
+EBSW1,RS,RS,SW,Alive,,,,,nbs checked,37.592,0.110989206,3,EB,SW,14.8
+EBSW1,RS,RS,SW,Alive,,,,,nbs checked,25.654,0.05168923,3,EB,SW,10.1
+EBSW1,RS,RS,SW,Alive,,,,,nbs checked,26.924,0.056933652,3,EB,SW,10.6
+EBSW1,RS,RS,SW,Alive,,,,,nbs checked,29.464,0.068182558,3,EB,SW,11.6
+EBSW1,RS,RS,SW,Alive,,,,,nbs checked,28.194,0.062431428,3,EB,SW,11.1
+EBSW1,RS,RS,SW,Alive,,,,,nbs checked,37.084,0.108009766,3,EB,SW,14.6
+EBSW1,RS,RS,SW,Alive,,,,,nbs checked,28.448,0.063561386,3,EB,SW,11.2
+EBSW1,RS,RS,SW,Alive,,,,,nbs checked,40.64,0.129717115,4,EB,SW,16
+EBSW1,RS,RS,SW,Alive,,,,,nbs checked,40.894,0.131343646,4,EB,SW,16.1
+EBSW1,RS,RS,SW,Alive,,,,,nbs checked,9.144,0.006566929,1,EB,SW,3.6
+EBSW1,RS,RS,SW,Alive,,,,,nbs checked,37.084,0.108009766,3,EB,SW,14.6
+EBSW1,RS,RS,SW,Dying,,,,,nbs checked,33.02,0.085633564,3,EB,SW,13
+EBSW1,RS,RS,SW,Alive,,,,,nbs checked,25.4,0.050670748,3,EB,SW,10
+EBSW1,RS,RS,SW,Alive,,,,,nbs checked,34.544,0.093720615,3,EB,SW,13.6
+EBSW2,RS,RS,SW,Alive,,,x,,nbs checked,36.83,0.106535247,3,EB,SW,14.5
+EBSW2,RS,RS,SW,Alive,,,,x,nbs checked,28.702,0.064701478,3,EB,SW,11.3
+EBSW2,RS,RS,SW,Alive,,,,x,nbs checked,30.48,0.072965877,3,EB,SW,12
+EBSW2,RS,RS,SW,Dying,,,,,nbs checked,20.828,0.034071011,2,EB,SW,8.2
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,10.414,0.008517753,1,EB,SW,4.1
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,16.256,0.020754738,2,EB,SW,6.4
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,27.94,0.061311605,3,EB,SW,11
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,26.162,0.053756596,3,EB,SW,10.3
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,12.192,0.01167454,1,EB,SW,4.8
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,5.334,0.00223458,1,EB,SW,2.1
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,11.43,0.010260826,1,EB,SW,4.5
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,13.97,0.015327901,2,EB,SW,5.5
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,22.352,0.039239427,2,EB,SW,8.8
+EBSW2,RS,RS,SW,Alive,Scars,Moderate,,,nbs checked,42.672,0.143013119,4,EB,SW,16.8
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,31.75,0.079173044,3,EB,SW,12.5
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,19.812,0.030828083,2,EB,SW,7.8
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,23.114,0.041960446,2,EB,SW,9.1
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,34.544,0.093720615,3,EB,SW,13.6
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,39.624,0.123312332,4,EB,SW,15.6
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,14.224,0.015890347,2,EB,SW,5.6
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,16.51,0.021408391,2,EB,SW,6.5
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,22.86,0.041043306,2,EB,SW,9
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,19.05,0.028502296,2,EB,SW,7.5
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,14.732,0.01704564,2,EB,SW,5.8
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,23.114,0.041960446,2,EB,SW,9.1
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,30.48,0.072965877,3,EB,SW,12
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,19.304,0.029267424,2,EB,SW,7.6
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,45.72,0.164173223,4,EB,SW,18
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,38.608,0.117069696,4,EB,SW,15.2
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,21.336,0.03575328,2,EB,SW,8.4
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,15.748,0.019477835,2,EB,SW,6.2
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,15.494,0.018854585,2,EB,SW,6.1
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,29.972,0.070553949,3,EB,SW,11.8
+EBSW2,RS,RS,SW,Alive,,,,,nbs checked,12.7,0.012667687,2,EB,SW,5
+EBSW3,RS,RS,SW,Alive,,,,x,nbs checked,19.304,0.029267424,2,EB,SW,7.6
+EBSW3,RS,RS,SW,Dying,,,x,,nbs checked,6.096,0.002918635,1,EB,SW,2.4
+EBSW3,RS,RS,SW,Alive,,,x,,nbs checked,8.89,0.006207167,1,EB,SW,3.5
+EBSW3,RS,RS,SW,Alive,,,x,,nbs checked,11.938,0.011193168,1,EB,SW,4.7
+EBSW3,RS,RS,SW,Alive,,,x,,nbs checked,8.382,0.005518044,1,EB,SW,3.3
+EBSW3,RS,RS,SW,Alive,,,,x,nbs checked,19.05,0.028502296,2,EB,SW,7.5
+EBSW3,RS,RS,SW,Alive,,,,x,nbs checked,5.08,0.00202683,1,EB,SW,2
+EBSW3,RS,RS,SW,Alive,,,x,,nbs checked,12.192,0.01167454,1,EB,SW,4.8
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,23.368,0.042887721,2,EB,SW,9.2
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,20.32,0.032429279,2,EB,SW,8
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,5.842,0.002680483,1,EB,SW,2.3
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,5.588,0.002452464,1,EB,SW,2.2
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,19.05,0.028502296,2,EB,SW,7.5
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,19.304,0.029267424,2,EB,SW,7.6
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,36.068,0.102172496,3,EB,SW,14.2
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,26.162,0.053756596,3,EB,SW,10.3
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,27.94,0.061311605,3,EB,SW,11
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,18.542,0.027002442,2,EB,SW,7.3
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,7.112,0.003972587,1,EB,SW,2.8
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,17.272,0.023430154,2,EB,SW,6.8
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,27.432,0.05910236,3,EB,SW,10.8
+EBSW3,RS,RS,SW,Dying,,,,,nbs checked,11.938,0.011193168,1,EB,SW,4.7
+EBSW3,RS,RS,SW,Dying,,,,,nbs checked,7.62,0.004560367,1,EB,SW,3
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,26.416,0.054805481,3,EB,SW,10.4
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,12.192,0.01167454,1,EB,SW,4.8
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,34.29,0.092347438,3,EB,SW,13.5
+EBSW3,RS,RS,SW,Alive,Broken Top,,,,nbs checked,17.018,0.022746099,2,EB,SW,6.7
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,10.16,0.00810732,1,EB,SW,4
+EBSW3,RS,RS,SW,Alive,Broken Top,,,,nbs checked,10.414,0.008517753,1,EB,SW,4.1
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,19.812,0.030828083,2,EB,SW,7.8
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,22.098,0.038352689,2,EB,SW,8.7
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,12.446,0.012166047,1,EB,SW,4.9
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,10.16,0.00810732,1,EB,SW,4
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,23.114,0.041960446,2,EB,SW,9.1
+EBSW3,RS,RS,SW,Alive,Broken Top,,,,nbs checked,14.478,0.016462926,2,EB,SW,5.7
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,13.97,0.015327901,2,EB,SW,5.5
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,15.494,0.018854585,2,EB,SW,6.1
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,6.858,0.003693898,1,EB,SW,2.7
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,16.002,0.02011122,2,EB,SW,6.3
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,16.51,0.021408391,2,EB,SW,6.5
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,6.096,0.002918635,1,EB,SW,2.4
+EBSW3,RS,RS,SW,Dying,,,,,nbs checked,7.112,0.003972587,1,EB,SW,2.8
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,38.608,0.117069696,4,EB,SW,15.2
+EBSW3,RS,RS,SW,Alive,Broken Top,,,,nbs checked,9.906,0.007707021,1,EB,SW,3.9
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,12.446,0.012166047,1,EB,SW,4.9
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,26.416,0.054805481,3,EB,SW,10.4
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,18.288,0.026267716,2,EB,SW,7.2
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,9.398,0.006936825,1,EB,SW,3.7
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,19.558,0.030042686,2,EB,SW,7.7
+EBSW3,RS,RS,SW,Alive,Broken Top,,,,nbs checked,12.7,0.012667687,2,EB,SW,5
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,18.288,0.026267716,2,EB,SW,7.2
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,12.192,0.01167454,1,EB,SW,4.8
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,30.988,0.075418341,3,EB,SW,12.2
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,20.828,0.034071011,2,EB,SW,8.2
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,16.764,0.022072178,2,EB,SW,6.6
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,17.272,0.023430154,2,EB,SW,6.8
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,15.494,0.018854585,2,EB,SW,6.1
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,6.604,0.003425343,1,EB,SW,2.6
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,15.748,0.019477835,2,EB,SW,6.2
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,11.43,0.010260826,1,EB,SW,4.5
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,5.334,0.00223458,1,EB,SW,2.1
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,7.112,0.003972587,1,EB,SW,2.8
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,22.352,0.039239427,2,EB,SW,8.8
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,8.382,0.005518044,1,EB,SW,3.3
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,14.478,0.016462926,2,EB,SW,5.7
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,21.844,0.037476085,2,EB,SW,8.6
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,6.35,0.003166922,1,EB,SW,2.5
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,15.494,0.018854585,2,EB,SW,6.1
+EBSW3,RS,RS,SW,Alive,Broken Top,,,,nbs checked,13.462,0.014233413,2,EB,SW,5.3
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,24.384,0.046698161,2,EB,SW,9.6
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,9.398,0.006936825,1,EB,SW,3.7
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,24.13,0.04573035,2,EB,SW,9.5
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,16.764,0.022072178,2,EB,SW,6.6
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,8.382,0.005518044,1,EB,SW,3.3
+EBSW3,RS,RS,SW,Alive,,,,,nbs checked,11.176,0.009809857,1,EB,SW,4.4
+EBSW4,RS,RS,SW,Alive,,,x,,nbs checked,27.94,0.061311605,3,EB,SW,11
+EBSW4,RS,RS,SW,Alive,,,x,,nbs checked,13.97,0.015327901,2,EB,SW,5.5
+EBSW4,RS,RS,SW,Alive,,,x,,nbs checked,24.384,0.046698161,2,EB,SW,9.6
+EBSW4,RS,RS,SW,Alive,,,x,,nbs checked,21.59,0.036609615,2,EB,SW,8.5
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,28.448,0.063561386,3,EB,SW,11.2
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,37.592,0.110989206,3,EB,SW,14.8
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,14.478,0.016462926,2,EB,SW,5.7
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,6.096,0.002918635,1,EB,SW,2.4
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,29.21,0.067012064,3,EB,SW,11.5
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,20.574,0.033245078,2,EB,SW,8.1
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,28.448,0.063561386,3,EB,SW,11.2
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,31.242,0.076659775,3,EB,SW,12.3
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,29.21,0.067012064,3,EB,SW,11.5
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,36.322,0.103616612,3,EB,SW,14.3
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,12.192,0.01167454,1,EB,SW,4.8
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,43.942,0.151652481,4,EB,SW,17.3
+EBSW4,RS,RS,SW,Alive,Broken Top,,,,nbs checked,5.334,0.00223458,1,EB,SW,2.1
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,24.638,0.047676107,2,EB,SW,9.7
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,25.654,0.05168923,3,EB,SW,10.1
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,30.988,0.075418341,3,EB,SW,12.2
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,34.29,0.092347438,3,EB,SW,13.5
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,25.146,0.0496624,2,EB,SW,9.9
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,6.096,0.002918635,1,EB,SW,2.4
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,24.892,0.048664186,2,EB,SW,9.8
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,35.306,0.097900952,3,EB,SW,13.9
+EBSW4,RS,RS,SW,Alive,Broken Top,,,,nbs checked,18.288,0.026267716,2,EB,SW,7.2
+EBSW4,RS,RS,SW,Dying,1/2 Crown,,,,nbs checked,8.382,0.005518044,1,EB,SW,3.3
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,38.354,0.115534372,4,EB,SW,15.1
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,20.574,0.033245078,2,EB,SW,8.1
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,9.652,0.007316856,1,EB,SW,3.8
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,33.782,0.089631486,3,EB,SW,13.3
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,25.908,0.052717846,3,EB,SW,10.2
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,9.652,0.007316856,1,EB,SW,3.8
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,39.37,0.121736472,4,EB,SW,15.5
+EBSW4,RS,RS,SW,Alive,,,,,nbs checked,13.716,0.01477559,2,EB,SW,5.4
+EBSW5,RS,RS,SW,Alive,,,x,,nbs checked,29.718,0.069363187,3,EB,SW,11.7
+EBSW5,RS,RS,SW,Alive,,,x,,nbs checked,33.02,0.085633564,3,EB,SW,13
+EBSW5,RS,RS,SW,Alive,,,,x,nbs checked,27.432,0.05910236,3,EB,SW,10.8
+EBSW5,RS,RS,SW,Alive,,,x,,nbs checked,26.416,0.054805481,3,EB,SW,10.4
+EBSW5,RS,RS,SW,Alive,,,,x,nbs checked,34.29,0.092347438,3,EB,SW,13.5
+EBSW5,RS,RS,SW,Alive,,,,x,nbs checked,19.304,0.029267424,2,EB,SW,7.6
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,25.146,0.0496624,2,EB,SW,9.9
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,20.32,0.032429279,2,EB,SW,8
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,29.718,0.069363187,3,EB,SW,11.7
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,8.382,0.005518044,1,EB,SW,3.3
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,15.24,0.018241469,2,EB,SW,6
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,29.718,0.069363187,3,EB,SW,11.7
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,13.208,0.01370137,2,EB,SW,5.2
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,7.62,0.004560367,1,EB,SW,3
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,22.86,0.041043306,2,EB,SW,9
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,34.29,0.092347438,3,EB,SW,13.5
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,18.542,0.027002442,2,EB,SW,7.3
+EBSW5,RS,RS,SW,Alive,Deep Scar,Medium,,,nbs checked,20.32,0.032429279,2,EB,SW,8
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,28.956,0.065851704,3,EB,SW,11.4
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,30.226,0.071754846,3,EB,SW,11.9
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,32.004,0.080444879,3,EB,SW,12.6
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,30.734,0.074187042,3,EB,SW,12.1
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,40.64,0.129717115,4,EB,SW,16
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,17.272,0.023430154,2,EB,SW,6.8
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,16.51,0.021408391,2,EB,SW,6.5
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,17.018,0.022746099,2,EB,SW,6.7
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,38.354,0.115534372,4,EB,SW,15.1
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,7.112,0.003972587,1,EB,SW,2.8
+EBSW5,RS,RS,SW,Dying,Broken Top,Foliage gone,,,nbs checked,23.114,0.041960446,2,EB,SW,9.1
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,27.432,0.05910236,3,EB,SW,10.8
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,22.352,0.039239427,2,EB,SW,8.8
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,24.13,0.04573035,2,EB,SW,9.5
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,18.796,0.027747302,2,EB,SW,7.4
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,13.97,0.015327901,2,EB,SW,5.5
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,8.89,0.006207167,1,EB,SW,3.5
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,6.858,0.003693898,1,EB,SW,2.7
+EBSW5,RS,RS,SW,Alive,Scar,Severe,,,nbs checked,18.542,0.027002442,2,EB,SW,7.3
+EBSW5,RS,RS,SW,Dying,Falling over,,,,nbs checked,30.226,0.071754846,3,EB,SW,11.9
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,32.258,0.081726849,3,EB,SW,12.7
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,34.544,0.093720615,3,EB,SW,13.6
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,8.89,0.006207167,1,EB,SW,3.5
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,43.434,0.148166334,4,EB,SW,17.1
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,37.084,0.108009766,3,EB,SW,14.6
+EBSW5,RS,RS,SW,Alive,,,,,nbs checked,12.7,0.012667687,2,EB,SW,5
+WBHW1,RS,RS,SW,Alive,,,,,nbs checked,24.13,0.04573035,2,WB,HW,9.5
+WBHW1,RS,RS,SW,Alive,,,,,nbs checked,5.588,0.002452464,1,WB,HW,2.2
+WBHW1,RS,RS,SW,Alive,,,,,nbs checked,51.308,0.20675692,5,WB,HW,20.2
+WBHW2,RS,RS,SW,Alive,,,,,,43.942,0.151652481,4,WB,HW,17.3
+WBHW2,RS,RS,SW,Alive,,,,,,38.1,0.114009183,4,WB,HW,15
+WBHW3,RS,RS,SW,Alive,,,,x,,14.224,0.015890347,2,WB,HW,5.6
+WBSW1,RS,RS,SW,Alive,,,,x,nbs checked,30.226,0.071754846,3,WB,SW,11.9
+WBSW1,RS,RS,SW,Alive,,,x,,nbs checked,20.066,0.031623614,2,WB,SW,7.9
+WBSW1,RS,RS,SW,Alive,,,,x,nbs checked,30.988,0.075418341,3,WB,SW,12.2
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,14.986,0.017638487,2,WB,SW,5.9
+WBSW1,RS,RS,SW,Alive,,,x,,nbs checked,42.926,0.144720723,4,WB,SW,16.9
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,43.942,0.151652481,4,WB,SW,17.3
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,17.018,0.022746099,2,WB,SW,6.7
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,9.652,0.007316856,1,WB,SW,3.8
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,23.368,0.042887721,2,WB,SW,9.2
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,13.97,0.015327901,2,WB,SW,5.5
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,51.054,0.204714889,5,WB,SW,20.1
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,20.574,0.033245078,2,WB,SW,8.1
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,19.812,0.030828083,2,WB,SW,7.8
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,24.13,0.04573035,2,WB,SW,9.5
+WBSW1,RS,RS,SW,Alive,Scar,,,,nbs checked,30.48,0.072965877,3,WB,SW,12
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,23.622,0.04382513,2,WB,SW,9.3
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,42.164,0.139628313,4,WB,SW,16.6
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,25.654,0.05168923,3,WB,SW,10.1
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,27.94,0.061311605,3,WB,SW,11
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,37.846,0.112494127,3,WB,SW,14.9
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,8.89,0.006207167,1,WB,SW,3.5
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,19.05,0.028502296,2,WB,SW,7.5
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,6.096,0.002918635,1,WB,SW,2.4
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,7.366,0.00426141,1,WB,SW,2.9
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,13.97,0.015327901,2,WB,SW,5.5
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,28.956,0.065851704,3,WB,SW,11.4
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,36.068,0.102172496,3,WB,SW,14.2
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,38.1,0.114009183,4,WB,SW,15
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,6.096,0.002918635,1,WB,SW,2.4
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,11.176,0.009809857,1,WB,SW,4.4
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,20.828,0.034071011,2,WB,SW,8.2
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,36.576,0.105070863,3,WB,SW,14.4
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,25.654,0.05168923,3,WB,SW,10.1
+WBSW1,RS,RS,SW,Alive,,,,,nbs checked,16.51,0.021408391,2,WB,SW,6.5
+WBSW2,RS,RS,SW,Alive,,,,x,nbs checked,9.398,0.006936825,1,WB,SW,3.7
+WBSW2,RS,RS,SW,Alive,,,,x,nbs checked,12.7,0.012667687,2,WB,SW,5
+WBSW2,RS,RS,SW,Alive,,,x,,nbs checked,41.91,0.137951111,4,WB,SW,16.5
+WBSW2,RS,RS,SW,Alive,,,,x,nbs checked,33.782,0.089631486,3,WB,SW,13.3
+WBSW2,RS,RS,SW,Alive,,,x,,nbs checked,12.446,0.012166047,1,WB,SW,4.9
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,14.986,0.017638487,2,WB,SW,5.9
+WBSW2,RS,RS,SW,Alive,,,x,,nbs checked,30.988,0.075418341,3,WB,SW,12.2
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,25.654,0.05168923,3,WB,SW,10.1
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,49.784,0.194656745,4,WB,SW,19.6
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,23.368,0.042887721,2,WB,SW,9.2
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,5.588,0.002452464,1,WB,SW,2.2
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,31.496,0.077911342,3,WB,SW,12.4
+WBSW2,RS,RS,SW,Dying,Half Crown,,,,nbs checked,15.494,0.018854585,2,WB,SW,6.1
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,15.494,0.018854585,2,WB,SW,6.1
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,44.45,0.155179165,4,WB,SW,17.5
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,9.652,0.007316856,1,WB,SW,3.8
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,25.146,0.0496624,2,WB,SW,9.9
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,13.716,0.01477559,2,WB,SW,5.4
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,19.812,0.030828083,2,WB,SW,7.8
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,14.478,0.016462926,2,WB,SW,5.7
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,32.512,0.083018953,3,WB,SW,12.8
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,18.034,0.025543124,2,WB,SW,7.1
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,32.258,0.081726849,3,WB,SW,12.7
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,20.32,0.032429279,2,WB,SW,8
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,47.498,0.177190538,4,WB,SW,18.7
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,19.304,0.029267424,2,WB,SW,7.6
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,41.91,0.137951111,4,WB,SW,16.5
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,16.51,0.021408391,2,WB,SW,6.5
+WBSW2,RS,RS,SW,Alive,,,,,nbs checked,7.62,0.004560367,1,WB,SW,3
+WBSW3,RS,RS,SW,Alive,,,,x,nbs checked,22.098,0.038352689,2,WB,SW,8.7
+WBSW3,RS,RS,SW,Alive,,,,x,nbs checked,27.686,0.060201916,3,WB,SW,10.9
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,31.242,0.076659775,3,WB,SW,12.3
+WBSW3,RS,RS,SW,Alive,,,x,,nbs checked,22.352,0.039239427,2,WB,SW,8.8
+WBSW3,RS,RS,SW,Alive,,,x,,nbs checked,19.558,0.030042686,2,WB,SW,7.7
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,37.846,0.112494127,3,WB,SW,14.9
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,15.748,0.019477835,2,WB,SW,6.2
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,43.942,0.151652481,4,WB,SW,17.3
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,39.624,0.123312332,4,WB,SW,15.6
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,22.86,0.041043306,2,WB,SW,9
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,34.798,0.095103927,3,WB,SW,13.7
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,25.908,0.052717846,3,WB,SW,10.2
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,27.686,0.060201916,3,WB,SW,10.9
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,32.258,0.081726849,3,WB,SW,12.7
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,27.686,0.060201916,3,WB,SW,10.9
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,10.16,0.00810732,1,WB,SW,4
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,37.338,0.109494419,3,WB,SW,14.7
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,34.798,0.095103927,3,WB,SW,13.7
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,20.828,0.034071011,2,WB,SW,8.2
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,15.494,0.018854585,2,WB,SW,6.1
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,35.052,0.096497372,3,WB,SW,13.8
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,35.56,0.099314666,3,WB,SW,14
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,30.48,0.072965877,3,WB,SW,12
+WBSW3,RS,RS,SW,Dying,,,,,nbs checked,20.32,0.032429279,2,WB,SW,8
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,25.654,0.05168923,3,WB,SW,10.1
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,49.53,0.192675519,4,WB,SW,19.5
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,19.812,0.030828083,2,WB,SW,7.8
+WBSW3,RS,RS,SW,Alive,,,,,nbs checked,36.576,0.105070863,3,WB,SW,14.4
+WBSW4,RS,RS,SW,Alive,,,x,,nbs checked,15.24,0.018241469,2,WB,SW,6
+WBSW4,RS,RS,SW,Alive,,,,x,nbs checked,18.288,0.026267716,2,WB,SW,7.2
+WBSW4,RS,RS,SW,Alive,,,x,,nbs checked,13.462,0.014233413,2,WB,SW,5.3
+WBSW4,RS,RS,SW,Alive,,,,x,nbs checked,29.718,0.069363187,3,WB,SW,11.7
+WBSW4,RS,RS,SW,Alive,,,x,,nbs checked,30.226,0.071754846,3,WB,SW,11.9
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,26.67,0.0558645,3,WB,SW,10.5
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,30.734,0.074187042,3,WB,SW,12.1
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,31.496,0.077911342,3,WB,SW,12.4
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,44.45,0.155179165,4,WB,SW,17.5
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,24.384,0.046698161,2,WB,SW,9.6
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,26.416,0.054805481,3,WB,SW,10.4
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,13.97,0.015327901,2,WB,SW,5.5
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,14.732,0.01704564,2,WB,SW,5.8
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,29.464,0.068182558,3,WB,SW,11.6
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,26.924,0.056933652,3,WB,SW,10.6
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,20.828,0.034071011,2,WB,SW,8.2
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,39.624,0.123312332,4,WB,SW,15.6
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,39.624,0.123312332,4,WB,SW,15.6
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,40.894,0.131343646,4,WB,SW,16.1
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,25.654,0.05168923,3,WB,SW,10.1
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,24.384,0.046698161,2,WB,SW,9.6
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,16.256,0.020754738,2,WB,SW,6.4
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,27.432,0.05910236,3,WB,SW,10.8
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,46.228,0.167841785,4,WB,SW,18.2
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,22.098,0.038352689,2,WB,SW,8.7
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,37.338,0.109494419,3,WB,SW,14.7
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,14.478,0.016462926,2,WB,SW,5.7
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,26.416,0.054805481,3,WB,SW,10.4
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,19.812,0.030828083,2,WB,SW,7.8
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,18.542,0.027002442,2,WB,SW,7.3
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,34.544,0.093720615,3,WB,SW,13.6
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,7.62,0.004560367,1,WB,SW,3
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,30.988,0.075418341,3,WB,SW,12.2
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,17.78,0.024828666,2,WB,SW,7
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,39.624,0.123312332,4,WB,SW,15.6
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,29.464,0.068182558,3,WB,SW,11.6
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,38.1,0.114009183,4,WB,SW,15
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,36.068,0.102172496,3,WB,SW,14.2
+WBSW4,RS,RS,SW,Alive,,,,,nbs checked,27.686,0.060201916,3,WB,SW,10.9
+WBSW5,RS,RS,SW,Alive,,,x,,nbs checked,10.668,0.00893832,1,WB,SW,4.2
+WBSW5,RS,RS,SW,Dying,,,,x,nbs checked,13.97,0.015327901,2,WB,SW,5.5
+WBSW5,RS,RS,SW,Alive,,,x,,nbs checked,28.956,0.065851704,3,WB,SW,11.4
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,22.352,0.039239427,2,WB,SW,8.8
+WBSW5,RS,RS,SW,Alive,,,x,,nbs checked,15.24,0.018241469,2,WB,SW,6
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,7.62,0.004560367,1,WB,SW,3
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,5.08,0.00202683,1,WB,SW,2
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,18.542,0.027002442,2,WB,SW,7.3
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,52.07,0.212943818,5,WB,SW,20.5
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,9.398,0.006936825,1,WB,SW,3.7
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,26.416,0.054805481,3,WB,SW,10.4
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,9.398,0.006936825,1,WB,SW,3.7
+WBSW5,RS,RS,SW,Dying,,,,,nbs checked,11.938,0.011193168,1,WB,SW,4.7
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,19.812,0.030828083,2,WB,SW,7.8
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,24.384,0.046698161,2,WB,SW,9.6
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,15.24,0.018241469,2,WB,SW,6
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,29.21,0.067012064,3,WB,SW,11.5
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,48.514,0.184851955,4,WB,SW,19.1
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,33.274,0.08695607,3,WB,SW,13.1
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,30.988,0.075418341,3,WB,SW,12.2
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,19.812,0.030828083,2,WB,SW,7.8
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,25.146,0.0496624,2,WB,SW,9.9
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,15.24,0.018241469,2,WB,SW,6
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,27.432,0.05910236,3,WB,SW,10.8
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,42.926,0.144720723,4,WB,SW,16.9
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,36.576,0.105070863,3,WB,SW,14.4
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,31.75,0.079173044,3,WB,SW,12.5
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,10.414,0.008517753,1,WB,SW,4.1
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,7.62,0.004560367,1,WB,SW,3
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,44.45,0.155179165,4,WB,SW,17.5
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,38.354,0.115534372,4,WB,SW,15.1
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,20.32,0.032429279,2,WB,SW,8
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,10.414,0.008517753,1,WB,SW,4.1
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,10.922,0.009369021,1,WB,SW,4.3
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,22.352,0.039239427,2,WB,SW,8.8
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,13.716,0.01477559,2,WB,SW,5.4
+WBSW5,RS,RS,SW,Dying,Broken Top,,,,nbs checked,23.368,0.042887721,2,WB,SW,9.2
+WBSW5,RS,RS,SW,Dying,,,,,nbs checked,7.874,0.004869459,1,WB,SW,3.1
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,35.306,0.097900952,3,WB,SW,13.9
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,5.334,0.00223458,1,WB,SW,2.1
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,5.334,0.00223458,1,WB,SW,2.1
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,24.13,0.04573035,2,WB,SW,9.5
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,27.94,0.061311605,3,WB,SW,11
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,28.702,0.064701478,3,WB,SW,11.3
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,16.51,0.021408391,2,WB,SW,6.5
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,17.526,0.024124343,2,WB,SW,6.9
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,20.066,0.031623614,2,WB,SW,7.9
+WBSW5,RS,RS,SW,Alive,,,,,nbs checked,18.034,0.025543124,2,WB,SW,7.1
+EBHW1,SM,SM,HW,Alive,,,x,,nbs checked,17.526,0.024124343,2,EB,HW,6.9
+EBHW1,SM,SM,HW,Dying,Hollow trunk,,,,nbs checked,50.546,0.200661229,4,EB,HW,19.9
+EBHW2,SM,SM,HW,Alive,,,,,nbs checked,51.816,0.210871385,5,EB,HW,20.4
+EBHW3,SM,SM,HW,Alive,,,,,nbs checked,24.384,0.046698161,2,EB,HW,9.6
+EBHW3,SM,SM,HW,Alive,,,,,nbs checked,19.304,0.029267424,2,EB,HW,7.6
+EBHW3,SM,SM,HW,Alive,,,,,nbs checked,23.622,0.04382513,2,EB,HW,9.3
+EBHW3,SM,SM,HW,Alive,,,,,nbs checked,23.114,0.041960446,2,EB,HW,9.1
+EBHW3,SM,SM,HW,Alive,,,,,nbs checked,18.288,0.026267716,2,EB,HW,7.2
+EBHW3,SM,SM,HW,Alive,,,,,nbs checked,19.558,0.030042686,2,EB,HW,7.7
+EBHW3,SM,SM,HW,Alive,,,,,nbs checked,18.034,0.025543124,2,EB,HW,7.1
+EBHW3,SM,SM,HW,Alive,,,,,nbs checked,19.812,0.030828083,2,EB,HW,7.8
+EBHW3,SM,SM,HW,Alive,,,,,nbs checked,11.938,0.011193168,1,EB,HW,4.7
+EBHW3,SM,SM,HW,Alive,,,,,nbs checked,19.304,0.029267424,2,EB,HW,7.6
+EBHW5,SM,SM,HW,Alive,,,,,nbs checked,23.622,0.04382513,2,EB,HW,9.3
+WBHW1,SM,SM,HW,Alive,,,,,nbs checked,19.304,0.029267424,2,WB,HW,7.6
+WBHW1,SM,SM,HW,Alive,,,,,nbs checked,5.842,0.002680483,1,WB,HW,2.3
+WBHW1,SM,SM,HW,Alive,,,,,nbs checked,24.892,0.048664186,2,WB,HW,9.8
+WBHW1,SM,SM,HW,Alive,,,,,nbs checked,7.112,0.003972587,1,WB,HW,2.8
+WBHW1,SM,SM,HW,Alive,,,,,nbs checked,29.464,0.068182558,3,WB,HW,11.6
+WBHW2,SM,SM,HW,Alive,,,,,,27.178,0.058012939,3,WB,HW,10.7
+WBHW2,SM,SM,HW,Alive,,,,,,14.224,0.015890347,2,WB,HW,5.6
+WBHW2,SM,SM,HW,Alive,,,,,,13.716,0.01477559,2,WB,HW,5.4
+WBHW2,SM,SM,HW,Alive,,,,,,25.654,0.05168923,3,WB,HW,10.1
+WBHW2,SM,SM,HW,Alive,,,,,,11.938,0.011193168,1,WB,HW,4.7
+WBHW2,SM,SM,HW,Alive,,,,,,26.162,0.053756596,3,WB,HW,10.3
+WBHW2,SM,SM,HW,Alive,,,,,,12.954,0.013179462,2,WB,HW,5.1
+WBHW2,SM,SM,HW,Alive,,,,,,31.242,0.076659775,3,WB,HW,12.3
+WBHW2,SM,SM,HW,Alive,,,,,,24.892,0.048664186,2,WB,HW,9.8
+WBHW2,SM,SM,HW,Alive,,,,,,19.304,0.029267424,2,WB,HW,7.6
+WBHW2,SM,SM,HW,Alive,,,,,,26.162,0.053756596,3,WB,HW,10.3
+WBHW2,SM,SM,HW,Dying,,,,,Broken Top,17.526,0.024124343,2,WB,HW,6.9
+WBHW2,SM,SM,HW,Alive,,,,,,14.478,0.016462926,2,WB,HW,5.7
+WBHW2,SM,SM,HW,Alive,,,,,,26.416,0.054805481,3,WB,HW,10.4
+WBHW2,SM,SM,HW,Alive,,,,,,14.732,0.01704564,2,WB,HW,5.8
+WBHW3,SM,SM,HW,Alive,,,,,,33.02,0.085633564,3,WB,HW,13
+WBHW4,SM,SM,HW,Alive,,,,,nbs checked,10.16,0.00810732,1,WB,HW,4
+WBHW4,SM,SM,HW,Alive,,,,,nbs checked,17.272,0.023430154,2,WB,HW,6.8
+WBHW4,SM,SM,HW,Alive,,,,,nbs checked,17.78,0.024828666,2,WB,HW,7
+WBHW4,SM,SM,HW,Alive,,,,,nbs checked,5.334,0.00223458,1,WB,HW,2.1
+WBHW5,SM,SM,HW,Alive,,,,x,nbs checked,5.08,0.00202683,1,WB,HW,2
+EBHW1,StM,others,HW,Alive,,,,,nbs checked,15.748,0.019477835,2,EB,HW,6.2
+EBHW5,StM,others,HW,Alive,,,,,nbs checked,5.842,0.002680483,1,EB,HW,2.3
+EBSW4,StM,others,HW,Alive,1/2 of crown damaged,,,x,nbs checked,14.224,0.015890347,2,EB,SW,5.6
+WBHW1,StM,others,HW,Alive,,,,,nbs checked,7.874,0.004869459,1,WB,HW,3.1
+WBHW1,StM,others,HW,Alive,,,,,nbs checked,8.636,0.005857538,1,WB,HW,3.4
+WBHW3,StM,others,HW,Alive,,,,,,5.842,0.002680483,1,WB,HW,2.3
+WBHW3,StM,others,HW,Alive,,,,,,8.128,0.005188685,1,WB,HW,3.2
+WBHW3,StM,others,HW,Alive,,,,,,6.096,0.002918635,1,WB,HW,2.4
+WBHW3,StM,others,HW,Alive,,,,,,5.842,0.002680483,1,WB,HW,2.3
+WBHW3,StM,others,HW,Alive,,,,,,6.35,0.003166922,1,WB,HW,2.5
+EBHW1,YB,YB,HW,Alive,,,x,,nbs checked,5.334,0.00223458,1,EB,HW,2.1
+EBHW1,YB,YB,HW,Alive,,,,,nbs checked,27.686,0.060201916,3,EB,HW,10.9
+EBHW1,YB,YB,HW,Alive,,,,,nbs checked,11.938,0.011193168,1,EB,HW,4.7
+EBHW2,YB,YB,HW,Alive,,,,x,nbs checked,27.94,0.061311605,3,EB,HW,11
+EBHW2,YB,YB,HW,Alive,,,,,nbs checked,22.098,0.038352689,2,EB,HW,8.7
+EBHW3,YB,YB,HW,Alive,,,,,nbs checked,11.43,0.010260826,1,EB,HW,4.5
+EBHW3,YB,YB,HW,Alive,,,,,nbs checked,20.32,0.032429279,2,EB,HW,8
+EBHW3,YB,YB,HW,Alive,,,,,nbs checked,8.382,0.005518044,1,EB,HW,3.3
+EBHW3,YB,YB,HW,Alive,,,,,nbs checked,29.718,0.069363187,3,EB,HW,11.7
+EBHW3,YB,YB,HW,Dying,,,,,nbs checked,12.954,0.013179462,2,EB,HW,5.1
+EBHW3,YB,YB,HW,Alive,,,,,nbs checked,9.398,0.006936825,1,EB,HW,3.7
+EBHW4,YB,YB,HW,Alive,,,x,,nbs checked,27.178,0.058012939,3,EB,HW,10.7
+EBHW4,YB,YB,HW,Alive,,,x,,nbs checked,25.654,0.05168923,3,EB,HW,10.1
+EBHW4,YB,YB,HW,Alive,,,,,nbs checked,29.972,0.070553949,3,EB,HW,11.8
+EBHW5,YB,YB,HW,Alive,,,,x,nbs checked,7.366,0.00426141,1,EB,HW,2.9
+EBHW5,YB,YB,HW,Alive,,,,x,nbs checked,32.004,0.080444879,3,EB,HW,12.6
+EBHW5,YB,YB,HW,Alive,,,,,nbs checked,26.416,0.054805481,3,EB,HW,10.4
+EBHW5,YB,YB,HW,Alive,,,,,nbs checked,22.86,0.041043306,2,EB,HW,9
+EBHW5,YB,YB,HW,Alive,,,,,nbs checked,21.336,0.03575328,2,EB,HW,8.4
+EBHW5,YB,YB,HW,Alive,,,,,nbs checked,9.144,0.006566929,1,EB,HW,3.6
+EBHW5,YB,YB,HW,Alive,,,,,nbs checked,11.43,0.010260826,1,EB,HW,4.5
+EBHW5,YB,YB,HW,Alive,,,,,nbs checked,6.35,0.003166922,1,EB,HW,2.5
+EBHW5,YB,YB,HW,Alive,,,,,nbs checked,14.224,0.015890347,2,EB,HW,5.6
+EBHW5,YB,YB,HW,Alive,,,,,nbs checked,25.4,0.050670748,3,EB,HW,10
+EBSW1,YB,YB,HW,Alive,,,x,,nbs checked,15.24,0.018241469,2,EB,SW,6
+EBSW1,YB,YB,HW,Alive,,,,,nbs checked,10.668,0.00893832,1,EB,SW,4.2
+EBSW2,YB,YB,HW,Alive,Scars,Slight,,,nbs checked,45.466,0.162354143,4,EB,SW,17.9
+EBSW3,YB,YB,HW,Alive,,,,,nbs checked,6.858,0.003693898,1,EB,SW,2.7
+EBSW3,YB,YB,HW,Alive,,,,,nbs checked,10.922,0.009369021,1,EB,SW,4.3
+EBSW3,YB,YB,HW,Alive,,,,,nbs checked,11.43,0.010260826,1,EB,SW,4.5
+EBSW4,YB,YB,HW,Alive,,,,,nbs checked,15.494,0.018854585,2,EB,SW,6.1
+EBSW4,YB,YB,HW,Alive,,,,,nbs checked,5.08,0.00202683,1,EB,SW,2
+EBSW4,YB,YB,HW,Alive,,,,,nbs checked,19.304,0.029267424,2,EB,SW,7.6
+EBSW4,YB,YB,HW,Alive,,,,,nbs checked,18.288,0.026267716,2,EB,SW,7.2
+EBSW4,YB,YB,HW,Alive,,,,,nbs checked,5.08,0.00202683,1,EB,SW,2
+EBSW4,YB,YB,HW,Dying,"2 suckers, rest of crown dead",,,,nbs checked,5.334,0.00223458,1,EB,SW,2.1
+EBSW4,YB,YB,HW,Alive,,,,,nbs checked,11.938,0.011193168,1,EB,SW,4.7
+EBSW4,YB,YB,HW,Alive,1 broken branch,,,,nbs checked,13.208,0.01370137,2,EB,SW,5.2
+EBSW5,YB,YB,HW,Alive,,,,,nbs checked,19.558,0.030042686,2,EB,SW,7.7
+WBHW1,YB,YB,HW,Alive,,,,,nbs checked,50.546,0.200661229,4,WB,HW,19.9
+WBHW1,YB,YB,HW,Alive,,,,,nbs checked,5.842,0.002680483,1,WB,HW,2.3
+WBHW3,YB,YB,HW,Alive,Broken Top,,,,Two trees wrapped/grown together,27.686,0.060201916,3,WB,HW,10.9
+WBHW3,YB,YB,HW,Alive,,,,,,13.462,0.014233413,2,WB,HW,5.3
+WBHW3,YB,YB,HW,Alive,,,,,,8.89,0.006207167,1,WB,HW,3.5
+WBHW3,YB,YB,HW,Dying,Broken Top,,,,,30.226,0.071754846,3,WB,HW,11.9
+WBHW5,YB,YB,HW,Alive,,,x,,nbs checked,7.112,0.003972587,1,WB,HW,2.8
+WBHW5,YB,YB,HW,Alive,,,,,nbs checked,56.896,0.254245545,5,WB,HW,22.4
+WBSW1,YB,YB,HW,Alive,,,,,nbs checked,46.736,0.171550884,4,WB,SW,18.4
+WBSW1,YB,YB,HW,Alive,,,,,nbs checked,35.56,0.099314666,3,WB,SW,14
+WBSW1,YB,YB,HW,Alive,,,,,nbs checked,9.144,0.006566929,1,WB,SW,3.6
+WBSW2,YB,YB,HW,Alive,Broken Top,,,,nbs checked,13.208,0.01370137,2,WB,SW,5.2
+WBSW3,YB,YB,HW,Alive,,,,,nbs checked,17.272,0.023430154,2,WB,SW,6.8
+WBSW4,YB,YB,HW,Alive,,,,,nbs checked,10.922,0.009369021,1,WB,SW,4.3
