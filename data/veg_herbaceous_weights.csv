@@ -1,0 +1,226 @@
+﻿sample_ID,code,sample_number,watershed,forest,location,year,dominant_species_number,dominant_species_bag1,wt_bag_dry_g,wt_bag_g,wt_air_dry_g,perc_of_total_by_plot,area_m2,comment,sourcefile,flag
+H9,HERB01,6001,EB,HW,EBHW_plot1_MR,2012,1,Salomon's seal,,,24.3,,25,,total weight2012,
+H10,HERB01,6002,EB,HW,EBHW_plot1_MR,2012,2,Wild sarsaparilla,,,3.58,,25,,total weight2012,
+H11,HERB01,6003,EB,HW,EBHW_plot1_MR,2012,3,Star flower,,,2.71,,25,,total weight2012,
+H12,HERB01,6004,EB,HW,EBHW_plot1_MR,2012,4,Indian cucumber,,,0.24,,25,,total weight2012,
+H13,HERB01,6005,EB,HW,EBHW_plot1_MR,2012,5,False L.O.F.,,,0.77,,25,,total weight2012,
+H14,HERB01,6006,EB,HW,EBHW_plot1_MR,2012,others,"? maple, Am. beech, Yellow birch",,,159.85,,25,,total weight2012,
+H15,HERB02,6007,EB,HW,EBHW_plot2_MR,2012,1,Salomon's seal,,,29.25,,25,,total weight2012,
+H16,HERB02,6008,EB,HW,EBHW_plot2_MR,2012,2,Star flower,,,14.86,,25,,total weight2012,
+H17,HERB02,6009,EB,HW,EBHW_plot2_MR,2012,3,Wild sarsaparilla,,,23.11,,25,,total weight2012,
+H18,HERB02,6010,EB,HW,EBHW_plot2_MR,2012,4,Hobble bush,,,44.31,,25,,total weight2012,
+H19,HERB02,6011,EB,HW,EBHW_plot2_MR,2012,5,Red Maple,,,16.52,,25,,total weight2012,
+H20,HERB02,6012,EB,HW,EBHW_plot2_MR,2012,6,Moose Maple,,,36.17,,25,,total weight2012,
+H21,HERB02,6013,EB,HW,EBHW_plot2_MR,2012,7,American Beech,,,51.57,,25,,total weight2012,
+H22,HERB02,6014,EB,HW,EBHW_plot2_MR,2012,others,"Red spruce,Sugar Maple,y. birch, Canada Mayflower",,,130.87,,25,,total weight2012,
+H23,HERB03,6015,EB,HW,EBHW_plot3_MR,2012,1,Indian cucumber,,,2.5,,25,,total weight2012,
+H24,HERB03,6016,EB,HW,EBHW_plot3_MR,2012,2,Salomon's seal,,,6.73,,25,,total weight2012,
+H25,HERB03,6017,EB,HW,EBHW_plot3_MR,2012,3,Wild sarsaparilla,,,12.48,,25,,total weight2012,
+H26,HERB03,6018,EB,HW,EBHW_plot3_MR,2012,4,American beech,,,6.28,,25,,total weight2012,
+H27,HERB03,6019,EB,HW,EBHW_plot3_MR,2012,5,Sugar Maple,,,5.86,,25,,total weight2012,
+H28,HERB03,6020,EB,HW,EBHW_plot3_MR,2012,6,Striped Maple,,,13.46,,25,,total weight2012,
+H29,HERB03,6021,EB,HW,EBHW_plot3_MR,2012,others,Red Spruce,,,1.14,,25,,total weight2012,
+H30,HERB04,6022,EB,HW,EBHW_plot4_MR,2012,1,Lady slipper,,,1.83,,25,,total weight2012,
+H31,HERB04,6023,EB,HW,EBHW_plot4_MR,2012,2,Hay scented fern,,,2.89,,25,,total weight2012,
+H32,HERB04,6024,EB,HW,EBHW_plot4_MR,2012,3,Cornus racemosa,,,9.36,,25,,total weight2012,
+H33,HERB04,6025,EB,HW,EBHW_plot4_MR,2012,4,Indian cucumber,,,1.22,,25,,total weight2012,
+H34,HERB04,6026,EB,HW,EBHW_plot4_MR,2012,5,American beech,,,10.67,,25,,total weight2012,
+H35,HERB04,6027,EB,HW,EBHW_plot4_MR,2012,6,mountain maple,,,9.86,,25,,total weight2012,
+H36,HERB04,6028,EB,HW,EBHW_plot4_MR,2012,7,sugar maple,,,28.97,,25,,total weight2012,
+H37,HERB04,6029,EB,HW,EBHW_plot4_MR,2012,8,red maple,,,6.19,,25,,total weight2012,
+H38,HERB04,6030,EB,HW,EBHW_plot4_MR,2012,others,"Wild saraparilla,salomon's seal,red spruce",,,5.46,,25,,total weight2012,
+H39,HERB05,6031,EB,HW,EBHW_plot5_MR,2012,1,(hay-scented?) fern,,,10.54,,25,,total weight2012,
+H40,HERB05,6032,EB,HW,EBHW_plot5_MR,2012,2,Salomon's seal,,,6.4,,25,,total weight2012,
+H41,HERB05,6033,EB,HW,EBHW_plot5_MR,2012,3,Star flower,,,0.89,,25,,total weight2012,
+H42,HERB05,6034,EB,HW,EBHW_plot5_MR,2012,4,Wild sarsaparilla,,,6.81,,25,,total weight2012,
+H43,HERB05,6035,EB,HW,EBHW_plot5_MR,2012,5,Red Maple,,,8.1,,25,,total weight2012,
+H44,HERB05,6036,EB,HW,EBHW_plot5_MR,2012,6,Hobble Bush,,,26.76,,25,,total weight2012,
+H45,HERB05,6037,EB,HW,EBHW_plot5_MR,2012,7,Sugar Maple,,,27.26,,25,,total weight2012,
+H46,HERB05,6038,EB,HW,EBHW_plot5_MR,2012,8,American Beech,,,3.46,,25,,total weight2012,
+H47,HERB05,6039,EB,HW,EBHW_plot5_MR,2012,9,Mountain Maple,,,10.03,,25,,total weight2012,
+H48,HERB05,6040,EB,HW,EBHW_plot5_MR,2012,others,"Red Spruce,Yellow Birch ",,,18.48,,25,,total weight2012,
+H49,HERB06,6041,EB,SW,EBSW_plot1_MR,2012,1,Balsam fir,,,217.93,,25,,total weight2012,
+H50,HERB06,6042,EB,SW,EBSW_plot1_MR,2012,2,Red spruce,,,458.2,,25,,total weight2012,
+H51,HERB06,6043,EB,SW,EBSW_plot1_MR,2012,3,Cornus canadensis,,,0.29,,25,,total weight2012,
+H52,HERB06,6044,EB,SW,EBSW_plot1_MR,2012,others,Oak,,,0.27,,25,,total weight2012,
+H53,HERB07,6045,EB,SW,EBSW_plot2_MR,2012,1,Balsam fir,,,55.34,,25,,total weight2012,
+H54,HERB07,6046,EB,SW,EBSW_plot2_MR,2012,2,Yellow birch,,,4.71,,25,,total weight2012,
+H55,HERB07,6047,EB,SW,EBSW_plot2_MR,2012,3,American beech,,,2.47,,25,,total weight2012,
+H56,HERB07,6048,EB,SW,EBSW_plot2_MR,2012,others,red spruce/mountain maple,,,1.61,,25,,total weight2012,
+H57,HERB08,6049,EB,SW,EBSW_plot3_MR,2012,others,"Balsam fir, yellow birch",,,5.61,,25,,total weight2012,
+H58,HERB09,6050,EB,SW,EBSW_plot4_MR,2012,1,Balsam fir,,,755.49,,25,,total weight2012,
+H59,HERB09,6051,EB,SW,EBSW_plot4_MR,2012,2,Yellow birch,,,8.59,,25,,total weight2012,
+H60,HERB09,6052,EB,SW,EBSW_plot4_MR,2012,3,? maple,,,9.91,,25,,total weight2012,
+H61,HERB09,6053,EB,SW,EBSW_plot4_MR,2012,4,Salomon's seal,,,1.41,,25,,total weight2012,
+H62,HERB09,6054,EB,SW,EBSW_plot4_MR,2012,5,Mountain ash,,,3.93,,25,,total weight2012,
+H63,HERB10,6055,EB,SW,EBSW_plot5_MR,2012,1,Red spruce,,,23.34,,25,,total weight2012,
+H64,HERB10,6056,EB,SW,EBSW_plot5_MR,2012,2,Balsam fir,,,87.86,,25,,total weight2012,
+H65,HERB10,6057,EB,SW,EBSW_plot5_MR,2012,others,red maple/striped maple,,,0.16,,25,,total weight2012,
+H66,HERB11,6058,WB,HW,WBHW_plot1_MR,2012,1,American beech,,,18.27,,25,,total weight2012,
+H67,HERB11,6059,WB,HW,WBHW_plot1_MR,2012,2,Red spruce,,,51.08,,25,,total weight2012,
+H68,HERB11,6060,WB,HW,WBHW_plot1_MR,2012,3,Indian cucumber,,,0.41,,25,,total weight2012,
+H69,HERB11,6061,WB,HW,WBHW_plot1_MR,2012,others,"Fern, star flower, hobble bush",,,3.35,,25,,total weight2012,
+H70,HERB12,6062,WB,HW,WBHW_plot2_MR,2012,1,American beech,,,14.05,,25,,total weight2012,
+H71,HERB12,6063,WB,HW,WBHW_plot2_MR,2012,2,(hay-scented?) fern,,,24.16,,25,,total weight2012,
+H72,HERB12,6064,WB,HW,WBHW_plot2_MR,2012,3,hobble bush,,,2.49,,25,,total weight2012,
+H73,HERB12,6065,WB,HW,WBHW_plot2_MR,2012,4,Sugar Maple,,,19.52,,25,,total weight2012,
+H74,HERB13,6066,WB,HW,WBHW_plot3_MR,2012,1,Striped Maple,,,7.41,,25,,total weight2012,
+H75,HERB13,6067,WB,HW,WBHW_plot3_MR,2012,2,(hay-scented?) fern,,,46.33,,25,,total weight2012,
+H76,HERB13,6068,WB,HW,WBHW_plot3_MR,2012,3,American beech,,,3.8,,25,,total weight2012,
+H77,HERB13,6069,WB,HW,WBHW_plot3_MR,2012,4,Others,,,6.09,,25,,total weight2012,
+H78,HERB14,6070,WB,HW,WBHW_plot4_MR,2012,1,mountain maple,,,5.87,,25,,total weight2012,
+H79,HERB14,6071,WB,HW,WBHW_plot4_MR,2012,2,(hay-scented?) fern,,,6.98,,25,,total weight2012,
+H80,HERB14,6072,WB,HW,WBHW_plot4_MR,2012,3,American beech,,,8.24,,25,,total weight2012,
+H81,HERB14,6073,WB,HW,WBHW_plot4_MR,2012,4,Wild sarsaparilla,,,0.14,,25,,total weight2012,
+H82,HERB14,6074,WB,HW,WBHW_plot4_MR,2012,others,"Red spruce, hobble bush",,,35.29,,25,,total weight2012,
+H83,HERB15,6075,WB,HW,WBHW_plot5_MR,2012,1,Salomon's seal,,,26.66,,25,,total weight2012,
+H84,HERB15,6076,WB,HW,WBHW_plot5_MR,2012,2,American beech,,,24.12,,25,,total weight2012,
+H85,HERB15,6077,WB,HW,WBHW_plot5_MR,2012,3,Hobble bush,,,36.86,,25,,total weight2012,
+H86,HERB15,6078,WB,HW,WBHW_plot5_MR,2012,4,Moose maple,,,5.35,,25,,total weight2012,
+H87,HERB15,6079,WB,HW,WBHW_plot5_MR,2012,5,mountain maple,,,42.16,,25,,total weight2012,
+H88,HERB15,6080,WB,HW,WBHW_plot5_MR,2012,others,"(hay-scented?) fern, star flower, red spruce",,,15.24,,25,,total weight2012,
+H89,HERB16,6081,WB,SW,WBSW_plot1_MR,2012,1,Red spruce,,,203.88,,25,,total weight2012,
+H90,HERB16,6082,WB,SW,WBSW_plot1_MR,2012,2,(hay-scented?) fern,,,1.15,,25,,total weight2012,
+H91,HERB16,6083,WB,SW,WBSW_plot1_MR,2012,3,Low bush blueberry,,,1.65,,25,,total weight2012,
+H92,HERB16,6084,WB,SW,WBSW_plot1_MR,2012,4,? maple,,,0.18,,25,,total weight2012,
+H93,HERB16,6085,WB,SW,WBSW_plot1_MR,2012,5,Yellow birch,,,0.35,,25,,total weight2012,
+H94,HERB16,6086,WB,SW,WBSW_plot1_MR,2012,others,starflower,,,0.13,,25,,total weight2012,
+H95,HERB17,6087,WB,SW,WBSW_plot2_MR,2012,1,striped Maple,,,7.41,,25,,total weight2012,
+H96,HERB17,6088,WB,SW,WBSW_plot2_MR,2012,2,Red spruce,,,8.15,,25,,total weight2012,
+H97,HERB17,6089,WB,SW,WBSW_plot2_MR,2012,3,Star flower,,,2.39,,25,,total weight2012,
+H98,HERB17,6090,WB,SW,WBSW_plot2_MR,2012,4,Yellow birch,,,1.63,,25,,total weight2012,
+H99,HERB17,6091,WB,SW,WBSW_plot2_MR,2012,others,"red maple, hobble bush,ind.cucumber, star flower, solomons seal,balsam fir, wild sarsaparilla",,,1.65,,25,,total weight2012,
+H100,HERB18,6092,WB,SW,WBSW_plot3_MR,2012,1,Red spruce,,,3379.44,,25,,total weight2012,
+H101,HERB18,6093,WB,SW,WBSW_plot3_MR,2012,2,yellow birch,,,64.63,,25,,total weight2012,
+H102,HERB18,6094,WB,SW,WBSW_plot3_MR,2012,3,unkown to check!,,,,,25,redistributed to other samples for this plot,total weight2012,
+H103,HERB18,6095,WB,SW,WBSW_plot3_MR,2012,4,Red maple,,,12.06,,25,,total weight2012,
+H104,HERB18,6096,WB,SW,WBSW_plot3_MR,2012,5,mountain ash,,,14.54,,25,,total weight2012,
+H105,HERB18,6097,WB,SW,WBSW_plot3_MR,2012,others,indian cucumber/starflower,,,22.74,,25,,total weight2012,
+H106,HERB19,6098,WB,SW,WBSW_plot4_MR,2012,1,Red spruce,,,112.48,,25,,total weight2012,
+H107,HERB19,6099,WB,SW,WBSW_plot4_MR,2012,2,Yellow birch,,,1.77,,25,,total weight2012,
+H108,HERB19,6100,WB,SW,WBSW_plot4_MR,2012,3,Mountain ash,,,0.06,,25,,total weight2012,
+H109,HERB19,6101,WB,SW,WBSW_plot4_MR,2012,others,mountain maple,,,0.28,,25,,total weight2012,
+H110,HERB20,6102,WB,SW,WBSW_plot5_MR,2012,1,Red spruce,,,39.39,,25,,total weight2012,
+H111,HERB20,6103,WB,SW,WBSW_plot5_MR,2012,2,Mountain ash,,,2.93,,25,,total weight2012,
+H112,HERB20,6104,WB,SW,WBSW_plot5_MR,2012,3,Yellow birch,,,2.5,,25,,total weight2012,
+H113,HERB20,6105,WB,SW,WBSW_plot5_MR,2012,others,? maple,,,2.95,,25,,total weight2012,
+H114,HERB09,6106,EB,SW,EBSW_plot4_MR,2012,6,red spruce,,,105,,25,,total weight2012,
+H200,HERB21,6201,EB,HW,EBHW_plot1_MR,2013,1,Beech,39.868,7.506,32.362,20,25,,weight 2013,purple_highlight
+H201,HERB21,6202,EB,HW,EBHW_plot1_MR,2013,2,Indian Cucumber,15.27,7.67,7.6,5,25,,weight 2013,purple_highlight
+H202,HERB21,6203,EB,HW,EBHW_plot1_MR,2013,3,Canada Mayflower,14.35,7.67,6.68,4,25,,weight 2013,
+H203,HERB21,6204,EB,HW,EBHW_plot1_MR,2013,4,Sugar Maple,16.52,7.67,8.85,5,25,,weight 2013,purple_highlight
+H204,HERB21,6205,EB,HW,EBHW_plot1_MR,2013,5,Hobblebush,81.57,7.67,73.9,45,25,,weight 2013,purple_highlight
+H205,HERB21,6206,EB,HW,EBHW_plot1_MR,2013,others,,43.12,7.67,35.45,22,25,,weight 2013,purple_highlight
+H206,HERB22,6207,EB,HW,EBHW_plot2_MR,2013,1,Partridgeberry,75.58,7.67,67.91,29,25,,weight 2013,purple_highlight
+H207,HERB22,6208,EB,HW,EBHW_plot2_MR,2013,2,Indian Cucumber,23.81,7.67,16.14,7,25,,weight 2013,purple_highlight
+H208,HERB22,6209,EB,HW,EBHW_plot2_MR,2013,3,Solomons Seal,17.96,7.67,10.29,4,25,,weight 2013,
+H209,HERB22,6210,EB,HW,EBHW_plot2_MR,2013,4,Beech,81.58,7.67,73.91,31,25,,weight 2013,purple_highlight
+H210,HERB22,6211,EB,HW,EBHW_plot2_MR,2013,5,Wild Sarsaparilla,17.68,7.67,10.01,4,25,,weight 2013,
+H211,HERB22,6212,EB,HW,EBHW_plot2_MR,2013,others,,65.35,7.67,57.68,24,25,,weight 2013,purple_highlight
+H212,HERB23,6213,EB,HW,EBHW_plot3_MR,2013,1,Northern long-awned wood grass,40.82,7.67,33.15,33,25,,weight 2013,purple_highlight
+H213,HERB23,6214,EB,HW,EBHW_plot3_MR,2013,2,Solomons seal,13.21,7.67,5.54,5,25,,weight 2013,purple_highlight
+H214,HERB23,6215,EB,HW,EBHW_plot3_MR,2013,3,Mountain woodfern,22.49,7.67,14.82,15,25,,weight 2013,purple_highlight
+H215,HERB23,6216,EB,HW,EBHW_plot3_MR,2013,4,Sugar Maple,42.2,7.67,34.53,34,25,,weight 2013,purple_highlight
+H216,HERB23,6217,EB,HW,EBHW_plot3_MR,2013,5,Alternate leaved Dogwood,13.3,8.38,4.92,5,25,,weight 2013,purple_highlight
+H217,HERB23,6218,EB,HW,EBHW_plot3_MR,2013,others,,15.7,7.48,8.22,8,25,,weight 2013,purple_highlight
+H218,HERB24,6219,EB,HW,EBHW_plot4_MR,2013,1,Sugar Maple,78.04,7.67,70.37,33,25,,weight 2013,purple_highlight
+H219,HERB24,6220,EB,HW,EBHW_plot4_MR,2013,2,Striped Maple,94.78,7.67,87.11,41,25,,weight 2013,purple_highlight
+H220,HERB24,6221,EB,HW,EBHW_plot4_MR,2013,3,Northern long-awned wood grass,11.1,7.67,3.43,2,25,,weight 2013,
+H221,HERB24,6222,EB,HW,EBHW_plot4_MR,2013,4,Alternate leaved Dogwood,10.14,7.67,2.47,1,25,,weight 2013,
+H222,HERB24,6223,EB,HW,EBHW_plot4_MR,2013,5,x,,,0,0,25,,weight 2013,
+H223,HERB24,6224,EB,HW,EBHW_plot4_MR,2013,others,,57.44,7.67,49.77,23,25,,weight 2013,purple_highlight
+H224,HERB25,6225,EB,HW,EBHW_plot5_MR,2013,1,striped Maple,57.9,7.67,50.23,38,25,,weight 2013,purple_highlight
+H225,HERB25,6226,EB,HW,EBHW_plot5_MR,2013,2,Sugar Maple,34.65,7.67,26.98,20,25,,weight 2013,purple_highlight
+H226,HERB25,6227,EB,HW,EBHW_plot5_MR,2013,3,Alternate leaved Dogwood,26.09,7.67,18.42,14,25,,weight 2013,purple_highlight
+H227,HERB25,6228,EB,HW,EBHW_plot5_MR,2013,4,Mtn. Wood fern,22.22,7.76,14.46,11,25,,weight 2013,purple_highlight
+H228,HERB25,6229,EB,HW,EBHW_plot5_MR,2013,5,Canada Mayflower,8.98,7.08,1.9,1,25,,weight 2013,
+H229,HERB25,6230,EB,HW,EBHW_plot5_MR,2013,others,,27.81,8.04,19.77,15,25,,weight 2013,purple_highlight
+H230,HERB26,6231,EB,SW,EBSW_plot1_MR,2013,1,Red Spruce,83.27,7.67,75.6,82,25,,weight 2013,purple_highlight
+H231,HERB26,6232,EB,SW,EBSW_plot1_MR,2013,2,Balsam Fir,24.208,7.67,16.538,18,25,,weight 2013,purple_highlight
+H232,HERB26,6233,EB,SW,EBSW_plot1_MR,2013,3,X,,,0,0,25,,weight 2013,
+H233,HERB26,6234,EB,SW,EBSW_plot1_MR,2013,4,X,,,0,0,25,,weight 2013,
+H234,HERB26,6235,EB,SW,EBSW_plot1_MR,2013,5,X,,,0,0,25,,weight 2013,
+H235,HERB26,6236,EB,SW,EBSW_plot1_MR,2013,others,,8.2,7.6,0.6,1,25,,weight 2013,
+H236,HERB27,6237,EB,SW,EBSW_plot2_MR,2013,1,Balsam Fir,692,15.82,676.18,99,25,,weight 2013,purple_highlight
+H237,HERB27,6238,EB,SW,EBSW_plot2_MR,2013,2,X,,,0,0,25,,weight 2013,
+H238,HERB27,6239,EB,SW,EBSW_plot2_MR,2013,3,X,,,0,0,25,,weight 2013,
+H239,HERB27,6240,EB,SW,EBSW_plot2_MR,2013,4,X,,,0,0,25,,weight 2013,
+H240,HERB27,6241,EB,SW,EBSW_plot2_MR,2013,others,,17.4,7.9,9.5,1,25,,weight 2013,
+H241,HERB28,6242,EB,SW,EBSW_plot3_MR,2013,1,X,,,0,0,25,,weight 2013,
+H242,HERB28,6243,EB,SW,EBSW_plot3_MR,2013,2,X,,,0,0,25,,weight 2013,
+H243,HERB28,6244,EB,SW,EBSW_plot3_MR,2013,3,X,,,0,0,25,,weight 2013,
+H244,HERB28,6245,EB,SW,EBSW_plot3_MR,2013,4,X,,,0,0,25,,weight 2013,
+H245,HERB28,6246,EB,SW,EBSW_plot3_MR,2013,5,X,,,0,0,25,,weight 2013,
+H246,HERB28,6247,EB,SW,EBSW_plot3_MR,2013,others,,,,0,0,25,,weight 2013,
+H247,HERB29,6248,EB,SW,EBSW_plot4_MR,2013,1,Balsam Fir,1433.9,41,1392.9,93,25,,weight 2013,purple_highlight
+H248,HERB29,6249,EB,SW,EBSW_plot4_MR,2013,2,Red Spruce,103.2,7.67,95.53,6,25,,weight 2013,purple_highlight
+H249,HERB29,6250,EB,SW,EBSW_plot4_MR,2013,3,X,,,0,0,25,,weight 2013,
+H250,HERB29,6251,EB,SW,EBSW_plot4_MR,2013,4,X,,,0,0,25,,weight 2013,
+H251,HERB29,6252,EB,SW,EBSW_plot4_MR,2013,5,X,,,0,0,25,,weight 2013,
+H252,HERB29,6253,EB,SW,EBSW_plot4_MR,2013,others,,10.29,7.884,2.406,0.2,25,,weight 2013,
+H253,HERB30,6254,EB,SW,EBSW_plot5_MR,2013,1,Balsam Fir,56.835,7.67,49.165,88,25,,weight 2013,purple_highlight
+H254,HERB30,6255,EB,SW,EBSW_plot5_MR,2013,2,Red Spruce,14.194,7.67,6.524,12,25,,weight 2013,purple_highlight
+H255,HERB30,6256,EB,SW,EBSW_plot5_MR,2013,3,X,,,0,0,25,,weight 2013,
+H256,HERB30,6257,EB,SW,EBSW_plot5_MR,2013,4,X,,,0,0,25,,weight 2013,
+H257,HERB30,6258,EB,SW,EBSW_plot5_MR,2013,5,X,,,0,0,25,,weight 2013,
+H258,HERB30,6259,EB,SW,EBSW_plot5_MR,2013,others,,8.1,7.7,0.4,1,25,,weight 2013,
+H259,HERB31,6260,WB,HW,WBHW_plot1_MR,2013,1,Striped Maple,27.97,7.67,20.3,20,25,,weight 2013,purple_highlight
+H260,HERB31,6261,WB,HW,WBHW_plot1_MR,2013,2,Sugar Maple,19.32,7.67,11.65,11,25,,weight 2013,purple_highlight
+H261,HERB31,6262,WB,HW,WBHW_plot1_MR,2013,3,Beech,12.84,7.67,5.17,5,25,,weight 2013,purple_highlight
+H262,HERB31,6263,WB,HW,WBHW_plot1_MR,2013,4,Hobblebush,15.59,7.67,7.92,8,25,,weight 2013,purple_highlight
+H263,HERB31,6264,WB,HW,WBHW_plot1_MR,2013,5,Mountain Wood Fern,27.93,7.67,20.26,20,25,,weight 2013,purple_highlight
+H264,HERB31,6265,WB,HW,WBHW_plot1_MR,2013,others,,43.93,7.67,36.26,36,25,,weight 2013,purple_highlight
+H265,HERB32,6266,WB,HW,WBHW_plot2_MR,2013,1,Hobblebush,196.33,7.67,188.66,56,25,,weight 2013,purple_highlight
+H266,HERB32,6267,WB,HW,WBHW_plot2_MR,2013,2,Mountain woodfern,144.2,7.67,136.53,41,25,,weight 2013,purple_highlight
+H267,HERB32,6268,WB,HW,WBHW_plot2_MR,2013,3,Solomons seal,8.7,7.67,1.03,0,25,,weight 2013,
+H268,HERB32,6269,WB,HW,WBHW_plot2_MR,2013,4,Striped Maple,8.57,7.67,0.9,0,25,,weight 2013,
+H269,HERB32,6270,WB,HW,WBHW_plot2_MR,2013,5,Beech,12.46,7.67,4.79,1,25,,weight 2013,
+H270,HERB32,6271,WB,HW,WBHW_plot2_MR,2013,others,,10.36,7.67,2.69,1,25,,weight 2013,
+H271,HERB33,6272,WB,HW,WBHW_plot3_MR,2013,1,Mountain woodfern,141.45,7.67,133.78,35,25,,weight 2013,purple_highlight
+H272,HERB33,6273,WB,HW,WBHW_plot3_MR,2013,2,Striped Maple,11.08,7.67,3.41,0.9,25,,weight 2013,
+H273,HERB33,6274,WB,HW,WBHW_plot3_MR,2013,3,Red Spruce,244.55,7.67,236.88,61.7,25,,weight 2013,purple_highlight
+H274,HERB33,6275,WB,HW,WBHW_plot3_MR,2013,4,x,,,0,0,25,,weight 2013,
+H275,HERB33,6276,WB,HW,WBHW_plot3_MR,2013,5,x,,,0,0,25,,weight 2013,
+H276,HERB33,6277,WB,HW,WBHW_plot3_MR,2013,others,,17.22,7.67,9.55,2.489442678,25,,weight 2013,
+H277,HERB34,6278,WB,HW,WBHW_plot4_MR,2013,1,Canada Mayflower,27.419,7.42,19.999,16.6,25,,weight 2013,purple_highlight
+H278,HERB34,6279,WB,HW,WBHW_plot4_MR,2013,2,Beech,61.664,15.64,46.024,38.2,25,,weight 2013,purple_highlight
+H279,HERB34,6280,WB,HW,WBHW_plot4_MR,2013,3,Sugar Maple,8.07,7.67,0.4,0.3,25,,weight 2013,
+H280,HERB34,6281,WB,HW,WBHW_plot4_MR,2013,4,Solomons Seal,59.42,7.67,51.75,43,25,,weight 2013,purple_highlight
+H281,HERB34,6282,WB,HW,WBHW_plot4_MR,2013,5,x,,,0,0,25,,weight 2013,
+H282,HERB34,6283,WB,HW,WBHW_plot4_MR,2013,others,,9.92,7.67,2.25,1.9,25,,weight 2013,
+H283,HERB35,6284,WB,HW,WBHW_plot5_MR,2013,1,Canada Mayflower,15.07,8.73,6.34,12.7,25,,weight 2013,purple_highlight
+H284,HERB35,6285,WB,HW,WBHW_plot5_MR,2013,2,Solomons seal,15.023,7.6,7.423,14.9,25,,weight 2013,purple_highlight
+H285,HERB35,6286,WB,HW,WBHW_plot5_MR,2013,3,Striped Maple,15.03,7.75,7.28,14.6,25,,weight 2013,purple_highlight
+H286,HERB35,6287,WB,HW,WBHW_plot5_MR,2013,4,Beech,19.91,7.57,12.34,24.8,25,,weight 2013,purple_highlight
+H287,HERB35,6288,WB,HW,WBHW_plot5_MR,2013,5,Hobble Bush,11.927,7.67,4.257,8.6,25,,weight 2013,purple_highlight
+H288,HERB35,6289,WB,HW,WBHW_plot5_MR,2013,others,,19.8,7.67,12.13,24.4,25,,weight 2013,purple_highlight
+H289,HERB36,6290,WB,SW,WBSW_plot1_MR,2013,1,Red Spruce,83.916,8.518,75.398,64.5,25,,weight 2013,purple_highlight
+H290,HERB36,6291,WB,SW,WBSW_plot1_MR,2013,2,Yellow Birch,20.905,8.581,12.324,10.5,25,,weight 2013,purple_highlight
+H291,HERB36,6292,WB,SW,WBSW_plot1_MR,2013,3,Hobble Bush,13.47,7.67,5.8,5,25,,weight 2013,purple_highlight
+H292,HERB36,6293,WB,SW,WBSW_plot1_MR,2013,4,Mountain woodfern,20.08,8.184,11.896,10.2,25,,weight 2013,purple_highlight
+H293,HERB36,6294,WB,SW,WBSW_plot1_MR,2013,5,X,,,0,0,25,,weight 2013,
+H294,HERB36,6295,WB,SW,WBSW_plot1_MR,2013,others,,20.789,9.353,11.436,9.8,25,,weight 2013,purple_highlight
+H295,HERB37,6296,WB,SW,WBSW_plot2_MR,2013,1,Red Spruce,361.64,7.701,353.939,91.3,25,,weight 2013,purple_highlight
+H296,HERB37,6297,WB,SW,WBSW_plot2_MR,2013,2,Lowbush Blueberry,19.6,8.125,11.475,3,25,,weight 2013,
+H297,HERB37,6298,WB,SW,WBSW_plot2_MR,2013,3,Yellow Birch,8.5,7.9,0.6,0.2,25,,weight 2013,
+H298,HERB37,6299,WB,SW,WBSW_plot2_MR,2013,4,American Beech,10.18,7.67,2.51,0.6,25,,weight 2013,
+H299,HERB37,6300,WB,SW,WBSW_plot2_MR,2013,5,Wild Sarsaparilla,10.66,7.67,2.99,0.8,25,,weight 2013,
+H300,HERB37,6301,WB,SW,WBSW_plot2_MR,2013,others,,23.71,7.67,16.04,4.1,25,,weight 2013,
+H301,HERB38,6302,WB,SW,WBSW_plot3_MR,2013,1,Red Spruce,586.4,7.67,578.73,88.9,25,,weight 2013,purple_highlight
+H302,HERB38,6303,WB,SW,WBSW_plot3_MR,2013,2,Yellow Birch,17.9,7.73,10.17,1.6,25,,weight 2013,
+H303,HERB38,6304,WB,SW,WBSW_plot3_MR,2013,3,Solomons seal,8.86,8.63,0.23,0,25,,weight 2013,
+H304,HERB38,6305,WB,SW,WBSW_plot3_MR,2013,4,Alternate leaved Dogwood,24.4,7.67,16.73,2.6,25,,weight 2013,
+H305,HERB38,6306,WB,SW,WBSW_plot3_MR,2013,5,Northern long-awned wood grass,8.736,7.67,1.066,0.2,25,,weight 2013,
+H306,HERB38,6307,WB,SW,WBSW_plot3_MR,2013,others,,52.27,8.135,44.135,6.8,25,,weight 2013,purple_highlight
+H307,HERB39,6308,WB,SW,WBSW_plot4_MR,2013,1,Red Spruce,152.9,7.67,145.23,95.9,25,,weight 2013,purple_highlight
+H308,HERB39,6309,WB,SW,WBSW_plot4_MR,2013,2,Yellow Birch,13.33,7.67,5.66,3.7,25,,weight 2013,
+H309,HERB39,6310,WB,SW,WBSW_plot4_MR,2013,3,X,,,0,0,25,,weight 2013,
+H310,HERB39,6311,WB,SW,WBSW_plot4_MR,2013,4,X,,,0,0,25,,weight 2013,
+H311,HERB39,6312,WB,SW,WBSW_plot4_MR,2013,5,X,,,0,0,25,,weight 2013,
+H312,HERB39,6313,WB,SW,WBSW_plot4_MR,2013,others,,8.28,7.67,0.61,0.4,25,,weight 2013,
+H313,HERB40,6314,WB,SW,WBSW_plot5_MR,2013,1,Red Spruce,41.93,7.922,34.008,92.4,25,,weight 2013,purple_highlight
+H314,HERB40,6315,WB,SW,WBSW_plot5_MR,2013,2,Yellow Birch,8.74,7.67,1.07,2.9,25,,weight 2013,
+H315,HERB40,6316,WB,SW,WBSW_plot5_MR,2013,3,X,,,0,0,25,,weight 2013,
+H316,HERB40,6317,WB,SW,WBSW_plot5_MR,2013,4,X,,,0,0,25,,weight 2013,
+H317,HERB40,6318,WB,SW,WBSW_plot5_MR,2013,5,X,,,0,0,25,,weight 2013,
+H318,HERB40,6319,WB,SW,WBSW_plot5_MR,2013,others,,9.388,7.67,1.718,4.7,25,,weight 2013,purple_highlight

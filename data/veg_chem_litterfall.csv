@@ -1,4 +1,4 @@
-﻿Sample ID,d13C,C Amount (ug),d13C Comment,d15N,N Amount (ug),d15N Comment,Tray Name,Well Id,Type of Material,Analysis,Enriched?,Estimated Enrichment,Amount (mg),OurLabID,Analysis Number,WS,Veg,Plot,Chase,Trmt,Species,[C] mg/g,[N] mg/g,Lf type,source_file,Yr
+﻿sample_ID,d13C,C_amount_ug,d13C Comment,d15N,N_amount_ug,d15N Comment,Tray Name,Well Id,Type of Material,Analysis,Enriched?,Estimated Enrichment,amount_mg,OurLabID,Analysis Number,watershed,forest,Plot,Chase,Trmt,species,[C] mg/g,[N] mg/g,lf_type,source_file,year
 13-031,-31.39,2108.36,,3.13,43,,BBWM LF2013,A1,Litterfall,"13C,15N",Yes,,4.44,742035,4570,EB,HW,4,468,no P,AB,475,9.69,non-woody,Spencer BBWM-LF-2013 0814,2013
 13-027,-28.96,2254.84,,-0.87,24.3,,BBWM LF2013,A2,Litterfall,"13C,15N",Yes,,4.4,742036,4571,EB,HW,3,468,no P,woody,512,5.52,woody,Spencer BBWM-LF-2013 0814,2013
 13-024,-28.74,2198.54,,2.85,39.46,,BBWM LF2013,A3,Litterfall,"13C,15N",Yes,,4.46,742037,4572,EB,HW,3,468,no P,SM,493,8.85,non-woody,Spencer BBWM-LF-2013 0814,2013
@@ -51,7 +51,7 @@
 ,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,
-Sample ID,,,,d15N,N Amount (ug),d15N Comment,Tray Name,Well Id,Type of Material,Analysis,Enriched?,Estimated Enrichment,Amount (mg),OurLabID,Analysis Number,WS,FT,Plot,,,,,[N] mg/g,Type,,Yr
+,,,,,,,,,,,,,,,,,,,,,,,,,,
 LF12_41,,,,7.98,89.15,,BBWM LF12WOOD,A1,Woody Litter Fall,"13C, 15N",Yes,,15,663583,218784,EB,SW,1,,,,,5.943574002,woody,Spencer BBWM-LF12WOOD 0214,2012
 LF12_49,,,,1.93,113.65,,BBWM LF12WOOD,A2,Woody Litter Fall,"13C, 15N",Yes,,15.3,663584,218785,EB,SW,2,,,,,7.428076077,woody,Spencer BBWM-LF12WOOD 0214,2012
 LF12_57,,,,-3.09,113.65,,BBWM LF12WOOD,A3,Woody Litter Fall,"13C, 15N",Yes,,15.5,663585,218786,EB,SW,3,,,,,7.332229934,woody,Spencer BBWM-LF12WOOD 0214,2012

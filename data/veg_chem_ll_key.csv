@@ -1,0 +1,305 @@
+﻿sample_ID,material,watershed,forest,plot,p_trt,chase_day
+LL1001,Forest Floor loose litter,EB,HW,1,noP,1
+LL1002,Loose Litter,EB,HW,2,noP,1
+LL1003,Forest Floor loose litter,EB,HW,3,noP,1
+LL1004,Loose Litter,EB,HW,4,noP,1
+LL1005,Loose Litter,EB,HW,5,noP,1
+LL1011,Forest Floor loose litter,EB,SW,1,noP,1
+LL1012,Loose Litter,EB,SW,2,noP,1
+LL1013,Forest Floor loose litter,EB,SW,3,noP,1
+LL1014,Loose Litter,EB,SW,4,noP,1
+LL1015,Loose Litter,EB,SW,5,noP,1
+LL1021,Forest Floor loose litter,WB,HW,1,noP,1
+LL1022,Loose Litter,WB,HW,2,noP,1
+LL1023,Forest Floor loose litter,WB,HW,3,noP,1
+LL1024,Loose Litter,WB,HW,4,noP,1
+LL1025,Loose Litter,WB,HW,5,noP,1
+LL1031,Forest Floor loose litter,WB,SW,1,noP,1
+LL1032,Loose Litter,WB,SW,2,noP,1
+LL1033,Loose Litter,WB,SW,3,noP,1
+LL1034,Loose Litter,WB,SW,4,noP,1
+LL1035,Loose Litter,WB,SW,5,noP,1
+LL1041,Forest Floor loose litter,EB,RT,1,noP,1
+LL1042,Forest Floor loose litter,EB,RT,2,noP,1
+LL1043,Forest Floor loose litter,EB,RT,3,noP,1
+LL1047,Forest Floor loose litter,WB,RT,1,noP,1
+LL1048,Forest Floor loose litter,WB,RT,2,noP,1
+LL1049,Loose Litter,WB,RT,2,noP,1
+LL1101,Forest Floor loose litter,EB,HW,1,P fertilized,1
+LL1102,Loose Litter,EB,HW,2,P fertilized,1
+LL1103,Forest Floor loose litter,EB,HW,3,P fertilized,1
+LL1104,Loose Litter,EB,HW,4,P fertilized,1
+LL1105,Loose Litter,EB,HW,5,P fertilized,1
+LL1111,Forest Floor loose litter,EB,SW,1,P fertilized,1
+LL1112,Loose Litter,EB,SW,2,P fertilized,1
+LL1113,Forest Floor loose litter,EB,SW,3,P fertilized,1
+LL1114,Loose Litter,EB,SW,4,P fertilized,1
+LL1115,Loose Litter,EB,SW,5,P fertilized,1
+LL1121,Forest Floor loose litter,WB,HW,1,P fertilized,1
+LL1122,Loose Litter,WB,HW,2,P fertilized,1
+LL1123,Forest Floor loose litter,WB,HW,3,P fertilized,1
+LL1124,Loose Litter,WB,HW,4,P fertilized,1
+LL1125,Loose Litter,WB,HW,5,P fertilized,1
+LL1131,Forest Floor loose litter,WB,SW,1,P fertilized,1
+LL1132,Forest Floor loose litter,WB,SW,2,P fertilized,1
+LL1133,Loose Litter,WB,SW,3,P fertilized,1
+LL1134,Loose Litter,WB,SW,4,P fertilized,1
+LL1135,Loose Litter,WB,SW,5,P fertilized,1
+LL1135Rep,Loose Litter,WB,SW,5,P fertilized,1
+LL1201,Forest Floor loose litter,EB,HW,1,noP,14
+LL1202,Loose Litter,EB,HW,2,noP,14
+LL1203,Forest Floor loose litter,EB,HW,3,noP,14
+LL1204,Loose Litter,EB,HW,4,noP,14
+LL1205,Loose Litter,EB,HW,5,noP,14
+LL1211,Forest Floor loose litter,EB,SW,1,noP,14
+LL1212,Loose Litter,EB,SW,2,noP,14
+LL1213,Forest Floor loose litter,EB,SW,3,noP,14
+LL1214,Loose Litter,EB,SW,4,noP,14
+LL1215,Loose Litter,EB,SW,5,noP,14
+LL1221,Forest Floor loose litter,WB,HW,1,noP,14
+LL1222,Loose Litter,WB,HW,2,noP,14
+LL1223,Forest Floor loose litter,WB,HW,3,noP,14
+LL1224,Loose Litter,WB,HW,4,noP,14
+LL1225,Loose Litter,WB,HW,5,noP,14
+LL1231,Forest Floor loose litter,WB,SW,1,noP,14
+LL1232,Forest Floor loose litter,WB,SW,2,noP,14
+LL1233,Loose Litter,WB,SW,3,noP,14
+LL1234,Loose Litter,WB,SW,4,noP,14
+LL1235,Loose Litter,WB,SW,5,noP,14
+LL1241,Forest Floor loose litter,EB,RT,1,noP,14
+LL1241Rep,Forest Floor loose litter,EB,RT,1,noP,14
+LL1242,Forest Floor loose litter,EB,RT,2,noP,14
+LL1243,Forest Floor loose litter,EB,RT,3,noP,14
+LL1247,Forest Floor loose litter,WB,RT,1,noP,14
+LL1248,Forest Floor loose litter,WB,RT,2,noP,14
+LL1249,Forest Floor loose litter,WB,RT,3,noP,14
+LL1301,Forest Floor loose litter,EB,HW,1,P fertilized,14
+LL1302,Loose Litter,EB,HW,2,P fertilized,14
+LL1303,Forest Floor loose litter,EB,HW,3,P fertilized,14
+LL1304,Loose Litter,EB,HW,4,P fertilized,14
+LL1305,Loose Litter,EB,HW,5,P fertilized,14
+LL1311,Forest Floor loose litter,EB,SW,1,P fertilized,14
+LL1312,Loose Litter,EB,SW,2,P fertilized,14
+LL1313,Forest Floor loose litter,EB,SW,3,P fertilized,14
+LL1314,Loose Litter,EB,SW,4,P fertilized,14
+LL1315,Loose Litter,EB,SW,5,P fertilized,14
+LL1321,Forest Floor loose litter,WB,HW,1,P fertilized,14
+LL1322,Loose Litter,WB,HW,2,P fertilized,14
+LL1323,Forest Floor loose litter,WB,HW,3,P fertilized,14
+LL1324,Loose Litter,WB,HW,4,P fertilized,14
+LL1325,Loose Litter,WB,HW,5,P fertilized,14
+LL1331,Forest Floor loose litter,WB,SW,1,P fertilized,14
+LL1332,Forest Floor loose litter,WB,SW,2,P fertilized,14
+LL1333,Loose Litter,WB,SW,3,P fertilized,14
+LL1334,Loose Litter,WB,SW,4,P fertilized,14
+LL1335,Loose Litter,WB,SW,5,P fertilized,14
+LL1335Rep,Loose Litter,WB,SW,5,P fertilized,14
+LL1401,Forest Floor litter,EB,HW,1,noP,34
+LL1402,Forest Floor loose litter,EB,HW,2,noP,34
+LL1403,Forest Floor litter,EB,HW,3,noP,34
+LL1404,Forest Floor loose litter,EB,HW,4,noP,34
+LL1405,Forest Floor loose litter,EB,HW,5,noP,34
+LL1411,Loose Litter,EB,SW,1,noP,34
+LL1412,Forest Floor loose litter,EB,SW,2,noP,34
+LL1413,Forest Floor litter,EB,SW,3,noP,34
+LL1414,Forest Floor loose litter,EB,SW,4,noP,34
+LL1415,Forest Floor loose litter,EB,SW,5,noP,34
+LL1421,Forest Floor litter,WB,HW,1,noP,34
+LL1422,Forest Floor loose litter,WB,HW,2,noP,34
+LL1423,Forest Floor litter,WB,HW,3,noP,34
+LL1424,Forest Floor loose litter,WB,HW,4,noP,34
+LL1425,Forest Floor loose litter,WB,HW,5,noP,34
+LL1431,Forest Floor litter,WB,SW,1,noP,34
+LL1432,Forest Floor litter,WB,SW,2,noP,34
+LL1433,Forest Floor loose litter,WB,SW,3,noP,34
+LL1434,Forest Floor loose litter,WB,SW,4,noP,34
+LL1435,Forest Floor loose litter,WB,SW,5,noP,34
+LL1441,Forest Floor litter,EB,RT,1,noP,34
+LL1442,Forest Floor litter,EB,RT,2,noP,34
+LL1443,Forest Floor litter,EB,RT,3,noP,34
+LL1447,Forest Floor litter,WB,RT,1,noP,34
+LL1448,Forest Floor litter,WB,RT,2,noP,34
+LL1449,Forest Floor litter,WB,RT,3,noP,34
+LL1501,Forest Floor litter,EB,HW,1,P fertilized,34
+LL1502,Forest Floor loose litter,EB,HW,2,P fertilized,34
+LL1503,Forest Floor litter,EB,HW,3,P fertilized,34
+LL1504,Forest Floor loose litter,EB,HW,4,P fertilized,34
+LL1505,Forest Floor loose litter,EB,HW,5,P fertilized,34
+LL1511,Forest Floor litter,EB,SW,1,P fertilized,34
+LL1512,Forest Floor loose litter,EB,SW,2,P fertilized,34
+LL1513,Forest Floor litter,EB,SW,3,P fertilized,34
+LL1514,Forest Floor loose litter,EB,SW,4,P fertilized,34
+LL1515,Forest Floor loose litter,EB,SW,5,P fertilized,34
+LL1521,Forest Floor litter,WB,HW,1,P fertilized,34
+LL1522,Forest Floor loose litter,WB,HW,2,P fertilized,34
+LL1523,Forest Floor litter,WB,HW,3,P fertilized,34
+LL1524,Forest Floor loose litter,WB,HW,4,P fertilized,34
+LL1524Rep,Forest Floor loose litter,WB,HW,4,P fertilized,34
+LL1525,Forest Floor loose litter,WB,HW,5,P fertilized,34
+LL1531,Forest Floor litter,WB,SW,1,P fertilized,34
+LL1532,Forest Floor litter,WB,SW,2,P fertilized,34
+LL1533,Forest Floor loose litter,WB,SW,3,P fertilized,34
+LL1534,Forest Floor loose litter,WB,SW,4,P fertilized,34
+LL1535,Forest Floor loose litter,WB,SW,5,P fertilized,34
+LL1601,Forest Floor litter,EB,HW,1,noP,62
+LL1602,Forest Floor loose litter,EB,HW,2,noP,62
+LL1603,Forest Floor litter,EB,HW,3,noP,62
+LL1604,Forest Floor loose litter,EB,HW,4,noP,62
+LL1605,Forest Floor loose litter,EB,HW,5,noP,62
+LL1611,Forest Floor litter,EB,SW,1,noP,62
+LL1612,Forest Floor loose litter,EB,SW,2,noP,62
+LL1613,Forest Floor litter,EB,SW,3,noP,62
+LL1614,Forest Floor loose litter,EB,SW,4,noP,62
+LL1615,Forest Floor loose litter,EB,SW,5,noP,62
+LL1621,Forest Floor litter,WB,HW,1,noP,62
+LL1622,Forest Floor loose litter,WB,HW,2,noP,62
+LL1623,Forest Floor litter,WB,HW,3,noP,62
+LL1624,Forest Floor loose litter,WB,HW,4,noP,62
+LL1625,Forest Floor loose litter,WB,HW,5,noP,62
+LL1631,Forest Floor litter,WB,SW,1,noP,62
+LL1631Rep,Forest Floor litter,WB,SW,1,noP,62
+LL1632,Forest Floor litter,WB,SW,2,noP,62
+LL1633,Forest Floor loose litter,WB,SW,3,noP,62
+LL1634,Forest Floor loose litter,WB,SW,4,noP,62
+LL1635,Forest Floor loose litter,WB,SW,5,noP,62
+LL1641,Forest Floor litter,EB,RT,1,noP,62
+LL1642,Forest Floor litter,EB,RT,2,noP,62
+LL1643,Forest Floor litter,EB,RT,3,noP,62
+LL1647,Forest Floor litter,WB,RT,1,noP,62
+LL1648,Forest Floor litter,WB,RT,2,noP,62
+LL1649,Forest Floor litter,WB,RT,3,noP,62
+LL1701,Forest Floor litter,EB,HW,1,P fertilized,62
+LL1702,Forest Floor loose litter,EB,HW,2,P fertilized,62
+LL1703,Forest Floor litter,EB,HW,3,P fertilized,62
+LL1704,Forest Floor loose litter,EB,HW,4,P fertilized,62
+LL1705,Forest Floor loose litter,EB,HW,5,P fertilized,62
+LL1711,Forest Floor litter,EB,SW,1,P fertilized,62
+LL1712,Forest Floor loose litter,EB,SW,2,P fertilized,62
+LL1713,Forest Floor litter,EB,SW,3,P fertilized,62
+LL1714,Forest Floor loose litter,EB,SW,4,P fertilized,62
+LL1715,Forest Floor loose litter,EB,SW,5,P fertilized,62
+LL1715Rep,Forest Floor loose litter,EB,SW,5,P fertilized,62
+LL1721,Forest Floor litter,WB,HW,1,P fertilized,62
+LL1722,Forest Floor loose litter,WB,HW,2,P fertilized,62
+LL1723,Forest Floor litter,WB,HW,3,P fertilized,62
+LL1724,Forest Floor loose litter,WB,HW,4,P fertilized,62
+LL1725,Forest Floor loose litter,WB,HW,5,P fertilized,62
+LL1731,Forest Floor litter,WB,SW,1,P fertilized,62
+LL1732,Forest Floor litter,WB,SW,2,P fertilized,62
+LL1733,Forest Floor loose litter,WB,SW,3,P fertilized,62
+LL1734,Forest Floor loose litter,WB,SW,4,P fertilized,62
+LL1735,Forest Floor loose litter,WB,SW,5,P fertilized,62
+LL1801,Forest Floor litter,EB,HW,1,noP,136
+LL1802,Forest Floor loose litter,EB,HW,2,noP,136
+LL1803,Forest Floor litter,EB,HW,3,noP,136
+LL1804,Forest Floor loose litter,EB,HW,4,noP,136
+LL1805,Forest Floor loose litter,EB,HW,5,noP,136
+LL1811,Forest Floor litter,EB,SW,1,noP,136
+LL1812,Forest Floor loose litter,EB,SW,2,noP,136
+LL1813,Forest Floor litter,EB,SW,3,noP,136
+LL1814,Forest Floor loose litter,EB,SW,4,noP,136
+LL1815,Forest Floor loose litter,EB,SW,5,noP,136
+LL1821,Forest Floor litter,WB,HW,1,noP,136
+LL1822,Forest Floor loose litter,WB,HW,2,noP,136
+LL1823,Forest Floor litter,WB,HW,3,noP,136
+LL1824,Forest Floor loose litter,WB,HW,4,noP,136
+LL1825,Forest Floor loose litter,WB,HW,5,noP,136
+LL1831,Forest Floor litter,WB,SW,1,noP,136
+LL1832,Forest Floor litter,WB,SW,2,noP,136
+LL1833,Forest Floor loose litter,WB,SW,3,noP,136
+LL1834,Forest Floor loose litter,WB,SW,4,noP,136
+LL1835,Forest Floor loose litter,WB,SW,5,noP,136
+LL1835Rep,Forest Floor loose litter,WB,SW,5,noP,136
+LL1841,Forest Floor litter,EB,RT,1,noP,136
+LL1842,Forest Floor litter,EB,RT,2,noP,136
+LL1843,Forest Floor litter,EB,RT,3,noP,136
+LL1847,Forest Floor litter,WB,RT,1,noP,136
+LL1848,Forest Floor litter,WB,RT,2,noP,136
+LL1849,Forest Floor litter,WB,RT,3,noP,136
+LL1901,Forest Floor litter,EB,HW,1,P fertilized,136
+LL1902,Forest Floor loose litter,EB,HW,2,P fertilized,136
+LL1903,Forest Floor litter,EB,HW,3,P fertilized,136
+LL1904,Forest Floor loose litter,EB,HW,4,P fertilized,136
+LL1905,Forest Floor loose litter,EB,HW,5,P fertilized,136
+LL1911,Forest Floor litter,EB,SW,1,P fertilized,136
+LL1912,Forest Floor loose litter,EB,SW,2,P fertilized,136
+LL1913,Forest Floor litter,EB,SW,3,P fertilized,136
+LL1914,Forest Floor loose litter,EB,SW,4,P fertilized,136
+LL1915,Forest Floor loose litter,EB,SW,5,P fertilized,136
+LL1921,Forest Floor litter,WB,HW,1,P fertilized,136
+LL1922,Forest Floor loose litter,WB,HW,2,P fertilized,136
+LL1923,Forest Floor litter,WB,HW,3,P fertilized,136
+LL1924,Forest Floor loose litter,WB,HW,4,P fertilized,136
+LL1925,Forest Floor loose litter,WB,HW,5,P fertilized,136
+LL1931,Forest Floor litter,WB,SW,1,P fertilized,136
+LL1932,Forest Floor litter,WB,SW,2,P fertilized,136
+LL1932Rep,Forest Floor litter,WB,SW,2,P fertilized,136
+LL1933,Forest Floor loose litter,WB,SW,3,P fertilized,136
+LL1934,Forest Floor loose litter,WB,SW,4,P fertilized,136
+LL1935,Forest Floor loose litter,WB,SW,5,P fertilized,136
+LL1935Rep,Forest Floor loose litter,WB,SW,5,P fertilized,136
+LL2002,Forest Floor Litter,EB,HW,2,noP,406
+LL2004,Forest Floor Litter,EB,HW,4,noP,406
+LL2005,Forest Floor Litter,EB,HW,5,noP,406
+LL2012,Forest Floor Litter,EB,SW,2,noP,406
+LL2014,Forest Floor Litter,EB,SW,4,noP,406
+LL2015,Forest Floor Litter,EB,SW,5,noP,406
+LL2022,Forest Floor Litter,WB,HW,2,noP,406
+LL2024,Forest Floor Litter,WB,HW,4,noP,406
+LL2025,Forest Floor Litter,WB,HW,5,noP,406
+LL2033,Forest Floor Litter,WB,SW,3,noP,406
+LL2034,Forest Floor Litter,WB,SW,4,noP,406
+LL2035,Forest Floor Litter,WB,SW,5,noP,406
+LL2102,Forest Floor Litter,EB,HW,2,P,406
+LL2104,Forest Floor Litter,EB,HW,4,P,406
+LL2105,Forest Floor Litter,EB,HW,5,P,406
+LL2112,Forest Floor Litter,EB,SW,2,P,406
+LL2114,Forest Floor Litter,EB,SW,4,P,406
+LL2115,Forest Floor Litter,EB,SW,5,P,406
+LL2122,Forest Floor Litter,WB,HW,2,P,406
+LL2124,Forest Floor Litter,WB,HW,4,P,406
+LL2125,Forest Floor Litter,WB,HW,5,P,406
+LL2133,Forest Floor Litter,WB,SW,3,P,406
+LL2134,Forest Floor Litter,WB,SW,4,P,406
+LL2135,Forest Floor Litter,WB,SW,5,P,406
+RLL2135,Forest Floor Litter,WB,SW,5,P,406
+LL2202,Forest Floor Litter,EB,HW,2,noP,468
+LL2203,Loose Litter,EB,HW,3,noP,468
+LL2204,Forest Floor Litter,EB,HW,4,noP,468
+LL2205,Forest Floor Litter,EB,HW,5,noP,468
+LL2302,Forest Floor Litter,EB,HW,2,P,468
+LL2303,Loose Litter,EB,HW,3,P,468
+LL2304,Forest Floor Litter,EB,HW,4,P,468
+LL2305,Forest Floor Litter,EB,HW,5,P,468
+LL2241,Loose Litter,EB,RT,1,noP,468
+LL2242,Loose Litter,EB,RT,2,noP,468
+LL2243,Loose Litter,EB,RT,3,noP,468
+LL2211,Loose Litter,EB,SW,1,noP,468
+RLL2211,Loose Litter,EB,SW,1,noP,468
+LL2212,Forest Floor Litter,EB,SW,2,noP,468
+LL2214,Forest Floor Litter,EB,SW,4,noP,468
+LL2215,Forest Floor Litter,EB,SW,5,noP,468
+LL2311,Loose Litter,EB,SW,1,P,468
+LL2312,Forest Floor Litter,EB,SW,2,P,468
+LL2314,Forest Floor Litter,EB,SW,4,P,468
+LL2315,Forest Floor Litter,EB,SW,5,P,468
+LL2222,Forest Floor Litter,WB,HW,2,noP,468
+LL2223,Loose Litter,WB,HW,3,noP,468
+LL2224,Forest Floor Litter,WB,HW,4,noP,468
+LL2225,Forest Floor Litter,WB,HW,5,noP,468
+LL2322,Forest Floor Litter,WB,HW,2,P,468
+LL2323,Loose Litter,WB,HW,3,P,468
+LL2324,Forest Floor Litter,WB,HW,4,P,468
+LL2325,Forest Floor Litter,WB,HW,5,P,468
+LL2247,Loose Litter,WB,RT,1,noP,468
+LL2248,Loose Litter,WB,RT,2,noP,468
+LL2249,Loose Litter,WB,RT,3,noP,468
+LL2232,Loose Litter,WB,SW,2,noP,468
+LL2233,Forest Floor Litter,WB,SW,3,noP,468
+LL2234,Forest Floor Litter,WB,SW,4,noP,468
+LL2235,Forest Floor Litter,WB,SW,5,noP,468
+LL2332,Loose Litter,WB,SW,2,P,468
+LL2333,Forest Floor Litter,WB,SW,3,P,468
+LL2334,Forest Floor Litter,WB,SW,4,P,468
+LL2335,Forest Floor Litter,WB,SW,5,P,468
+RLL2335,Forest Floor Litter,WB,SW,5,P,468

@@ -1,0 +1,198 @@
+﻿sample_ID,d13C,C_Amount_ug,d13C_Comment,d15N,N_Amount_ug,d15N_Comment,Tray Name,Well Id,Type_of_Material,Analysis,Enriched?,Estimated Enrichment,amount_mg,OurLabID,Analysis Number,source_file
+C1,-23.46,820.18,,-5.06,3.95,Too small,BBWM WOOD 1 Under 8mg,A1,WOOD,"13C, 15N",NO,,1.72,416950,136228,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C2,-25.4,2730.26,,-2.61,9.3,Too small,BBWM WOOD 1 Under 8mg,A2,WOOD,"13C, 15N",NO,,5.75,416951,136229,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C5,-24.77,3384.92,,-2.21,9.89,Too small,BBWM WOOD 1 Under 8mg,A3,WOOD,"13C, 15N",NO,,7.11,416952,136230,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C7,-25.54,3761.78,,-2.22,8.88,Too small,BBWM WOOD 1 Under 8mg,A4,WOOD,"13C, 15N",NO,,7.91,416953,136231,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C8,-26.45,1965.66,,-4.87,6.63,Too small,BBWM WOOD 1 Under 8mg,A5,WOOD,"13C, 15N",NO,,3.98,416954,136232,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C9,-25.41,633.09,,-6.87,2.57,Too small,BBWM WOOD 1 Under 8mg,A6,WOOD,"13C, 15N",NO,,1.35,416955,136233,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C11,-27.49,2257.53,,-3.14,5.22,Too small,BBWM WOOD 1 Under 8mg,A7,WOOD,"13C, 15N",NO,,4.81,416956,136234,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C12,-27.85,334.21,,-7.33,3.14,Too small,BBWM WOOD 1 Under 8mg,A8,WOOD,"13C, 15N",NO,,0.73,416957,136235,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C13,-27.36,1599.3,,-2.11,4.09,Too small,BBWM WOOD 1 Under 8mg,A9,WOOD,"13C, 15N",NO,,3.38,416958,136236,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C14,-26.95,1696.94,,-3.89,3.81,Too small,BBWM WOOD 1 Under 8mg,A10,WOOD,"13C, 15N",NO,,3.57,416959,136237,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C15,-27.18,1355.71,,-5.07,4.93,Too small,BBWM WOOD 1 Under 8mg,A11,WOOD,"13C, 15N",NO,,2.91,416960,136238,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C16,-27.48,1126.55,,-0.6,5.43,Too small,BBWM WOOD 1 Under 8mg,A12,WOOD,"13C, 15N",NO,,2.15,416961,136239,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C17,-26.91,2435.84,,0.8,8.05,Too small,BBWM WOOD 1 Under 8mg,B1,WOOD,"13C, 15N",NO,,4.95,416962,136243,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C18,-28.88,1858.9,,-0.07,6.75,Too small,BBWM WOOD 1 Under 8mg,B2,WOOD,"13C, 15N",NO,,3.9,416963,136244,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C19,-26.81,453.28,,-6.89,3.18,Too small,BBWM WOOD 1 Under 8mg,B3,WOOD,"13C, 15N",NO,,0.91,416964,136245,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C20,-27.31,259.55,,-5.81,2.57,Too small,BBWM WOOD 1 Under 8mg,B4,WOOD,"13C, 15N",NO,,0.47,416965,136246,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C21,-25.95,2317.1,,-2.23,5.42,Too small,BBWM WOOD 1 Under 8mg,B5,WOOD,"13C, 15N",NO,,4.78,416966,136247,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C22,-26.81,742.55,,-6.48,3.86,Too small,BBWM WOOD 1 Under 8mg,B6,WOOD,"13C, 15N",NO,,1.59,416967,136248,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C23,-26.23,689.97,,-1.24,3.09,Too small,BBWM WOOD 1 Under 8mg,B7,WOOD,"13C, 15N",NO,,1.42,416968,136249,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+Blk 1,-34.78,2.2,Too small,-5.47,1.84,Too small,BBWM WOOD 1 Under 8mg,B8,WOOD,"13C, 15N",NO,,0,416969,136250,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C24,-27.05,1101.67,,-1.72,6.34,Too small,BBWM WOOD 1 Under 8mg,B9,WOOD,"13C, 15N",NO,,2.34,416970,136251,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C25,-23.92,2943.99,,-2.7,9.3,Too small,BBWM WOOD 1 Under 8mg,B10,WOOD,"13C, 15N",NO,,6.15,416971,136252,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C26,-25.11,1122.41,,-6.45,4.12,Too small,BBWM WOOD 1 Under 8mg,B11,WOOD,"13C, 15N",NO,,2.24,416972,136253,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C27,-23.91,3059.79,,-1.94,7.99,Too small,BBWM WOOD 1 Under 8mg,B12,WOOD,"13C, 15N",NO,,6.36,416973,136254,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C30,-25,1091.29,,-1.68,4.08,Too small,BBWM WOOD 1 Under 8mg,C1,WOOD,"13C, 15N",NO,,2.3,416974,136257,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C31,-26.02,1026.88,,0.16,3.48,Too small,BBWM WOOD 1 Under 8mg,C2,WOOD,"13C, 15N",NO,,2.13,416975,136258,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C32,-26.56,2217.74,,0.37,7.11,Too small,BBWM WOOD 1 Under 8mg,C3,WOOD,"13C, 15N",NO,,4.66,416976,136259,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C33,-25.47,753.05,,-3.72,2.89,Too small,BBWM WOOD 1 Under 8mg,C4,WOOD,"13C, 15N",NO,,1.49,416977,136260,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C34,-27.9,2376.54,,1.54,7.34,Too small,BBWM WOOD 1 Under 8mg,C5,WOOD,"13C, 15N",NO,,5.03,416978,136261,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C35,-28.86,637.31,,-4.65,3.95,Too small,BBWM WOOD 1 Under 8mg,C6,WOOD,"13C, 15N",NO,,1.32,416979,136262,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C36,-28.78,1731.44,,5.68,5.15,Too small,BBWM WOOD 1 Under 8mg,C7,WOOD,"13C, 15N",NO,,3.59,416980,136263,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C37,-26.33,645.74,,-6.5,3.45,Too small,BBWM WOOD 1 Under 8mg,C8,WOOD,"13C, 15N",NO,,1.37,416981,136264,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C38,-27.94,141.21,,-9.12,2.09,Too small,BBWM WOOD 1 Under 8mg,C9,WOOD,"13C, 15N",NO,,0.24,416982,136265,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C39,-27.94,533.8,,0.14,3.03,Too small,BBWM WOOD 1 Under 8mg,C10,WOOD,"13C, 15N",NO,,1.07,416983,136266,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C40,-25.28,1145.21,,-0.46,4.34,Too small,BBWM WOOD 1 Under 8mg,C11,WOOD,"13C, 15N",NO,,2.42,416984,136267,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C41,-26.01,2495,,2.19,6.34,Too small,BBWM WOOD 1 Under 8mg,C12,WOOD,"13C, 15N",NO,,5.16,416985,136268,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C42,-25.1,1103.74,,-1.39,3.61,Too small,BBWM WOOD 1 Under 8mg,D1,WOOD,"13C, 15N",NO,,2.24,416986,136272,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C43,-27.27,1564.64,,-1.37,5.26,Too small,BBWM WOOD 1 Under 8mg,D2,WOOD,"13C, 15N",NO,,3.2,416987,136273,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C45,-25.77,1648.17,,1.38,5.35,Too small,BBWM WOOD 1 Under 8mg,D3,WOOD,"13C, 15N",NO,,3.4,416988,136274,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+Blk 2,-31.49,2.28,Too small,-12.76,1.48,Too small,BBWM WOOD 1 Under 8mg,D4,WOOD,"13C, 15N",NO,,0,416989,136275,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C47,-23.62,1999.81,,-1.2,10.72,Precision decreases for samples containing less than 20ugN,BBWM WOOD 1 Under 8mg,D5,WOOD,"13C, 15N",NO,,3.99,416990,136276,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C48,-25.58,1513.58,,-2.6,6.46,Too small,BBWM WOOD 1 Under 8mg,D6,WOOD,"13C, 15N",NO,,3.02,416991,136277,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C49,-25.17,2943.99,,-3.39,9.59,Too small,BBWM WOOD 1 Under 8mg,D7,WOOD,"13C, 15N",NO,,5.87,416992,136278,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C50,-25.31,3555.26,,-2.37,6.34,Too small,BBWM WOOD 1 Under 8mg,D8,WOOD,"13C, 15N",NO,,7.14,416993,136279,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C51,-25.28,2356.74,,-4.15,10.66,Precision decreases for samples containing less than 20ugN,BBWM WOOD 1 Under 8mg,D9,WOOD,"13C, 15N",NO,,4.85,416994,136280,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C52,-26.44,2336.93,,-3.31,7.28,Too small,BBWM WOOD 1 Under 8mg,D10,WOOD,"13C, 15N",NO,,4.77,416995,136281,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C53,-25.66,2257.53,,-3.89,8.7,Too small,BBWM WOOD 1 Under 8mg,D11,WOOD,"13C, 15N",NO,,4.66,416996,136282,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C54,-25.39,771.95,,-7.51,3.86,Too small,BBWM WOOD 1 Under 8mg,D12,WOOD,"13C, 15N",NO,,1.53,416997,136283,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C55,-26.83,459.64,,-7.81,2.9,Too small,BBWM WOOD 1 Under 8mg,E1,WOOD,"13C, 15N",NO,,0.87,416998,136290,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C56,-26.3,1310.44,,-3.5,5.02,Too small,BBWM WOOD 1 Under 8mg,E2,WOOD,"13C, 15N",NO,,2.7,416999,136291,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C57,-26.99,1041.44,,-4.96,3.78,Too small,BBWM WOOD 1 Under 8mg,E3,WOOD,"13C, 15N",NO,,2.11,417000,136292,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C58,-28,139.7,,-9.61,2.14,Too small,BBWM WOOD 1 Under 8mg,E4,WOOD,"13C, 15N",NO,,0.24,417001,136293,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C59,-27.05,1711.15,,-2.05,5.9,Too small,BBWM WOOD 1 Under 8mg,E5,WOOD,"13C, 15N",NO,,3.56,417002,136294,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C60,-26.6,1652.24,,-3.52,4.48,Too small,BBWM WOOD 1 Under 8mg,E6,WOOD,"13C, 15N",NO,,3.44,417003,136295,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C61,-28.17,1425.53,,-3.05,4.84,Too small,BBWM WOOD 1 Under 8mg,E7,WOOD,"13C, 15N",NO,,2.87,417004,136296,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C62,-27.02,359.76,,-6.05,3.52,Too small,BBWM WOOD 1 Under 8mg,E8,WOOD,"13C, 15N",NO,,0.71,417005,136297,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C63,-27.11,518.98,,-3.54,3.19,Too small,BBWM WOOD 1 Under 8mg,E9,WOOD,"13C, 15N",NO,,0.89,417006,136298,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C64,-29.5,1095.44,,-1.25,5.82,Too small,BBWM WOOD 1 Under 8mg,E10,WOOD,"13C, 15N",NO,,2.13,417007,136299,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C65,-26.53,177.64,,-7.52,2.42,Too small,BBWM WOOD 1 Under 8mg,E11,WOOD,"13C, 15N",NO,,0.23,417008,136300,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C66,-27.34,124.91,,-5.66,2.49,Too small,BBWM WOOD 1 Under 8mg,E12,WOOD,"13C, 15N",NO,,0.14,417009,136301,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C67,-27.77,1642.06,,-2.43,6.34,Too small,BBWM WOOD 1 Under 8mg,F1,WOOD,"13C, 15N",NO,,3.28,417010,136305,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C68,-27.59,1633.92,,-3.21,7.76,Too small,BBWM WOOD 1 Under 8mg,F2,WOOD,"13C, 15N",NO,,3.17,417011,136306,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C69,-27.26,828.56,,-4.93,3.71,Too small,BBWM WOOD 1 Under 8mg,F3,WOOD,"13C, 15N",NO,,1.66,417012,136307,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+Blk 3,-35.62,2.08,Too small,-8.24,1.98,Too small,BBWM WOOD 1 Under 8mg,F4,WOOD,"13C, 15N",NO,,0,417013,136308,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C70,-24.85,2943.99,,0.52,7.64,Too small,BBWM WOOD 1 Under 8mg,F5,WOOD,"13C, 15N",NO,,6.03,417014,136309,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C71,-24.61,2943.99,,-2.83,9.41,Too small,BBWM WOOD 1 Under 8mg,F6,WOOD,"13C, 15N",NO,,5.93,417015,136310,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C72,-25.81,1277.47,,-4.59,4.71,Too small,BBWM WOOD 1 Under 8mg,F7,WOOD,"13C, 15N",NO,,2.48,417016,136311,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C73,-24.81,673.13,,-5.28,3.31,Too small,BBWM WOOD 1 Under 8mg,F8,WOOD,"13C, 15N",NO,,1.2,417017,136312,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C74,-22.73,628.87,,-4.13,4.6,Too small,BBWM WOOD 1 Under 8mg,F9,WOOD,"13C, 15N",NO,,1.32,417018,136313,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C75,-25.9,1727.39,,0.97,5.59,Too small,BBWM WOOD 1 Under 8mg,F10,WOOD,"13C, 15N",NO,,3.54,417019,136314,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C76,-25.38,1306.33,,-2.81,5.17,Too small,BBWM WOOD 1 Under 8mg,F11,WOOD,"13C, 15N",NO,,2.75,417020,136315,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C77,-25.44,740.45,,-2.91,4.45,Too small,BBWM WOOD 1 Under 8mg,F12,WOOD,"13C, 15N",NO,,1.54,417021,136316,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C78,-26.07,1159.7,,-1.6,4.28,Too small,BBWM WOOD 1 Under 8mg,G1,WOOD,"13C, 15N",NO,,2.31,417022,136320,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C79,-26.74,588.77,,-4.98,3.13,Too small,BBWM WOOD 1 Under 8mg,G2,WOOD,"13C, 15N",NO,,1.29,417023,136321,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C80,-28.7,2435.84,,2.42,8.53,Too small,BBWM WOOD 1 Under 8mg,G3,WOOD,"13C, 15N",NO,,5,417024,136322,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C81,-26.79,259.55,,-11.59,2.36,Too small,BBWM WOOD 1 Under 8mg,G4,WOOD,"13C, 15N",NO,,0.46,417025,136323,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C82,-27.99,765.65,,0,4.37,Too small,BBWM WOOD 1 Under 8mg,G5,WOOD,"13C, 15N",NO,,1.52,417026,136324,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C83,-27.53,1684.76,,3.85,5.42,Too small,BBWM WOOD 1 Under 8mg,G6,WOOD,"13C, 15N",NO,,3.33,417027,136325,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C84,-32.04,2.67,Too small,-8.9,1.57,Too small,BBWM WOOD 1 Under 8mg,G7,WOOD,"13C, 15N",NO,,0,417028,136326,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C85,-27.5,880.88,,1.47,3.96,Too small,BBWM WOOD 1 Under 8mg,G8,WOOD,"13C, 15N",NO,,2.19,417029,136327,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C86,-27.12,1289.84,,0.68,6.04,Too small,BBWM WOOD 1 Under 8mg,G9,WOOD,"13C, 15N",NO,,2.93,417030,136328,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C87,-25.45,179.56,,-6.78,2.42,Too small,BBWM WOOD 1 Under 8mg,G10,WOOD,"13C, 15N",NO,,0.28,417031,136329,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C88,-27,552.84,,-3.85,3.81,Too small,BBWM WOOD 1 Under 8mg,G11,WOOD,"13C, 15N",NO,,1.01,417032,136330,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C89,-27.13,782.44,,-0.28,4.04,Too small,BBWM WOOD 1 Under 8mg,G12,WOOD,"13C, 15N",NO,,1.61,417033,136331,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C90,-26.01,466.72,,1.03,2.93,Too small,BBWM WOOD 1 Under 8mg,H1,WOOD,"13C, 15N",NO,,1.01,417034,136363,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C91,-25.6,946.57,,-1.02,4.63,Too small,BBWM WOOD 1 Under 8mg,H2,WOOD,"13C, 15N",NO,,1.91,417035,136364,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C92,-27.15,3173.84,,0.07,11.81,Precision decreases for samples containing less than 20ugN,BBWM WOOD 1 Under 8mg,H3,WOOD,"13C, 15N",NO,,6.7,417036,136365,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C93,-26,910.78,,1.77,5.26,Too small,BBWM WOOD 1 Under 8mg,H4,WOOD,"13C, 15N",NO,,1.69,417037,136366,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C94,-24.31,1124.81,,0.65,5.09,Too small,BBWM WOOD 1 Under 8mg,H5,WOOD,"13C, 15N",NO,,2.27,417038,136367,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C95,-25.8,361.54,,-7.27,2.7,Too small,BBWM WOOD 1 Under 8mg,H6,WOOD,"13C, 15N",NO,,0.7,417039,136368,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C96,-25.78,3383.6,,-0.91,10.9,Precision decreases for samples containing less than 20ugN,BBWM WOOD 1 Under 8mg,H7,WOOD,"13C, 15N",NO,,6.96,417040,136369,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C97,-24.83,2591.34,,-2.32,8.42,Too small,BBWM WOOD 1 Under 8mg,H8,WOOD,"13C, 15N",NO,,5.31,417041,136370,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C98,-29.3,,Too large - estimated Delta PDB-total C will be incorrect,2.71,39.06,,BBWM WOOD 1 Under 8mg,H9,WOOD,"13C, 15N",NO,,9.46,417042,136371,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C99,-27.74,320.64,,-5.88,2.42,Too small,BBWM WOOD 1 Under 8mg,H10,WOOD,"13C, 15N",NO,,0.65,417043,136372,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C100,-25.02,887.59,,0.61,4.94,Too small,BBWM WOOD 1 Under 8mg,H11,WOOD,"13C, 15N",NO,,1.85,417044,136373,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C102,-25.5,378.74,,1.3,2.51,Too small,BBWM WOOD 1 Under 8mg,H12,WOOD,"13C, 15N",NO,,0.65,417045,136374,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C103,-26.06,1099.72,,-0.76,3.62,Too small,BBWM WOOD 2 Under 8mg,A1,WOOD,"13C, 15N",NO,,2.23,417046,136378,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C104,-28.57,1202.01,,-3.52,4.81,Too small,BBWM WOOD 2 Under 8mg,A2,WOOD,"13C, 15N",NO,,2.47,417047,136379,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C105,-26.51,550.14,,-4.22,2.9,Too small,BBWM WOOD 2 Under 8mg,A3,WOOD,"13C, 15N",NO,,1.17,417048,136380,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C106,-27.19,169.45,,-4.14,2.24,Too small,BBWM WOOD 2 Under 8mg,A4,WOOD,"13C, 15N",NO,,0.31,417049,136381,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C107,-26.19,889.7,,-2.15,3.08,Too small,BBWM WOOD 2 Under 8mg,A5,WOOD,"13C, 15N",NO,,1.85,417050,136382,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C108,-27.9,93.98,Precision decreases for samples containing less than 100ugC,0.41,1.9,Too small,BBWM WOOD 2 Under 8mg,A6,WOOD,"13C, 15N",NO,,0.12,417051,136383,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C109,-29.65,737.44,,2.51,5.44,Too small,BBWM WOOD 2 Under 8mg,A7,WOOD,"13C, 15N",NO,,1.56,417052,136384,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C110,-27.52,402.37,,2.43,2.65,Too small,BBWM WOOD 2 Under 8mg,A8,WOOD,"13C, 15N",NO,,0.75,417053,136385,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C111,-28.09,260.26,,4.96,1.98,Too small,BBWM WOOD 2 Under 8mg,A9,WOOD,"13C, 15N",NO,,0.49,417054,136386,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C112,-25.88,275.37,,-5.61,2.93,Too small,BBWM WOOD 2 Under 8mg,A10,WOOD,"13C, 15N",NO,,0.52,417055,136387,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C113,-25.24,1036.89,,-2.93,4.24,Too small,BBWM WOOD 2 Under 8mg,A11,WOOD,"13C, 15N",NO,,2.03,417056,136388,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C114,-26.01,318.49,,1.34,2.02,Too small,BBWM WOOD 2 Under 8mg,A12,WOOD,"13C, 15N",NO,,0.5,417057,136389,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C115,-26.67,197.16,,-1.45,2.68,Too small,BBWM WOOD 2 Under 8mg,B1,WOOD,"13C, 15N",NO,,0.37,417058,136392,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C116,-27.65,1851.91,,-2.76,6.54,Too small,BBWM WOOD 2 Under 8mg,B2,WOOD,"13C, 15N",NO,,3.59,417059,136393,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+Blk 4,-29.63,1.98,Too small,-11.41,1.36,Too small,BBWM WOOD 2 Under 8mg,B3,WOOD,"13C, 15N",NO,,0,417060,136394,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C118,-24.96,1376.42,,0.63,6.06,Too small,BBWM WOOD 2 Under 8mg,B4,WOOD,"13C, 15N",NO,,2.67,417061,136395,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C119,-25.32,1518.79,,-1.37,5.89,Too small,BBWM WOOD 2 Under 8mg,B5,WOOD,"13C, 15N",NO,,3.02,417062,136396,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C120,-25.02,230.03,,-12.88,2.16,Too small,BBWM WOOD 2 Under 8mg,B6,WOOD,"13C, 15N",NO,,0.47,417063,136397,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C121,-25.2,3534.87,,0.37,8.84,Too small,BBWM WOOD 2 Under 8mg,B7,WOOD,"13C, 15N",NO,,7.13,417064,136398,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C122,-26.54,1245.73,,-5.12,3.97,Too small,BBWM WOOD 2 Under 8mg,B8,WOOD,"13C, 15N",NO,,2.58,417065,136399,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C123,-25.28,1278.98,,0.58,5.18,Too small,BBWM WOOD 2 Under 8mg,B9,WOOD,"13C, 15N",NO,,2.63,417066,136400,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C124,-25.33,348.63,,-5.37,2.52,Too small,BBWM WOOD 2 Under 8mg,B10,WOOD,"13C, 15N",NO,,0.75,417067,136401,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C125,-25.77,423.84,,-2.26,2.93,Too small,BBWM WOOD 2 Under 8mg,B11,WOOD,"13C, 15N",NO,,0.83,417068,136402,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C126,-21.05,1.86,Too small,-8.79,1.37,Too small,BBWM WOOD 2 Under 8mg,B12,WOOD,"13C, 15N",NO,,0.04,417069,136403,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C127,-28.54,1951.17,,3.29,7.39,Too small,BBWM WOOD 2 Under 8mg,C1,WOOD,"13C, 15N",NO,,4.08,417070,136407,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C128,-27.93,2334.19,,1,7.51,Too small,BBWM WOOD 2 Under 8mg,C2,WOOD,"13C, 15N",NO,,4.68,417071,136408,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C129,-28.08,2787.2,,1.88,11.44,Precision decreases for samples containing less than 20ugN,BBWM WOOD 2 Under 8mg,C3,WOOD,"13C, 15N",NO,,5.86,417072,136409,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C130,-37.72,2.38,Too small,-13.43,1.41,Too small,BBWM WOOD 2 Under 8mg,C4,WOOD,"13C, 15N",NO,,0,417073,136410,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C131,-27.03,266.74,,-4.19,1.88,Too small,BBWM WOOD 2 Under 8mg,C5,WOOD,"13C, 15N",NO,,0.46,417074,136411,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C132,-28.28,166.63,,0.11,1.89,Too small,BBWM WOOD 2 Under 8mg,C6,WOOD,"13C, 15N",NO,,0.23,417075,136412,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C133,-25.97,760.76,,0.85,3.17,Too small,BBWM WOOD 2 Under 8mg,C7,WOOD,"13C, 15N",NO,,1.6,417076,136413,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C134,-24.95,1444.61,,2.53,6.06,Too small,BBWM WOOD 2 Under 8mg,C8,WOOD,"13C, 15N",NO,,2.94,417077,136414,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C135,-27.11,73.77,Precision decreases for samples containing less than 100ugC,-3.02,1.67,Too small,BBWM WOOD 2 Under 8mg,C9,WOOD,"13C, 15N",NO,,0.13,417078,136415,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C136,-27.66,1837.69,,2.11,6.66,Too small,BBWM WOOD 2 Under 8mg,C10,WOOD,"13C, 15N",NO,,3.74,417079,136416,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C137,-25.7,994.92,,0.79,4.92,Too small,BBWM WOOD 2 Under 8mg,C11,WOOD,"13C, 15N",NO,,2.02,417080,136417,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C138,-25.87,1746.13,,2.92,5.98,Too small,BBWM WOOD 2 Under 8mg,C12,WOOD,"13C, 15N",NO,,3.53,417081,136418,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C139,-28.99,115.03,,-4.21,2.2,Too small,BBWM WOOD 2 Under 8mg,D1,WOOD,"13C, 15N",NO,,0.14,417082,136425,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C140,-25.2,686.49,,-1.17,3.02,Too small,BBWM WOOD 2 Under 8mg,D2,WOOD,"13C, 15N",NO,,1.47,417083,136426,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C141,-25.4,2748.17,,-1.11,10.41,Precision decreases for samples containing less than 20ugN,BBWM WOOD 2 Under 8mg,D3,WOOD,"13C, 15N",NO,,5.6,417084,136427,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C142,-26.99,3345.62,,-2.18,11.14,Precision decreases for samples containing less than 20ugN,BBWM WOOD 2 Under 8mg,D4,WOOD,"13C, 15N",NO,,6.55,417085,136428,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C146,-27.59,3908.28,,-0.3,11.32,Precision decreases for samples containing less than 20ugN,BBWM WOOD 2 Under 8mg,D5,WOOD,"13C, 15N",NO,,7.97,417086,136429,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C150,-25.65,2134.42,,-3.12,7.39,Too small,BBWM WOOD 2 Under 8mg,D6,WOOD,"13C, 15N",NO,,4.24,417087,136430,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C152,-27.8,2591.34,,-1.62,9.32,Too small,BBWM WOOD 2 Under 8mg,D7,WOOD,"13C, 15N",NO,,5.25,417088,136431,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C155,-28.9,2532.25,,-2.92,9.57,Too small,BBWM WOOD 2 Under 8mg,D8,WOOD,"13C, 15N",NO,,5.26,417089,136432,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C157,-28.22,1032.7,,-2.18,6.54,Too small,BBWM WOOD 2 Under 8mg,D9,WOOD,"13C, 15N",NO,,1.93,417090,136433,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C161,-27.55,2728.62,,-0.34,8.42,Too small,BBWM WOOD 2 Under 8mg,D10,WOOD,"13C, 15N",NO,,5.57,417091,136434,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C162,-26.93,3666.34,,-0.81,11.99,Precision decreases for samples containing less than 20ugN,BBWM WOOD 2 Under 8mg,D11,WOOD,"13C, 15N",NO,,7.16,417092,136435,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C163,-25.33,1584.54,,-1.69,7.81,Too small,BBWM WOOD 2 Under 8mg,D12,WOOD,"13C, 15N",NO,,3.28,417093,136436,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C168,-24.97,530.91,,1.27,2.87,Too small,BBWM WOOD 2 Under 8mg,E1,WOOD,"13C, 15N",NO,,0.94,417094,136440,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C171,-26.32,2630.65,,-0.5,9.39,Too small,BBWM WOOD 2 Under 8mg,E2,WOOD,"13C, 15N",NO,,5.27,417095,136441,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C172,-26.68,1444.61,,-0.51,11.2,Precision decreases for samples containing less than 20ugN,BBWM WOOD 2 Under 8mg,E3,WOOD,"13C, 15N",NO,,2.88,417096,136442,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C173,-27.72,3741.09,,-1.69,10.05,Precision decreases for samples containing less than 20ugN,BBWM WOOD 2 Under 8mg,E4,WOOD,"13C, 15N",NO,,7.65,417097,136443,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C175,-25.73,3703.75,,0.25,18.04,Precision decreases for samples containing less than 20ugN,BBWM WOOD 2 Under 8mg,E5,WOOD,"13C, 15N",NO,,7.75,417098,136444,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C176,-29.93,133.04,,0.15,1.91,Too small,BBWM WOOD 2 Under 8mg,E6,WOOD,"13C, 15N",NO,,0.08,417099,136445,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C179,-27.57,967.61,,-0.61,5.53,Too small,BBWM WOOD 2 Under 8mg,E7,WOOD,"13C, 15N",NO,,1.9,417100,136446,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C181,-28.54,1529.08,,1.39,9.02,Too small,BBWM WOOD 2 Under 8mg,E8,WOOD,"13C, 15N",NO,,3.22,417101,136447,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C184,-26.84,573.63,,-0.16,3.78,Too small,BBWM WOOD 2 Under 8mg,E9,WOOD,"13C, 15N",NO,,1.19,417102,136448,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C185,-29.05,,Too large - estimated Delta PDB-total C will be incorrect,3.65,16.89,Precision decreases for samples containing less than 20ugN,BBWM WOOD 2 Under 8mg,E10,WOOD,"13C, 15N",NO,,8.35,417103,136449,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C187,-25.99,,Too large - estimated Delta PDB-total C will be incorrect,1.18,15.31,Precision decreases for samples containing less than 20ugN,BBWM WOOD 2 Under 8mg,E11,WOOD,"13C, 15N",NO,,8.91,417104,136450,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+C190,-27.41,1756.32,,1.6,12.53,Precision decreases for samples containing less than 20ugN,BBWM WOOD 2 Under 8mg,E12,WOOD,"13C, 15N",NO,,3.58,417105,136451,Copy of Spencer BBWM Wood1&2 - samples under 8mg 0512
+,,,,,,,,,,,,,,,,
+Sample ID,,,,d15N,N Amount (ug),d15N Comment,Tray Name,Well Id,Type of Material,Analysis,Enriched?,Estimated Enrichment,Amount (mg),OurLabID,Analysis Number,
+C3,,,,-0.72,18.75,Precision decreases for samples containing less than 20ugN,BBWM WOOD 3 over 8mg,A1,WOOD,"13C, 15N",NO,,16.69,416902,136051,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C4,,,,-1.76,22.1,,BBWM WOOD 3 over 8mg,A2,WOOD,"13C, 15N",NO,,15.41,416903,136052,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C6,,,,-3.78,19.02,Precision decreases for samples containing less than 20ugN,BBWM WOOD 3 over 8mg,A3,WOOD,"13C, 15N",NO,,14.62,416904,136053,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C10,,,,-1.68,18.22,Precision decreases for samples containing less than 20ugN,BBWM WOOD 3 over 8mg,A4,WOOD,"13C, 15N",NO,,15.15,416905,136054,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C28,,,,-4.36,14.72,Precision decreases for samples containing less than 20ugN,BBWM WOOD 3 over 8mg,A5,WOOD,"13C, 15N",NO,,11.07,416906,136055,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C29,,,,0.25,27.52,,BBWM WOOD 3 over 8mg,A6,WOOD,"13C, 15N",NO,,25.57,416907,136056,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C44,,,,-1.05,29.55,,BBWM WOOD 3 over 8mg,A7,WOOD,"13C, 15N",NO,,18.97,416908,136057,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C46,,,,-4.37,12.65,Precision decreases for samples containing less than 20ugN,BBWM WOOD 3 over 8mg,A8,WOOD,"13C, 15N",NO,,25.25,416909,136058,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C101,,,,-2.72,19.6,Precision decreases for samples containing less than 20ugN,BBWM WOOD 3 over 8mg,A9,WOOD,"13C, 15N",NO,,12.59,416910,136059,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C117,,,,-2.92,16.04,Precision decreases for samples containing less than 20ugN,BBWM WOOD 3 over 8mg,A10,WOOD,"13C, 15N",NO,,12.77,416911,136060,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C143,,,,-2.69,15.04,Precision decreases for samples containing less than 20ugN,BBWM WOOD 3 over 8mg,A11,WOOD,"13C, 15N",NO,,11.34,416912,136061,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C144,,,,-3.52,22.58,,BBWM WOOD 3 over 8mg,A12,WOOD,"13C, 15N",NO,,17.14,416913,136062,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C145,,,,-1.43,41.92,,BBWM WOOD 3 over 8mg,B1,WOOD,"13C, 15N",NO,,17.45,416914,136066,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C147,,,,-2.7,60.71,,BBWM WOOD 3 over 8mg,B2,WOOD,"13C, 15N",NO,,24.12,416915,136067,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C148,,,,-3.1,42.35,,BBWM WOOD 3 over 8mg,B3,WOOD,"13C, 15N",NO,,23.37,416916,136068,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C149,,,,-3.34,34.93,,BBWM WOOD 3 over 8mg,B4,WOOD,"13C, 15N",NO,,20.4,416917,136069,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C151,,,,-3.15,33.91,,BBWM WOOD 3 over 8mg,B5,WOOD,"13C, 15N",NO,,23.19,416918,136070,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C153,,,,-2.78,33.91,,BBWM WOOD 3 over 8mg,B6,WOOD,"13C, 15N",NO,,23.74,416919,136071,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C154,,,,-3.81,26.62,,BBWM WOOD 3 over 8mg,B7,WOOD,"13C, 15N",NO,,16.3,416920,136072,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C156,,,,0.37,41.97,,BBWM WOOD 3 over 8mg,B8,WOOD,"13C, 15N",NO,,15.18,416921,136073,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C158,,,,-1.07,44.75,,BBWM WOOD 3 over 8mg,B9,WOOD,"13C, 15N",NO,,13.92,416922,136074,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C159,,,,-1.32,48.17,,BBWM WOOD 3 over 8mg,B10,WOOD,"13C, 15N",NO,,25.71,416923,136075,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C160,,,,-2.5,22.58,,BBWM WOOD 3 over 8mg,B11,WOOD,"13C, 15N",NO,,11.36,416924,136076,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C164,,,,-2.52,77.93,,BBWM WOOD 3 over 8mg,B12,WOOD,"13C, 15N",NO,,29.5,416925,136077,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C165,,,,,,no signal-probably fell in with c2,BBWM WOOD 3 over 8mg,C1,WOOD,"13C, 15N",NO,,10.76,416926,136080,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+Blk 5,,,,-1.85,22.63,probably c1 plus c2-c2 is a customer blank,BBWM WOOD 3 over 8mg,C2,WOOD,"13C, 15N",NO,,0,416927,136081,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C166,,,,-0.68,75.77,,BBWM WOOD 3 over 8mg,C3,WOOD,"13C, 15N",NO,,23.55,416928,136082,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C167,,,,-2.34,48.01,,BBWM WOOD 3 over 8mg,C4,WOOD,"13C, 15N",NO,,21.66,416929,136083,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C169,,,,-0.11,39.57,,BBWM WOOD 3 over 8mg,C5,WOOD,"13C, 15N",NO,,18.74,416930,136084,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C170,,,,-0.04,66.09,,BBWM WOOD 3 over 8mg,C6,WOOD,"13C, 15N",NO,,38.99,416931,136085,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C174,,,,-1.06,46.03,,BBWM WOOD 3 over 8mg,C7,WOOD,"13C, 15N",NO,,49.92,416932,136086,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C177,,,,1.97,38.45,,BBWM WOOD 3 over 8mg,C8,WOOD,"13C, 15N",NO,,21.11,416933,136087,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C178,,,,-0.35,48.5,,BBWM WOOD 3 over 8mg,C9,WOOD,"13C, 15N",NO,,27.93,416934,136088,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C180,,,,-0.31,87.65,,BBWM WOOD 3 over 8mg,C10,WOOD,"13C, 15N",NO,,37.05,416935,136089,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C182,,,,-1.14,42.77,,BBWM WOOD 3 over 8mg,C11,WOOD,"13C, 15N",NO,,27.84,416936,136090,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C183,,,,-2.18,24.92,,BBWM WOOD 3 over 8mg,C12,WOOD,"13C, 15N",NO,,13.94,416937,136091,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C186,,,,1.39,75.77,,BBWM WOOD 3 over 8mg,D1,WOOD,"13C, 15N",NO,,20.02,416938,136095,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C188,,,,-0.79,39.41,,BBWM WOOD 3 over 8mg,D2,WOOD,"13C, 15N",NO,,14.62,416939,136096,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
+C189,,,,-0.18,56.96,,BBWM WOOD 3 over 8mg,D3,WOOD,"13C, 15N",NO,,23.99,416940,136097,Copy of Spencer BBWM Wood3 - samples large than 8mg 0512
