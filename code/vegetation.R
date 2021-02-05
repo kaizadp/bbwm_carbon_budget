@@ -4,32 +4,11 @@ library(readxl)
 
 # CHEMISTRY FUNCTIONS -------------------------------------------------------------------------
 
-
-
-
-process_chemistry_foliage = function(){
-  ## 1. foliage ----
-  foliage = read_excel("data/veg_chem_foliage.xlsx")
-  foliage_cleaned =
-    foliage %>% 
-    dplyr::rename(sample_id = `Sample ID`,
-                  d13C_permil = d13C,
-                  C_ug = `C Amount (ug)`,
-                  d13C_comment = `d13C Comment`,
-                  d15N_permil = d15N,
-                  N_ug = `N Amount (ug)`,
-                  d15N_comment = `d15N Comment`,
-                  TrayName = `Tray Name`,
-                  WellID = `Well Id`,
-                  material = `Type of Material`,
-                  enriched = `Enriched?`,
-                  sample_wt_mg = `Amount (mg)`,
-                  analysis_number = `Analysis Number`,
-                  year = yr,
-                  sample_number = `Sample #`,
-                  watershed = Watershed,
-                  species = Species
-    ) %>% 
+process_chemistry_foliage = function(foliage_chem){
+  foliage_chem %>% 
+    filter(!is.na(sample_ID)) %>% 
+    filter(is.na(skip)) %>% 
+    filter(material != "litter") %>% 
     # recode variables 
     mutate(watershed = recode(watershed, "West Bear" = "WB", "East Bear" = "EB"),
            species = case_when(
@@ -40,172 +19,91 @@ process_chemistry_foliage = function(){
              species == "yellow birch"|species == "Yellow birch" ~ "YB"),
            material = if_else(grepl("oliage", material), "foliage", material)) %>% 
     # calculate
-    mutate(sample_wt_mg = as.numeric(sample_wt_mg),
-           C_mg_g = C_ug/sample_wt_mg) %>% 
-    dplyr::select(skip, year, material, watershed, species, 
-                  sample_wt_mg, C_ug, N_ug, C_mg_g, 
-                  d13C_permil, d15N_permil,
-                  TrayName, WellID, enriched, 
-                  plot, tree, 
-                  OurLabID, analysis_number, sample_id, analysis_number, sample_number, 
-                  d13C_comment, d15N_comment,
-                  source_file) %>% 
-    filter(!is.na(material))
-  
-  
-  
-  foliage_cleaned %>% 
-    filter(material == "foliage" & is.na(skip) & !is.na(species)) %>% 
-    ggplot(aes(y = C_mg_g, x = species, shape = watershed, color = as.character(year), group = watershed))+
-    geom_point(size = 2,
-               position = position_dodge(width = 0.4))+
-    facet_wrap(~year)+
-    NULL
-  
-  
-  
+    mutate(
+           C_mg_g = C_amount_ug/amount_mg,
+           C_mg_g = round(C_mg_g, 2),
+           material = "foliage",
+           forest = NA) %>% 
+    dplyr::select(material, sample_ID, sample_number, watershed, forest, species, year, C_mg_g)
 }
-process_chemistry_root = function(){
-  ## 2. roots ----
-  roots = read_excel("data/veg_chem_roots.xlsx")
+process_chemistry_root = function(root_chem){
   
-  roots_cleaned = 
-    roots %>% 
-    dplyr::rename(sample_id = `Sample ID`,
-                  d13C_permil = d13C,
-                  C_ug = `C Amount (ug)`,
-                  d13C_comment = `d13C Comment`,
-                  d15N_permil = d15N,
-                  N_ug = `N Amount (ug)`,
-                  d15N_comment = `d15N Comment`,
-                  TrayName = `Tray Name`,
-                  WellID = `Well Id`,
-                  material = `Type of Material`,
-                  enriched = `Enriched?`,
-                  sample_wt_mg = `Amount (mg)`,
-                  analysis_number = `Analysis Number`,
-                  year = Yr,
-                  sample_id2 = `SampleID`,
-                  watershed = WS,
-                  forest = VEG,
-                  horizon = Horizon,
-                  sample_identifier = `Sample Identifier`,
-                  source_file = source,
-                  plot = Plot
-    ) %>% 
+  root_chem %>% 
+    filter(!is.na(sample_ID)) %>% 
+    filter(is.na(skip)) %>% 
     mutate(material = "roots",
-           plot = as.character(plot)) %>% 
+           plot = as.character(plot),
+           C_mg_g = C_amount_ug/amount_mg,
+           C_mg_g = round(C_mg_g,2)) %>% 
     # fix horizon levels
-    filter(horizon != "BLANK") %>% 
     mutate(depth = recode(horizon,
                           "Oa" = "O", "Oe" = "O", "Oi" = "O",
                           "0-5" = "0-5cm", "5-25" = "5-25cm", "25-50" = "25-50cm",
-                          "B05" = "0-5cm", "B525" = "5-25cm"),
+                          "B05" = "0-5cm", "B525" = "5-25cm", "B2550" = "25-50cm"),
            horizon2 = if_else(grepl("-", depth), "B", depth)) %>% 
     dplyr::select(-horizon) %>% 
-    dplyr::rename(horizon = horizon2) %>% 
-    dplyr::select(skip, material, watershed, forest, year, 
-                  plot, horizon, depth,
-                  sample_wt_mg, C_ug, N_ug, d13C_permil, d15N_permil,
-                  d13C_comment, d15N_comment,
-                  TrayName, WellID, enriched, 
-                  OurLabID, analysis_number, sample_id, analysis_number, 
-                  sample_id2, sample_identifier, source_file) %>% 
-    mutate(C_ug = as.numeric(C_ug),
-           sample_wt_mg = as.numeric(sample_wt_mg),
-           C_mg_g = C_ug/sample_wt_mg)
-  
-  
-  
-  
+    dplyr::rename(horizon = horizon2,
+                  forest = vegetation) %>% 
+    dplyr::select(sample_ID, material, watershed, forest, year, horizon, depth, C_mg_g)
 }
-process_chemistry_wood = function(){
-  ## 3. wood ----
-  wood_chemistry = read.csv("data/veg_chem_wood.csv", na.strings = "")
-  wood_chemistry_key = read.csv("data/veg_chem_wood_key.csv", na.strings = "")
-  
-  wood_chemistry_processed = 
-    wood_chemistry_key %>% 
+process_chemistry_wood = function(wood_chemistry, wood_chemistry_key){
+  wood_chemistry_key %>% 
     dplyr::select(sample_ID, Year, watershed, year, species) %>% 
-    left_join(wood_chemistry %>% dplyr::select(sample_ID, C_Amount_ug, amount_mg), by = "sample_ID") %>% 
+    left_join(wood_chemistry %>% dplyr::select(sample_ID, C_amount_ug, amount_mg), by = "sample_ID") %>% 
     drop_na() %>% 
     filter(amount_mg != "0") %>% 
     mutate(amount_mg = as.double(amount_mg),
-           C_mg_g = C_Amount_ug/amount_mg)
-  
-  
-  
-  wood_chemistry_processed %>% 
-    ggplot(aes(x = species, y = C_mg_g, color = watershed))+ geom_point()
-  
-  #
+           C_mg_g = C_amount_ug/amount_mg,
+           C_mg_g = round(C_mg_g, 2),
+           material = "wood",
+           year = as.integer(year)) %>% 
+    dplyr::select(material, sample_ID, watershed, species, year, C_mg_g)
   
 }
-process_chemistry_branch = function(){
-  ## 4. woody litter ---- 
-  litterfall = read.csv("data/veg_chem_litterfall.csv", na.strings = "")
-  
-  woody_litter = 
-    litterfall %>% 
-    dplyr::select(sample_ID, C_amount_ug, amount_mg, species, lf_type, watershed, forest) %>% 
+process_chemistry_branch = function(litterfall){
+  litterfall %>% 
     filter(lf_type == "woody") %>% 
-    drop_na() %>% 
-    mutate(C_mg_g = C_amount_ug/amount_mg)
-  
-  #
-  
+    mutate(C_mg_g = C_amount_ug/amount_mg,
+           material = "woody_litter") %>% 
+    filter(!is.na(C_mg_g)) %>% 
+    dplyr::select(material, sample_ID, watershed, forest, species, year, C_mg_g)
 }
-process_chemistry_looselitter = function(){
-  ## 5. loose litter ----
-  ll_chem = read.csv("data/veg_chem_ll.csv", na.strings = "")
-  ll_chem_key = read.csv("data/veg_chem_ll_key.csv", na.strings = "")
-  
+process_chemistry_looselitter = function(ll_chem, ll_chem_key){
   ll_chem_temp = 
     ll_chem %>% 
     mutate(sample_ID = str_replace(sample_ID, "LL ", "LL")) %>% 
     dplyr::select(sample_ID, C_amount_ug, amount_mg)
   
-  ll_processed = 
-    ll_chem_key %>% 
-    #filter(is.na(skip)) %>% 
-    #dplyr::select(sample_type, sample_number, watershed, forest, plot) %>% 
-    #filter(sample_type == "LL") %>% 
-    #mutate(sample_ID = paste0("LL", sample_number)) %>% 
+  ll_chem_key %>% 
     full_join(ll_chem_temp) %>% 
     drop_na() %>% 
     filter(p_trt == "noP") %>% 
-    mutate(material = "loose litter",
-           C_mg_g = C_amount_ug/amount_mg)
-  
-  #
-  
+    mutate(material = "loose_litter",
+           species = NA,
+           C_mg_g = C_amount_ug/amount_mg,
+           C_mg_g = round(C_mg_g, 2),
+           year = if_else(chase_day < 400, 2012, 2013)) %>% 
+    dplyr::select(material, sample_ID, watershed, forest, species, year, C_mg_g)
 }
-process_chemistry_herb = function(){
-  ## 6. herbaceous ----
-  herb_chem = read.csv("data/veg_chem_herbaceous.csv", na.strings = "")
-  herb_weights = read.csv("data/veg_herbaceous_weights.csv", na.strings = "")
-  
+process_chemistry_herb = function(herb_chem, herb_weights){
   herb_chem_temp = 
     herb_chem %>% 
     dplyr::select(sample_number, C_amount_ug, amount_mg) %>% 
     mutate(sample_number = as.numeric(sample_number))
   
-  herb_chem_processed = 
-    herb_weights %>% 
-    dplyr::select(sample_number, watershed, forest, location) %>% 
+  herb_weights %>% 
     full_join(herb_chem_temp, by = "sample_number") %>% 
-    drop_na() %>% 
-    mutate(C_mg_g = C_amount_ug/amount_mg)
-  
-  
-  
-  
-  #
-  
+    #drop_na() %>% 
+    mutate(C_mg_g = C_amount_ug/amount_mg,
+           C_mg_g = round(C_mg_g, 2),
+           material = "herb",
+           species = NA) %>% 
+    filter(!is.na(C_mg_g) & !is.na(sample_number)) %>% 
+    dplyr::select(material, sample_number, watershed, forest, species, year, C_mg_g) 
 }
 
 
-
+#
 # BIOMASS FUNCTIONS -------------------------------------------------------------------------
 
 calculate_biomass_tree = function(){
@@ -290,6 +188,12 @@ calculate_biomass_herb = function(){
   
   
 }
+
+
+
+
+
+# PROCESS VEGETATION DATA -------------------------------------------------
 
 
 
