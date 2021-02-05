@@ -40,3 +40,5 @@ vignettes/*.pdf
 
 # OS files 
 .DS_Store
+
+reports/*.html
