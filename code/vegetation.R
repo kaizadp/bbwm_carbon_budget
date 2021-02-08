@@ -206,65 +206,6 @@ calculate_biomass_herb = function(herb_weights){
 
 
 
-# PROCESS VEGETATION DATA -------------------------------------------------
 
-
-
-
-# -------------------------------------------------------------------------
-# -------------------------------------------------------------------------
-
-## combined ----
-combined_veg_chem = 
-  bind_rows(foliage_cleaned, roots_cleaned) %>% 
-  filter(sample_wt_mg > 0) %>% 
-  filter(is.na(skip)) %>% 
-  mutate(C_ug = round(C_ug, 3),
-         N_ug = round(N_ug, 3),
-         C_mg_g = round(C_mg_g, 3),
-         d13C_permil = round(d13C_permil, 3),
-         d15N_permil = round(d15N_permil, 3)) %>% 
-  dplyr::select(material, year, watershed, forest, species, horizon, depth, 
-                sample_wt_mg, C_ug, N_ug, C_mg_g, d13C_permil, d15N_permil,
-                TrayName, WellID, enriched, plot, tree, 
-                OurLabID, analysis_number, sample_id, d13C_comment, d15N_comment, source_file)
-
-
-
-#
-## output ----
-foliage_cleaned %>% write.csv("data/processed/veg_chem_foliage_processed.csv", row.names = F)
-roots_cleaned %>% write.csv("data/processed/veg_chem_roots_processed.csv", row.names = F)
-combined_veg_chem %>% write.csv("data/processed/veg_concentrations.csv", row.names = F, na = "")
-
-
-# plots -------------------------------------------------------------------
-
-veg_biomass_summary %>% 
-  filter(tissue == "total") %>% 
-  mutate(compartment = str_sub(plotID, 1, 4)) %>% 
-  ggplot(aes(y = biomass_kg_ha, x = watershed, fill = compartment, group = compartment))+
-  #geom_point(position = position_dodge(width = 0.4))+
-  geom_bar(stat = "identity", position = "stack", width = 0.2, color = 
-             "black")
-
-
-veg_biomass_summary %>% 
-  filter(tissue == "total") %>% 
-  mutate(compartment = str_sub(plotID, 1, 4)) %>%
-  group_by(compartment, plotID) %>% 
-  dplyr::summarise(biomass_kgha = sum(biomass_kg_ha, na.rm = T)) %>% 
-  group_by(compartment) %>% 
-  dplyr::summarise(biomass_kgha = mean(biomass_kgha, na.rm = T))
-
-roots_cleaned %>% 
-  ggplot(aes(x = forest, y = C_mg_g, color = watershed))+
-  geom_point(position = position_dodge(width = 0.4))+
-  facet_grid(horizon~.)
-
-levels(as.factor(roots_cleaned$horizon))
-
-
-#
 
 
