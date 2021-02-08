@@ -5,7 +5,8 @@ source()
 
 
 budget_plan = drake_plan(
-  # LOAD FILES ----
+  # I. CHEMISTRY ------------------------------------------------------------
+  # Ia. LOAD FILES ----
   wood_chemistry = read.csv(file_in("data/veg_chem_wood.csv"), na.strings = ""),
   wood_chemistry_key = read.csv(file_in("data/veg_chem_wood_key.csv"), na.strings = ""),
   
@@ -21,21 +22,21 @@ budget_plan = drake_plan(
   root_chem = read.csv("data/veg_chem_roots.csv", na.strings = ""),
   
   
-  # PROCESS DATA ----
+  # Ib. PROCESS DATA ----
   wood = process_chemistry_wood(wood_chemistry, wood_chemistry_key),
   branches = process_chemistry_branch(litterfall),
   loose_litter = process_chemistry_looselitter(ll_chem, ll_chem_key),
   herb = process_chemistry_herb(herb_chem, herb_weights),
   foliage = process_chemistry_foliage(foliage_chem),
   roots = process_chemistry_root(root_chem),
-
+  
   vegetation_combined_chem = bind_rows(foliage, wood, branches, loose_litter, roots, herb),
-
-  # PLOTS ----
+  
+  # Ic. PLOTS ----
   gg_veg_chemistry = plot_veg_chemistry(vegetation_combined_chem),
   
   
-  # OUTPUT ----
+  # Id. OUTPUT ----
   wood  %>% write.csv("data/processed/veg_chem_wood.csv", row.names = FALSE, na = ""),
   branches %>% write.csv("data/processed/veg_chem_branches.csv", row.names = FALSE, na = ""),
   loose_litter %>% write.csv("data/processed/veg_chem_loose_litter.csv", row.names = FALSE, na = ""),
@@ -43,12 +44,28 @@ budget_plan = drake_plan(
   foliage %>% write.csv("data/processed/veg_chem_foliage.csv", row.names = FALSE, na = ""),
   roots %>% write.csv("data/processed/veg_chem_roots.csv", row.names = FALSE, na = ""),
   vegetation_combined_chem %>% write.csv("data/processed/veg_chem_combined.csv", row.names = FALSE, na = ""),
-
+  
+  #
+  # II. BIOMASS -------------------------------------------------------------
+  # IIa. LOAD FILES ----
+  dbh = read.csv("data/veg_dbh.csv"),
+  young_coeff = read.csv("data/veg_young_coeff.csv"),
+  ll_weights = read.csv("data/veg_cof_and_ll_weights.csv", na.strings = ""),
+  
+  # IIb. PROCESS BIOMASS ----
+  biomass_trees = calculate_biomass_young(young_coeff, dbh),
+  biomass_looselitter = calculate_biomass_looselitter(ll_weights),
+  biomass_herb = calculate_biomass_herb(herb_weights),
+  biomass_combined = bind_rows(biomass_trees, biomass_looselitter, biomass_herb),
+  
+  
   # REPORT ----
   report = rmarkdown::render(
     knitr_in("reports/chemistry_report.Rmd"),output_format = rmarkdown::github_document())
   
-    
-  )
+  
+)
 
 make(budget_plan)
+
+

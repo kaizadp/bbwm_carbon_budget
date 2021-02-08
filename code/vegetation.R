@@ -106,20 +106,17 @@ process_chemistry_herb = function(herb_chem, herb_weights){
 #
 # BIOMASS FUNCTIONS -------------------------------------------------------------------------
 
-calculate_biomass_tree = function(){
-  dbh = read.csv("data/veg_dbh.csv")
-  young = read.csv("data/veg_young_coeff.csv")
-  
-  # calculate biomass using young equation -------------------------------------------------------------------------
+calculate_biomass_young = function(young_coeff, dbh){
+  # calculate biomass using young equation
   # ln (weight-lbs) = B0 + B1 (ln(DBH-inches))
   
   young2 = 
-    young %>% 
+    young_coeff %>% 
     pivot_longer(-species) %>% 
     separate(name, sep = "_", into = c("tissue", "coefficient")) %>% 
     pivot_wider(names_from = "coefficient", values_from = "value")
   
-  veg_biomass1 = 
+  veg_biomass = 
     dbh %>% 
     dplyr::select(plotID, watershed, forest, species, dbh_cm) %>% 
     left_join(young2, by = "species") %>% 
@@ -129,35 +126,41 @@ calculate_biomass_tree = function(){
            biomass_kg = round(biomass_lbs * 0.4536, 2)) %>% 
     dplyr::select(plotID, watershed, forest, species, tissue, biomass_kg)
   
-  # split stem into stem-wood and stem-bark
-  veg_biomass_stem = 
-    veg_biomass1 %>% 
-    filter(tissue == "stem") %>% 
-    mutate(stem_wood = if_else(species == "RS", biomass_kg * 0.87, biomass_kg * 0.88),
-           stem_bark = if_else(species == "RS", biomass_kg * 0.13, biomass_kg * 0.12)) %>% 
-    dplyr::select(plotID, watershed, forest, species, stem_wood, stem_bark) %>% 
-    pivot_longer(-c(plotID, watershed, forest, species), 
-                 names_to = "tissue", values_to = "biomass_kg") %>% 
-    mutate(biomass_kg = round(biomass_kg, 2))
+        ##  # split stem into stem-wood and stem-bark
+        ##  UPDATE: not doing this, because we do not have bark C chemistry
+        ##  veg_biomass_stem = 
+        ##    veg_biomass1 %>% 
+        ##    filter(tissue == "stem") %>% 
+        ##    mutate(stem_wood = if_else(species == "RS", biomass_kg * 0.87, biomass_kg * 0.88),
+        ##           stem_bark = if_else(species == "RS", biomass_kg * 0.13, biomass_kg * 0.12)) %>% 
+        ##    dplyr::select(plotID, watershed, forest, species, stem_wood, stem_bark) %>% 
+        ##    pivot_longer(-c(plotID, watershed, forest, species), 
+        ##                 names_to = "tissue", values_to = "biomass_kg") %>% 
+        ##    mutate(biomass_kg = round(biomass_kg, 2))
+      
+        ##  # now add the stem-wood, stem_bark to the original file 
+        ##    veg_biomass = bind_rows(veg_biomass1, veg_biomass_stem)  
   
-  # now add the stem-wood, stem_bark to the original file
-  veg_biomass = bind_rows(veg_biomass1, veg_biomass_stem)  
-  
-  # summarize biomass
-  veg_biomass_summary = 
+  # calculate biomass per hectare
+  veg_biomass_kgha = 
     veg_biomass %>% 
     group_by(watershed, forest, plotID, species, tissue) %>% 
     dplyr::summarise(biomass_kg_400m2 = sum(biomass_kg),
-                     biomass_kg_ha = biomass_kg_400m2 * 100/4)
+                     biomass_kg_ha = biomass_kg_400m2 * 100/4) %>% 
+    dplyr::select(-biomass_kg_400m2)
   
-  
-  
-  
+  # summarize
+  veg_biomass_kgha %>% 
+    rename(sample_type = tissue) %>% 
+    filter(sample_type != "total") %>% 
+    group_by(watershed, forest, species, sample_type) %>% 
+    dplyr::summarise(biomass_se = as.integer(sd(biomass_kg_ha, na.rm = TRUE)/sqrt(n())),
+                     biomass_kg_ha = as.integer(mean(biomass_kg_ha))
+                     ) 
 }
 
-calculate_biomass_looselitter = function(){
-  ll_weights = read.csv("data/veg_cof_and_ll_weights.csv", na.strings = "")
-  
+calculate_biomass_looselitter = function(ll_weights){
+
   ll_weights_processed = 
     ll_weights %>% 
     filter(!is.na(od_weight_g) & sample_type == "LL" & forest != "RT") %>% 
@@ -165,11 +168,17 @@ calculate_biomass_looselitter = function(){
            biomass_kg_ha = biomass_g_cm2 * 100000, # 1 ha = 10^8 cm2, 1 kg = 10^3 g
            biomass_kg_ha = as.integer(biomass_kg_ha)) %>% 
     dplyr::select(sample_type, sample_number, watershed, forest, plot, year, biomass_kg_ha)
+  
+  ll_weights_processed %>% 
+    group_by(sample_type, watershed, forest) %>% 
+    dplyr::summarise(biomass_se = as.integer(sd(biomass_kg_ha, na.rm = TRUE)/sqrt(n())),
+                     biomass_kg_ha = as.integer(mean(biomass_kg_ha))
+    ) 
+  
 }
 
-calculate_biomass_herb = function(){
-  herb_weights = read.csv("data/veg_herbaceous_weights.csv", na.strings = "")
-  
+calculate_biomass_herb = function(herb_weights){
+
   herb_weights_processed = 
     herb_weights %>% 
     filter(!is.na(sample_number)) %>% 
@@ -186,7 +195,11 @@ calculate_biomass_herb = function(){
   #    group_by(watershed, forest) %>% 
   #    dplyr::summarise(biomass_kg_ha = as.integer(mean(biomass_kg_ha)))
   
-  
+  herb_weights_processed %>% 
+    group_by(sample_type, watershed, forest) %>% 
+    dplyr::summarise(biomass_se = as.integer(sd(biomass_kg_ha, na.rm = TRUE)/sqrt(n())),
+                     biomass_kg_ha = as.integer(mean(biomass_kg_ha))
+    ) 
 }
 
 
