@@ -1,0 +1,77 @@
+---
+title: "BBWM carbon budget"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      options(knitr.kable.NA = '')
+                      )
+```
+
+## VEGETATION CHEMISTRY
+
+```{r}
+readd(veg_chemistry_table) %>% filter(material == "foliage") %>% 
+  knitr::kable() 
+```
+
+```{r}
+readd(veg_chemistry_table) %>% filter(material == "wood") %>% 
+  knitr::kable() 
+```
+
+```{r}
+readd(veg_chemistry_table) %>% filter(!material %in% c("foliage", "wood")) %>% 
+  knitr::kable() 
+```
+
+
+```{r veg_chem}
+readd(gg_veg_chemistry)
+```
+
+#### *note: we need to remove outliers*
+
+
+---
+
+## VEGETATION BIOMASS
+```{r}
+readd(biomass_table) %>% knitr::kable()
+```
+
+---
+
+
+## VEGETATION CARBON STOCKS
+```{r}
+readd(carbon_stocks_table) %>% knitr::kable()
+```
+
+
+```{r veg_stocks, fig.width=12, fig.height=10}
+readd(gg_veg_stocks)
+```
+
+#### *note: we need to double check "herb"*
+
+
+---
+
+<details>
+  <summary>Session Info</summary>
+  
+  Date run: `r Sys.Date()`
+
+Session Info:
+```{r}
+sessionInfo()
+```
+
+  
+  
+</details>
+
