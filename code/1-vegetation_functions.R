@@ -123,8 +123,9 @@ calculate_biomass_young = function(young_coeff, dbh){
     mutate(dbh_in = dbh_cm/2.54,
            ln_biomass_lbs = b0 + b1 * log(dbh_in),
            biomass_lbs = exp(ln_biomass_lbs),
-           biomass_kg = round(biomass_lbs * 0.4536, 2)) %>% 
-    dplyr::select(plotID, watershed, forest, species, tissue, biomass_kg)
+           biomass_kg = round(biomass_lbs * 0.4536, 2),
+           plot = parse_number(plotID)) %>% 
+    dplyr::select(plot, watershed, forest, species, tissue, biomass_kg)
   
         ##  # split stem into stem-wood and stem-bark
         ##  UPDATE: not doing this, because we do not have bark C chemistry
@@ -142,45 +143,28 @@ calculate_biomass_young = function(young_coeff, dbh){
         ##    veg_biomass = bind_rows(veg_biomass1, veg_biomass_stem)  
   
   # calculate biomass per hectare
-  veg_biomass_kgha = 
-    veg_biomass %>% 
-    group_by(watershed, forest, plotID, species, tissue) %>% 
+  veg_biomass %>% 
+    rename("material" = "tissue") %>% 
+    mutate(material = recode(material, "leaves" = "foliage")) %>% 
+    group_by(watershed, forest, plot, species, material) %>% 
     dplyr::summarise(biomass_kg_400m2 = sum(biomass_kg),
-                     biomass_kg_ha = biomass_kg_400m2 * 100/4) %>% 
+                     biomass_kg_ha = as.integer(biomass_kg_400m2 * 100/4)) %>% 
     dplyr::select(-biomass_kg_400m2)
-  
-  # summarize
-  veg_biomass_kgha %>% 
-    rename(sample_type = tissue) %>% 
-    filter(sample_type != "total") %>% 
-    group_by(watershed, forest, species, sample_type) %>% 
-    dplyr::summarise(biomass_se = as.integer(sd(biomass_kg_ha, na.rm = TRUE)/sqrt(n())),
-                     biomass_kg_ha = as.integer(mean(biomass_kg_ha))
-                     ) 
 }
 
 calculate_biomass_looselitter = function(ll_weights){
-
-  ll_weights_processed = 
-    ll_weights %>% 
+  ll_weights %>% 
     filter(!is.na(od_weight_g) & sample_type == "LL" & forest != "RT") %>% 
-    mutate(biomass_g_cm2 = od_weight_g / area_cm2,
+    rename("material" = "sample_type") %>% 
+    mutate(material = "loose_litter",
+           biomass_g_cm2 = od_weight_g / area_cm2,
            biomass_kg_ha = biomass_g_cm2 * 100000, # 1 ha = 10^8 cm2, 1 kg = 10^3 g
            biomass_kg_ha = as.integer(biomass_kg_ha)) %>% 
-    dplyr::select(sample_type, sample_number, watershed, forest, plot, year, biomass_kg_ha)
-  
-  ll_weights_processed %>% 
-    group_by(sample_type, watershed, forest) %>% 
-    dplyr::summarise(biomass_se = as.integer(sd(biomass_kg_ha, na.rm = TRUE)/sqrt(n())),
-                     biomass_kg_ha = as.integer(mean(biomass_kg_ha))
-    ) 
-  
+    dplyr::select(material, sample_number, watershed, forest, plot, year, biomass_kg_ha)
 }
 
 calculate_biomass_herb = function(herb_weights){
-
-  herb_weights_processed = 
-    herb_weights %>% 
+  herb_weights %>% 
     filter(!is.na(sample_number)) %>% 
     group_by(code, watershed, forest, location, year) %>% 
     dplyr::summarise(wt_g = sum(wt_air_dry_g, na.rm = TRUE),
@@ -189,23 +173,100 @@ calculate_biomass_herb = function(herb_weights){
     mutate(biomass_g_m2 = wt_g * area_m2,
            biomass_kg_ha = biomass_g_m2 * 10, # 1 ha = 10^4 m2, 1 kg = 10^3 g
            biomass_kg_ha  = as.integer(biomass_kg_ha),
-           sample_type = "herb") %>% 
-    dplyr::select(code, sample_type, watershed, forest, year, biomass_kg_ha)
-  #  %>% 
-  #    group_by(watershed, forest) %>% 
-  #    dplyr::summarise(biomass_kg_ha = as.integer(mean(biomass_kg_ha)))
-  
-  herb_weights_processed %>% 
-    group_by(sample_type, watershed, forest) %>% 
-    dplyr::summarise(biomass_se = as.integer(sd(biomass_kg_ha, na.rm = TRUE)/sqrt(n())),
-                     biomass_kg_ha = as.integer(mean(biomass_kg_ha))
-    ) 
+           material = "herb",
+           plot = parse_number(location)) %>% 
+    dplyr::select(code, material, watershed, forest, plot, year, biomass_kg_ha) %>% 
+    filter(biomass_kg_ha > 0)
 }
 
+#
 
+# COMBINE CHEMISTRY AND BIOMASS -------------------------------------------
 
+calculate_combined_biomass=function(biomass_trees, biomass_looselitter, biomass_herb){
+  combined_biomass = bind_rows(biomass_trees, 
+                               biomass_looselitter %>% filter(year == 2012), 
+                               biomass_herb %>% filter(year == 2012))
+  
+  combined_biomass %>% 
+    filter(!is.na(material)) %>% 
+    filter(material != "total") %>% 
+    mutate(biomass_kg_ha = as.integer(biomass_kg_ha)) %>% 
+    # we have multiple values for loose litter, so first calculate the mean
+    group_by(material, watershed, forest, plot, species) %>% 
+    dplyr::summarise(biomass_kg_ha = as.integer(mean(biomass_kg_ha)))
+}  
 
+calculate_combined_chemistry = function(foliage, wood, branches, loose_litter, roots, herb){
+  temp1 = 
+    bind_rows(foliage, wood) %>%  
+    mutate(forest = if_else(species == "RS", "SW", "HW"))
+  
+  combined_chem = bind_rows(temp1, branches, loose_litter, roots, herb)
+  
+  temp2 =
+    combined_chem %>% 
+    filter(material != "roots") %>% 
+    mutate(TC_perc1 = round(C_mg_g/10,2)) %>% 
+    group_by(material, watershed, forest, species) %>% 
+    dplyr::summarise(TC_mg_g = round(mean(C_mg_g),2),
+                     
+                     TC_perc = round(mean(TC_perc1),2),
+                     TC_perc_se = round(sd(TC_perc1)/sqrt(n()),2),
+                     n = n()) %>% 
+    mutate(material = recode(material, "woody_litter" = "branches"),
+           species = if_else(material == "branches", NA_character_, species))
+  
+  # we are using wood chemistry for stump-root, so we need to duplicate wood entries
+  # create a separate file for stumproot and then add to temp
+  stumproot = 
+    temp2 %>% 
+    filter(material == "wood") %>% 
+    mutate(material = "stumproot")
+  
+  temp2 %>% 
+    bind_rows(stumproot) %>% 
+    mutate(material = recode(material, "wood" = "stem"))
+  
+}
 
+calculate_biomass_carbon_stocks = function(vegetation_combined_biomass, vegetation_combined_chem){
+  temp = 
+    left_join(vegetation_combined_biomass, vegetation_combined_chem) %>% 
+    filter(material != "branches")
+  
+  temp_branches = 
+    vegetation_combined_biomass %>% filter(material == "branches") %>% 
+    group_by(material, watershed, forest, plot) %>% 
+    dplyr::summarise(biomass_kg_ha = sum(biomass_kg_ha)) %>% 
+    left_join(vegetation_combined_chem %>% filter(material == "branches"))
+  
+  biomass_stocks_species = 
+    temp %>% 
+    bind_rows(temp_branches) %>% 
+    filter(!is.na(n)) %>% 
+    mutate(TC_kgha = biomass_kg_ha * TC_mg_g / 1000) %>% 
+    group_by(material, watershed, forest, species) %>% 
+    dplyr::summarise(TC_kg_ha = mean(TC_kgha),
+                     TC_se = sd(TC_kgha)/sqrt(n()),
+                     n = n())
 
+  temp %>% 
+    bind_rows(temp_branches) %>% 
+    filter(!is.na(n)) %>% 
+    mutate(TC_kgha = biomass_kg_ha * TC_mg_g / 1000) %>% 
+    group_by(material, watershed, forest, plot) %>% 
+    dplyr::summarise(biomass_kgha = sum(biomass_kg_ha),
+                     TC_kgha = sum(TC_kgha)) %>% 
+    group_by(material, watershed, forest) %>% 
+    dplyr::summarise(biomass_kg_ha = mean(biomass_kgha),
+                     biomass_se = sd(biomass_kgha)/sqrt(n()),
+                     TC_kg_ha = mean(TC_kgha),
+                     TC_se = sd(TC_kgha)/sqrt(n()),
+                     n = n()) %>% 
+    mutate_if(is.numeric, as.integer) %>% 
+    mutate(material = factor(material, levels = c("foliage", "branches", "stem", "stumproot", "loose_litter", "herb")))
+    
+}
 
 

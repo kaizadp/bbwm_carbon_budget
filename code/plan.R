@@ -28,11 +28,10 @@ budget_plan = drake_plan(
   herb = process_chemistry_herb(herb_chem, herb_weights),
   foliage = process_chemistry_foliage(foliage_chem),
   roots = process_chemistry_root(root_chem),
-  
-  vegetation_combined_chem = bind_rows(foliage, wood, branches, loose_litter, roots, herb),
+  vegetation_combined_chem = calculate_combined_chemistry(foliage, wood, branches, loose_litter, roots, herb),
   
   ## Ic. PLOTS ----
-  gg_veg_chemistry = plot_veg_chemistry(vegetation_combined_chem),
+#  gg_veg_chemistry = plot_veg_chemistry(vegetation_combined_chem),
   
   
   ## Id. OUTPUT ----
@@ -48,19 +47,23 @@ budget_plan = drake_plan(
   # II. BIOMASS -------------------------------------------------------------
   ## IIa. LOAD FILES ----
   dbh = read.csv("data/veg_dbh.csv"),
-  young_coeff = read.csv("data/veg_young_coeff.csv"),
+  young_coeff = read.csv("data/veg_young_coeff2.csv"),
   ll_weights = read.csv("data/veg_cof_and_ll_weights.csv", na.strings = ""),
   
   ## IIb. PROCESS BIOMASS ----
   biomass_trees = calculate_biomass_young(young_coeff, dbh),
   biomass_looselitter = calculate_biomass_looselitter(ll_weights),
   biomass_herb = calculate_biomass_herb(herb_weights),
-  biomass_combined = bind_rows(biomass_trees, biomass_looselitter, biomass_herb),
+  vegetation_combined_biomass = calculate_combined_biomass(biomass_trees, biomass_looselitter, biomass_herb),
   
   
+
+# III. CALCULATE CARBON STOCKS --------------------------------------------
+
+vegetation_carbon_stocks = calculate_biomass_carbon_stocks(vegetation_combined_biomass, vegetation_combined_chem)
   # REPORT ----
-  report = rmarkdown::render(
-    knitr_in("reports/chemistry_report.Rmd"),output_format = rmarkdown::github_document())
+#  report = rmarkdown::render(
+#    knitr_in("reports/chemistry_report.Rmd"),output_format = rmarkdown::github_document())
   
   
 )
