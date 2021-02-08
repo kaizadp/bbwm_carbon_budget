@@ -28,13 +28,17 @@ budget_plan = drake_plan(
   herb = process_chemistry_herb(herb_chem, herb_weights),
   foliage = process_chemistry_foliage(foliage_chem),
   roots = process_chemistry_root(root_chem),
-  vegetation_combined_chem = calculate_combined_chemistry(foliage, wood, branches, loose_litter, roots, herb),
+  vegetation_combined_chem_all = calculate_combined_chemistry(foliage, wood, branches, loose_litter, roots, herb)$all_values,
+  vegetation_combined_chem = calculate_combined_chemistry(foliage, wood, branches, loose_litter, roots, herb)$average,
   
   ## Ic. PLOTS ----
-#  gg_veg_chemistry = plot_veg_chemistry(vegetation_combined_chem),
+    gg_veg_chemistry = plot_veg_chemistry(vegetation_combined_chem_all),
+  ## Id. TABLES ----
+  veg_chemistry_table = compute_tables_veg_chem(foliage, wood, branches, loose_litter, herb),
   
   
-  ## Id. OUTPUT ----
+  
+  ## Ie. OUTPUT ----
   wood  %>% write.csv("data/processed/veg_chem_wood.csv", row.names = FALSE, na = ""),
   branches %>% write.csv("data/processed/veg_chem_branches.csv", row.names = FALSE, na = ""),
   loose_litter %>% write.csv("data/processed/veg_chem_loose_litter.csv", row.names = FALSE, na = ""),
@@ -57,14 +61,22 @@ budget_plan = drake_plan(
   vegetation_combined_biomass = calculate_combined_biomass(biomass_trees, biomass_looselitter, biomass_herb),
   
   
-
-# III. CALCULATE CARBON STOCKS --------------------------------------------
-
-vegetation_carbon_stocks = calculate_biomass_carbon_stocks(vegetation_combined_biomass, vegetation_combined_chem)
-  # REPORT ----
-#  report = rmarkdown::render(
-#    knitr_in("reports/chemistry_report.Rmd"),output_format = rmarkdown::github_document())
   
+  # III. CALCULATE CARBON STOCKS --------------------------------------------
+  ## IIIa. calculations ----
+  vegetation_carbon_stocks = calculate_biomass_carbon_stocks(vegetation_combined_biomass, vegetation_combined_chem)$compartment,
+  vegetation_stocks_by_plot = calculate_biomass_carbon_stocks(vegetation_combined_biomass, vegetation_combined_chem)$plot_wise,
+  
+  ## IIIb. tables ----
+  biomass_table = compute_tables_veg_biomass(vegetation_stocks_by_plot),
+  carbon_stocks_table = compute_tables_veg_stocks(vegetation_stocks_by_plot),
+  
+  ## IIIc. FIGURES ----
+  gg_veg_stocks = plot_veg_stocks(vegetation_carbon_stocks), 
+  
+  # REPORT ----
+    report = rmarkdown::render(
+      knitr_in("reports/c_budget_report.Rmd"),output_format = rmarkdown::github_document())
   
 )
 
