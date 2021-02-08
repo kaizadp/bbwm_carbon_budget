@@ -202,17 +202,17 @@ calculate_combined_chemistry = function(foliage, wood, branches, loose_litter, r
     bind_rows(foliage, wood) %>%  
     mutate(forest = if_else(species == "RS", "SW", "HW"))
   
-  combined_chem = bind_rows(temp1, branches, loose_litter, roots, herb)
+  all_values = bind_rows(temp1, branches, loose_litter, roots, herb)
   
   temp2 =
-    combined_chem %>% 
+    all_values %>% 
     filter(material != "roots") %>% 
-    mutate(TC_perc1 = round(C_mg_g/10,2)) %>% 
+    #mutate(TC_perc1 = round(C_mg_g/10,2)) %>% 
     group_by(material, watershed, forest, species) %>% 
     dplyr::summarise(TC_mg_g = round(mean(C_mg_g),2),
                      
-                     TC_perc = round(mean(TC_perc1),2),
-                     TC_perc_se = round(sd(TC_perc1)/sqrt(n()),2),
+    #                 TC_perc = round(mean(TC_perc1),2),
+    #                 TC_perc_se = round(sd(TC_perc1)/sqrt(n()),2),
                      n = n()) %>% 
     mutate(material = recode(material, "woody_litter" = "branches"),
            species = if_else(material == "branches", NA_character_, species))
@@ -224,10 +224,12 @@ calculate_combined_chemistry = function(foliage, wood, branches, loose_litter, r
     filter(material == "wood") %>% 
     mutate(material = "stumproot")
   
-  temp2 %>% 
+  average = temp2 %>% 
     bind_rows(stumproot) %>% 
     mutate(material = recode(material, "wood" = "stem"))
   
+  list(all_values = all_values,
+       average = average)
 }
 
 calculate_biomass_carbon_stocks = function(vegetation_combined_biomass, vegetation_combined_chem){
@@ -251,13 +253,17 @@ calculate_biomass_carbon_stocks = function(vegetation_combined_biomass, vegetati
                      TC_se = sd(TC_kgha)/sqrt(n()),
                      n = n())
 
-  temp %>% 
+  plot_wise = 
+    temp %>% 
     bind_rows(temp_branches) %>% 
     filter(!is.na(n)) %>% 
     mutate(TC_kgha = biomass_kg_ha * TC_mg_g / 1000) %>% 
     group_by(material, watershed, forest, plot) %>% 
     dplyr::summarise(biomass_kgha = sum(biomass_kg_ha),
-                     TC_kgha = sum(TC_kgha)) %>% 
+                     TC_kgha = sum(TC_kgha)) 
+  
+  compartment = 
+    plot_wise %>% 
     group_by(material, watershed, forest) %>% 
     dplyr::summarise(biomass_kg_ha = mean(biomass_kgha),
                      biomass_se = sd(biomass_kgha)/sqrt(n()),
@@ -267,6 +273,100 @@ calculate_biomass_carbon_stocks = function(vegetation_combined_biomass, vegetati
     mutate_if(is.numeric, as.integer) %>% 
     mutate(material = factor(material, levels = c("foliage", "branches", "stem", "stumproot", "loose_litter", "herb")))
     
+  list(plot_wise = plot_wise,
+       compartment = compartment)
 }
 
 
+
+
+# MAKE TABLES AND STATS ---------------------------------------------------
+compute_tables_veg_chem = function(foliage, wood, branches, loose_litter, herb){
+    temp1 = 
+      bind_rows(foliage, wood) %>%  
+      mutate(forest = if_else(species == "RS", "SW", "HW"))
+    
+    combined_chem = bind_rows(temp1, branches, loose_litter, herb) %>% 
+      mutate(TC_perc = C_mg_g/10)
+    
+    fit_aov_chem = function(dat){
+      a = aov(TC_perc ~ watershed, data = dat)
+      broom::tidy(a) %>% 
+        filter(term == "watershed") %>% 
+        rename(p_value = `p.value`) %>% 
+        mutate(label = case_when(p_value <= 0.05 ~ "*")) %>% 
+        dplyr::select(p_value, label) %>% 
+        mutate(watershed = "WB")
+    }
+    chem_stats = 
+      combined_chem %>% 
+      group_by(material, forest, species) %>% 
+      filter(!is.na(forest)) %>% 
+      do(fit_aov_chem(.))
+    ## woody litter SW was significantly different
+    
+    combined_chem %>% 
+      group_by(material, watershed, forest, species) %>% 
+      dplyr::summarise(se = round(sd(TC_perc)/sqrt(n()),2),
+                       TC_perc = round(mean(TC_perc),2),
+                       n = n()) %>% 
+      dplyr::select(material, watershed, forest, species, TC_perc, se, n) %>% 
+      #mutate(material = factor(material, levels = c("foliage", "wood", "stem", "stumproot", "loose_litter", "herb"))) %>% 
+      arrange(forest, material, watershed)
+}
+
+compute_tables_veg_biomass = function(vegetation_stocks_by_plot){
+    fit_aov_biomass = function(dat){
+      a = aov(biomass_kgha ~ watershed, data = dat)
+      broom::tidy(a) %>% 
+        filter(term == "watershed") %>% 
+        rename(p_value = `p.value`) %>% 
+        mutate(label = case_when(p_value <= 0.05 ~ "*")) %>% 
+        dplyr::select(p_value, label) %>% 
+        mutate(watershed = "WB")
+    }
+    
+    vegetation_stocks_by_plot %>% 
+      group_by(forest, material) %>% 
+      do(fit_aov_biomass(.))
+    ## p-values are all > 0.05, so not worrying about adding labels
+      
+    vegetation_stocks_by_plot %>% 
+      group_by(forest, material, watershed) %>% 
+      dplyr::summarise(biomass_kg_ha = mean(biomass_kgha),
+                       biomass_se = sd(biomass_kgha)/sqrt(n())) %>% 
+      mutate_if(is.numeric, as.integer) %>% 
+      mutate(material = factor(material, levels = c("foliage", "branches", "stem", "stumproot", "loose_litter", "herb")),
+             biomass_kg_ha = paste(biomass_kg_ha, "\u00b1", biomass_se)) %>% 
+      dplyr::select(forest, material, watershed, biomass_kg_ha) %>% 
+      pivot_wider(names_from = "watershed", values_from = "biomass_kg_ha") %>%  
+      arrange(forest, material)
+  }
+
+compute_tables_veg_stocks = function(vegetation_stocks_by_plot){
+  fit_aov_tc = function(dat){
+    a = aov(TC_kgha ~ watershed, data = dat)
+    broom::tidy(a) %>% 
+      filter(term == "watershed") %>% 
+      rename(p_value = `p.value`) %>% 
+      mutate(label = case_when(p_value <= 0.05 ~ "*")) %>% 
+      dplyr::select(p_value, label) %>% 
+      mutate(watershed = "WB")
+  }
+  
+  vegetation_stocks_by_plot %>% 
+    group_by(forest, material) %>% 
+    do(fit_aov_tc(.))
+  ## p-values are all > 0.05, so not worrying about adding labels
+  
+  vegetation_stocks_by_plot %>% 
+    group_by(forest, material, watershed) %>% 
+    dplyr::summarise(TC_kg_ha = mean(TC_kgha),
+                     TC_se = sd(TC_kgha)/sqrt(n())) %>% 
+    mutate_if(is.numeric, as.integer) %>% 
+    mutate(material = factor(material, levels = c("foliage", "branches", "stem", "stumproot", "loose_litter", "herb")),
+           totalC_kg_ha = paste(TC_kg_ha, "\u00b1", TC_se)) %>% 
+    dplyr::select(forest, material, watershed, totalC_kg_ha) %>% 
+    pivot_wider(names_from = "watershed", values_from = "totalC_kg_ha") %>% 
+    arrange(forest, material) 
+}
