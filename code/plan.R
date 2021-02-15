@@ -1,6 +1,7 @@
 
 source("code/0-packages.R")
 source("code/1-vegetation_functions.R")
+source("code/2-soil_functions.R")
 source("code/3-functions_graphs.R")
 
 budget_plan = drake_plan(
@@ -73,6 +74,17 @@ budget_plan = drake_plan(
   
   ## IIIc. FIGURES ----
   gg_veg_stocks = plot_veg_stocks(vegetation_carbon_stocks), 
+  
+  # -------------------------------------------------------------------------
+  # IV. SOIL ----------------------------------------------------------------
+  soil_data = read.csv(file_in("data/soil_budget.csv")),
+  soil_data_cleaned = clean_soil_data(soil_data),
+  soil_summary = compute_soil_summary(soil_data_cleaned),
+  
+  # -------------------------------------------------------------------------
+
+  # V. STREAMS --------------------------------------------------------------
+  
   
   # REPORT ----
     report = rmarkdown::render(
