@@ -11,21 +11,57 @@ knitr::opts_chunk$set(echo = FALSE,
                       )
 ```
 
+<details>
+  <summary>VEGETATION -- click here</summary>
+
+
 ## VEGETATION CHEMISTRY
 
-```{r}
-readd(veg_chemistry_table) %>% filter(material == "foliage") %>% 
-  knitr::kable() 
+```{r foliage_table}
+foliage_table = 
+  readd(veg_chemistry_table) %>% 
+  filter(material == "foliage") %>% 
+  ungroup() %>% 
+  dplyr::select(material, species, watershed, TC_perc, se, n)  
+
+knitr::kable(
+  list(foliage_table %>% filter(watershed == "EB"),
+    foliage_table %>% filter(watershed == "WB") %>% 
+      dplyr::select(watershed, TC_perc, se, n))
+)
 ```
 
-```{r}
-readd(veg_chemistry_table) %>% filter(material == "wood") %>% 
-  knitr::kable() 
+
+```{r wood_table}
+wood_table = 
+  readd(veg_chemistry_table) %>% 
+  filter(material == "wood") %>% 
+  ungroup() %>% 
+  dplyr::select(material, species, watershed, TC_perc, se, n)  
+
+knitr::kable(
+  list(wood_table %>% filter(watershed == "EB"),
+    wood_table %>% filter(watershed == "WB") %>% 
+      dplyr::select(watershed, TC_perc, se, n))
+)
 ```
 
-```{r}
-readd(veg_chemistry_table) %>% filter(!material %in% c("foliage", "wood")) %>% 
-  knitr::kable() 
+
+```{r veg_table}
+veg_table = 
+  readd(veg_chemistry_table) %>% 
+  filter(!material %in% c("foliage", "wood")) %>% 
+  filter(forest != "RT") %>% 
+  ungroup() %>% 
+  dplyr::select(material, forest, watershed, TC_perc, se, n) %>% 
+  arrange(material, forest)
+
+knitr::kable(
+  list(veg_table %>% filter(watershed == "EB"),
+    veg_table %>% filter(watershed == "WB") %>% 
+      dplyr::select(watershed, TC_perc, se, n))
+)  
+
 ```
 
 
@@ -38,17 +74,29 @@ readd(gg_veg_chemistry)
 
 ---
 
-## VEGETATION BIOMASS
-```{r}
-readd(biomass_table) %>% knitr::kable()
+## VEGETATION BIOMASS (kg/ha)
+```{r vegetation_biomass_table}
+biomass = readd(biomass_table) %>% ungroup() %>% 
+  dplyr::select(material, forest, EB, WB)
+
+knitr::kable(
+  list(biomass %>% filter(forest == "HW"),
+       biomass %>% filter(forest == "SW") %>% dplyr::select(-material))
+)
 ```
 
 ---
 
+## VEGETATION CARBON STOCKS (kg/ha)
+```{r vegetation_stocks_table}
+stocks_table = readd(carbon_stocks_table) %>% 
+  ungroup() %>% 
+  dplyr::select(material, forest, EB, WB)
 
-## VEGETATION CARBON STOCKS
-```{r}
-readd(carbon_stocks_table) %>% knitr::kable()
+knitr::kable(
+  list(stocks_table %>% filter(forest == "HW"),
+       stocks_table %>% filter(forest == "SW") %>% dplyr::select(-material))
+  )
 ```
 
 
@@ -59,7 +107,79 @@ readd(gg_veg_stocks)
 #### *note: we need to double check "herb"*
 
 
+</details>
+
 ---
+
+<details>
+  <summary>SOILS -- click here</summary>
+  
+#### soil mass, kg/ha
+
+```{r soil_mass_table}
+soil_mass = readd(soil_summary)$summary_table_mass %>% ungroup()
+
+knitr::kable(
+  list(
+    soil_mass %>% filter(forest == "HW"),
+    soil_mass %>% filter(forest == "SW") %>% dplyr::select(-horizon)
+  )
+)
+```
+
+#### TC percentage
+
+```{r soil_tc_perc_table}
+soil_tc_perc = readd(soil_summary)$summary_table_tc_perc %>% ungroup() %>% 
+  rename(depth = increment)
+
+knitr::kable(
+  list(
+    soil_tc_perc %>% filter(forest == "HW"),
+    soil_tc_perc %>% filter(forest == "SW") %>% dplyr::select(-depth)
+  )
+)
+```
+
+#### TC kg/ha
+
+```{r}
+soil_tc = readd(soil_summary)$summary_table_tc %>% ungroup()
+
+knitr::kable(
+  list(soil_tc %>% filter(forest == "HW"),
+       soil_tc %>% filter(forest == "SW") %>% dplyr::select(-horizon))
+)
+
+```
+
+</details>
+
+---
+
+<details>
+  <summary>STREAMS -- click here </summary>
+  
+```{r, fig.width=10, fig.height=5}
+readd(streams_plot)$gg_stream_monthly
+```
+
+```{r, fig.width=5, fig.height=5}
+readd(streams_plot)$gg_stream_annual
+```
+
+
+```{r, fig.width=5, fig.height=5}
+readd(streams_plot)$gg_stream_cumulative
+```
+
+
+
+</details>
+
+
+---
+
 
 <details>
   <summary>Session Info</summary>
