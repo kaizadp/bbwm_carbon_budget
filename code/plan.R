@@ -3,6 +3,7 @@ source("code/0-packages.R")
 source("code/1-vegetation_functions.R")
 source("code/2-soil_functions.R")
 source("code/3-functions_graphs.R")
+source("code/4-stream_functions.R")
 
 budget_plan = drake_plan(
   # I. CHEMISTRY ------------------------------------------------------------
@@ -84,7 +85,10 @@ budget_plan = drake_plan(
   # -------------------------------------------------------------------------
 
   # V. STREAMS --------------------------------------------------------------
-  
+  stream_data = read.csv(file_in("data/bbwm_stream_monthly.csv")),
+  stream_cleaned = clean_stream_data(stream_data),
+  stream_annual = compute_stream_annual(stream_cleaned),
+  streams_plot = make_stream_graphs(stream_annual, stream_cleaned),
   
   # REPORT ----
     report = rmarkdown::render(
